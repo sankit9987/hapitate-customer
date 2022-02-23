@@ -18,9 +18,9 @@ function Header() {
                         </a>
                     </li>
                     <li id="menu-item-5565" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5565">
-                        <a title="My Account" href="./my-account/index.html">
+                        <Link title="My Account" to="my-account">
                             <i className="fa fa-user-o px-2" ></i>My Account
-                        </a>
+                        </Link>
                     </li>
                     <li id="menu-item-4105" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-4105">
                         <a title="Track Your Order" href="./track-your-order/index.html">
@@ -48,7 +48,7 @@ function Header() {
                             <input type="email" className="form-control input" placeholder="Type Email Address"name="email" aria-label="Username"aria-describedby="basic-addon1"/>
                             <div className="input-group-prepend ">
                                 <span className="input-group-text sidecurve" id="basic-addon1">
-                                    <i className="far fa-envelope "></i>
+                                    <i className="fa fa-search "></i>
                                 </span>
                             </div>
                         </div>
@@ -58,16 +58,16 @@ function Header() {
                 <div className="header-icons col-auto d-flex justify-content-end align-items-center">
                     <div className="header-icon" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Compare" data-bs-original-title="" title="">
                         <a href="./compare/index.html">
-                        <i class="fa fa-retweet" aria-hidden="true"></i>
+                        <i className="fa fa-retweet" aria-hidden="true"></i>
                         </a>
                     </div>
                     <div className="header-icon" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Wishlist" data-bs-original-title="" title="">
                         <a href="./wishlist/index.html">
-                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        <i className="fa fa-heart-o" aria-hidden="true"></i>
                         </a>
                     </div>
                     <div className="header-icon header-icon__user-account dropdown animate-dropdown" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="My Account" data-bs-original-title="" title="">
-                        <a className="dropdown-toggle" href="./my-account/index.html" data-bs-toggle="dropdown"><i class="fa fa-user-o" aria-hidden="true"></i></a>
+                        <a className="dropdown-toggle" href="./my-account/index.html" data-bs-toggle="dropdown"><i className="fa fa-user-o" aria-hidden="true"></i></a>
                         <ul className="dropdown-menu dropdown-menu-user-account">
                             <li>
                                 <div className="register-sign-in-dropdown-inner">
@@ -85,7 +85,7 @@ function Header() {
                     </div>
                     <div className="header-icon header-icon__cart animate-dropdown dropdown" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Cart" data-bs-original-title="" title="">
                         <a className="dropdown-toggle" href="./cart/index.html" data-bs-toggle="dropdown">
-                        <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                        <i className="fa fa-shopping-bag" aria-hidden="true"></i>
                             <span className="cart-items-count count header-icon-counter">0</span>
                             <span className="cart-items-total-price total-price"><span className="woocommerce-Price-amount amount"><bdi><span className="woocommerce-Price-currencySymbol">₹</span>0.00</bdi></span></span>
                         </a>

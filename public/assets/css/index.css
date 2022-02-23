@@ -39041,13 +39041,7 @@ textarea.input-text {
     margin-bottom: 0
 }
 
-.footer-newsletter .newsletter-title:before {
-    content: "\76";
-    font-family: font-electro;
-    margin-right: 15px;
-    font-size: 1.619em;
-    vertical-align: middle
-}
+
 
 .footer-newsletter .input-group-btn .btn,
 .footer-newsletter .input-group-btn .button,
@@ -54125,7 +54119,7 @@ body form.woocommerce-checkout .woocommerce-NoticeGroup-checkout {
 #customer_login .register-benefits ul>li {
     line-height: 2.143em
 }
-
+/* 
 #customer_login .register-benefits ul>li:before {
     content: "\f00c";
     color: #198754;
@@ -54141,7 +54135,7 @@ body form.woocommerce-checkout .woocommerce-NoticeGroup-checkout {
     font-weight: 900;
     font-size: 1.143em;
     margin-right: 1em
-}
+} */
 
 .woocommerce-MyAccount-paymentMethods.table>:not(:last-child)>:last-child>*,
 table.woocommerce-MyAccount-paymentMethods>:not(:last-child)>:last-child>* {
@@ -55477,14 +55471,14 @@ div.quantity>label {
     border-radius: 1.8em
 }
 
-.single_add_to_cart_button.button:before {
+/* .single_add_to_cart_button.button:before {
     display: inline-block;
     font: normal normal normal 14px/1 font-electro;
     font-size: 1.357em;
     vertical-align: middle;
     content: "\61";
     margin-right: .5em
-}
+} */
 
 .single_add_to_cart_button.button:focus,
 .single_add_to_cart_button.button:hover {
@@ -61317,7 +61311,7 @@ section.products-carousel-v5 header .nav-inline .active .nav-link,
 section.section-onsale-product,
 section.section-onsale-product-carousel .onsale-product-carousel,
 section.section-product-cards-carousel header ul.nav .active .nav-link {
-    border-color: var(--bs-ec-primary)
+    border-color: #0b1c28;
 }
 
 @media (min-width:1480px) {
