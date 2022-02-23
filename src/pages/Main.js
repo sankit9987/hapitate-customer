@@ -15,17 +15,17 @@ function Main() {
                     <li data-target="#carouselExampleIndicators" data-slide-to="4"></li> */}
                 </ol>
                 <div className="carousel-inner d-flex justify-content-between">
-                    <div className="carousel-item active " style={{ backgroundImage: `url(./assets/image/Slider-BG.jpg)` }}>
+                    <div className="carousel-item active " style={{ backgroundImage: `url("./assets/image/Slider-BG.jpg")`,backgroundSize: "cover",backgroundRepeat: "round" }}>
                         <div className='row'>
                             <div className='col-lg-7 justify-content-start'>
                                 <h3 className='text-muted' style={{ textAlign: "center", fontSize: "393%", fontWeight: "100" }}>Plant-Based</h3>
                                 <h1 style={{ textAlign: "center", fontSize: "393%" }}><b>Nutrition</b></h1>
-                                <img className="d-block w-100" src="./assets/image/hapitate.png" alt="First slide" style={{ height: "120px", width: "70px" }} />
+                                {/* <img className="d-block w-100" src="./assets/image/hapitate.png" alt="First slide" style={{ height: "120px", width: "70px" }} /> */}
                             </div>
                             <div className='col-lg-5 justify-content-end pt-3'>
-                                <h1 style={{ fontWeight: "100", margin: "0" }} className="d-flex"><i className="fa fa-chevron-circle-right " aria-hidden="true"></i><p className="px-2">Better Metabolism</p></h1>
-                                <h1 style={{ fontWeight: "100", margin: "0" }} className="d-flex"><i className="fa fa-chevron-circle-right" aria-hidden="true"></i><p className="px-2">Better Immunity</p></h1>
-                                <h1 style={{ fontWeight: "100", margin: "0" }} className="d-flex"><i className="fa fa-chevron-circle-right" aria-hidden="true"></i><p className="px-2">Better Strength</p></h1>
+                                <h1 style={{ fontWeight: "100", margin: "0" }} className="d-flex"><i className="fa fa-chevron-circle-right "style={{    fontSize: "55%"}} aria-hidden="true"></i><p className="px-2"style={{fontSize: "40%"}}>Better Metabolism</p></h1>
+                                <h1 style={{ fontWeight: "100", margin: "0" }} className="d-flex"><i className="fa fa-chevron-circle-right" style={{    fontSize: "55%"}} aria-hidden="true"></i><p className="px-2" style={{fontSize: "40%"}}>Better Immunity</p></h1>
+                                <h1 style={{ fontWeight: "100", margin: "0" }} className="d-flex"><i className="fa fa-chevron-circle-right"style={{    fontSize: "55%"}} aria-hidden="true"></i><p className="px-2"style={{fontSize: "40%"}}>Better Strength</p></h1>
                                 <p className='mx-5'><button><b>START BUYING <i className="fa fa-angle-right mx-3 d-none" aria-hidden="true"></i></b></button></p>
                             </div>
 

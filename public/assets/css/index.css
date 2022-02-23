@@ -20658,11 +20658,11 @@ form.submitting .wpcf7-spinner {
 .fas {
     font-family: "Font Awesome 5 Free"
 } */
-
+/* 
 .fa,
 .fas {
     font-weight: 900
-}
+} */
 
 /*!
  * animate.css -http://daneden.me/animate
@@ -39813,7 +39813,7 @@ body.electro-dark footer.site-footer .site-dark-logo+.footer-logo {
 
 .header-icon>a i {
     line-height: .9em;
-    font-size: 1.429em
+    font-size: 1.1em
 }
 
 .header-icon .header-icon-counter {
