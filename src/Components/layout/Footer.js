@@ -12,7 +12,7 @@ function Footer() {
                                 <strong>Latest Health Tracking Updates</strong>
                             </span>
                         </div>
-                        <div className="newsletter-form col-lg-5 align-self-center">
+                        <div className="newsletter-form col-lg-5 py-3 align-self-center">
                             <form id="mc4wp-form-1" className="mc4wp-form mc4wp-form-5358 mc4wp-form-basic" method="post" data-id="5358" data-name="Subscribe">
                                 <div className="mc4wp-form-fields">
                                     <div className="input-group">
@@ -133,9 +133,7 @@ function Footer() {
                                                 <li id="menu-item-5540"
                                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5540">
                                                     <a href="./vendor-register/index.html">Sell on Hapitate</a></li>
-                                                <li id="menu-item-5538"
-                                                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5538">
-                                                    <a href="./affiliate-register/index.html">Become an Affiliate</a></li>
+                                                
                                                 <li id="menu-item-5539"
                                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5539">
                                                     <a href="./vendor-membership/index.html">Advertise on Hapitate</a></li>

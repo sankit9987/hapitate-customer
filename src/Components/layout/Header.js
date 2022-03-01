@@ -42,7 +42,7 @@ function Header() {
                         <img src="./assets/image/hapitate.png" alt="Hapitate" className="img-header-logo pt-3" width="135" style={{ margin: "-24px 34%" }} height="40" />
                     </Link>
                 </div>
-                <div className="input-group col-lg-4">
+                <div className="input-group col-lg-4 pt-2">
                     <div className=" input-search-field">
                         <div className="search input-group mb-3">
                             <input type="text" className="form-control input" placeholder="Search for Healthy Products"name="email" style={{borderColor:' #060632'}} aria-label="Username"aria-describedby="basic-addon1"/>
@@ -67,7 +67,7 @@ function Header() {
                         </Link>
                     </div>
                     <div className="header-icon header-icon__user-account dropdown animate-dropdown" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="My Account" data-bs-original-title="" title="">
-                        <Link className="dropdown-toggle" to="/my-account" data-bs-toggle="dropdown"><i className="fa fa-user-o" aria-hidden="true"></i></Link>
+                        <Link className="dropdown-toggle" to="/login" data-bs-toggle="dropdown"><i className="fa fa-user-o" aria-hidden="true"></i></Link>
                         <ul className="dropdown-menu dropdown-menu-user-account">
                             <li>
                                 <div className="register-sign-in-dropdown-inner">
@@ -101,8 +101,8 @@ function Header() {
             </div >
             </div>
             <div className='container-fluid '>
-                <nav className="navbar navbar-expand-lg navbar-dark bg-dark text-light">
-                    <div className="collapse navbar-collapse" id="main_nav">
+                <nav id="main_nav" className="navbar navbar-expand-lg navbar-dark bg-dark text-light">
+                    <div className="collapse navbar-collapse" >
                         <ul className="navbar-nav">
                             <li className="nav-item dropdown">
                                 <a className="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> <b>Breakfast</b>    </a>

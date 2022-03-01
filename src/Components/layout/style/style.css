@@ -153,3 +153,19 @@ hr{
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
+@media only screen and (min-width: 280px) and (max-width: 991px){
+    .clearfix{
+        display: none !important;
+    }
+        .header-logo-area{
+            display: block !important;
+            
+        }
+        .input-search-field {
+            min-width: 101%;
+            padding-top: 2%;
+        }
+        #main_nav{
+            display: none;
+        }
+  }

@@ -17,8 +17,9 @@ function Four404() {
                     <div class="outer-bottom-vs outer-top-sm compare-empty">
                       <h1 className='text-center mb-0'>404!</h1>
                       <h6 class="lead-title text-center text-muted cart-empty mt-0">
-                        Nothingwas found at this location. Try searching, or check out the links below.</h6>
+                        Nothing was found at this location. Try searching, or check out the links below.</h6>
                         <hr/>
+                        
                     </div>
                   </div>
                 </article>

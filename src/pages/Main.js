@@ -63,7 +63,7 @@ function Main() {
             </div>
             <div data-vc-full-width="true" data-vc-full-width-init="true" data-vc-stretch-content="true" id="banner"
                 className="vc_row wpb_row vc_row-fluid ml-3"
-                style={{ position: "relative", left: "-31.5px", boxSizing: "border-box", width: "1263px" }}>
+                style={{ position: "relative", left: "-31.5px", boxSizing: "border-box", width: "100%" }}>
                 <div className="wpb_column vc_column_container vc_col-sm-11 ">
                     <div className="vc_column-inner">
                         <div className="wpb_wrapper">

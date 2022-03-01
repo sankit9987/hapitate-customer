@@ -2,7 +2,7 @@ import React from "react";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Four404 from "../pages/Four404";
 import Main from "../pages/Main";
-import Myaccount from "../pages/Myaccount";
+import Login from "../pages/Login";
 import ProductDetail from "../pages/ProductDetail";
 import Dashboard from "../pages/user_panel/Dashboard";
 import PrurchasedItem from "../pages/user_panel/PurchasedItem";
@@ -17,6 +17,7 @@ import Tickets from "../pages/user_panel/Tickets";
 import WithdrawNow from "../pages/user_panel/WithdrawNow";
 import Wishlist from "../pages/Wishlist";
 import Compare from "../pages/Compare";
+import Register from "../pages/Register";
 
 
 function Routs() {
@@ -27,7 +28,8 @@ function Routs() {
         <Route path="*" element={<Four404/>} />
         <Route exact path="/" element={<Main/>} />
         <Route exact path="/product-detail" element={<ProductDetail/>} />
-        <Route exact path="/my-account" element={<Myaccount/>} />
+        <Route exact path="/login" element={<Login/>} />
+        <Route exact path="/register" element={<Register/>} />
         <Route exact path="/dashboard" element={<Dashboard/>} />
         <Route exact path="/order" element={<PrurchasedItem/>} />
         <Route exact path="/withdraw" element={<Withdraw/>} />
