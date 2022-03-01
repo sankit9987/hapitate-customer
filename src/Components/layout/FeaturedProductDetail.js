@@ -10,15 +10,15 @@ function FeaturedProductDetail() {
                         <ul className="product_list_widget">
                             <li>
                                 <a href="./../../../grocery/healthy-spreads/healthy-spreads/index.html">
-                                    <img data-lazyloaded="1" src="./wp-content/uploads/2021/06/DEMO-300x300.png" width="300"
-                                        height="300" data-src="./wp-content/uploads/2021/06/DEMO-300x300.png"
+                                    <img data-lazyloaded="1" src="./assets/image/Slider-BG.jpg" width="300"
+                                        height="300" data-src="/.assets/image/Slider-BG.jpg"
                                         className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail error" alt="ALT TEXT"
                                         loading="lazy"
                                         data-srcset="./wp-content/uploads/2021/06/DEMO-300x300.png 300w, ./wp-content/uploads/2021/06/DEMO-150x150.png 150w, ./wp-content/uploads/2021/06/DEMO-100x100.png 100w, ./wp-content/uploads/2021/06/DEMO.png 500w"
                                         data-sizes="(max-width: 300px) 100vw, 300px" sizes="(max-width: 300px) 100vw, 300px"
                                         srcset="./wp-content/uploads/2021/06/DEMO-300x300.png 300w, ./wp-content/uploads/2021/06/DEMO-150x150.png 150w, ./wp-content/uploads/2021/06/DEMO-100x100.png 100w, ./wp-content/uploads/2021/06/DEMO.png 500w"
                                         data-was-processed="true"/><noscript><img width="300" height="300"
-                                            src="./../../../../wp-content/uploads/2021/06/DEMO-300x300.png"
+                                            src="./assets/image/Slider-BG.jpg"
                                             className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="ALT TEXT"
                                             loading="lazy"
                                             srcset="./../../../../wp-content/uploads/2021/06/DEMO-300x300.png 300w, ./../../../../wp-content/uploads/2021/06/DEMO-150x150.png 150w, ./../../../../wp-content/uploads/2021/06/DEMO-100x100.png 100w, ./../../../../wp-content/uploads/2021/06/DEMO.png 500w"

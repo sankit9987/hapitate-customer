@@ -7,8 +7,8 @@ function Header() {
             <div className="clearfix d-flex justify-content-between">
                 <ul id="menu-top-bar-left" className="nav nav-inline float-start electro-animate-dropdown flip py-2">
                     <li id="menu-item-3233" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-3233">
-                        <a title="Welcome to Your Healthy Appetite Store" href="#">Welcome to Your Healthy Appetite Store
-                        </a>
+                        <Link title="Welcome to Your Healthy Appetite Store" to="/">Welcome to Your Healthy Appetite Store
+                        </Link>
                     </li>
                 </ul>
                 <ul id="menu-top-bar-right" className="nav nav-inline float-end py-2 electro-animate-dropdown flip">
@@ -18,14 +18,14 @@ function Header() {
                         </a>
                     </li>
                     <li id="menu-item-5565" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5565">
-                        <Link title="My Account" to="my-account">
-                            <i className="fa fa-user-o px-2" ></i>My Account
+                        <Link title="My Account" to="/dashboard">
+                            <i className="fa fa-user px-2" ></i>My Account
                         </Link>
                     </li>
                     <li id="menu-item-4105" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-4105">
-                        <a title="Track Your Order" href="./track-your-order/index.html">
+                        <Link title="Track Your Order" to="/tracking">
                             <i className="fa fa-truck" aria-hidden="true"></i>Track Your Order
-                        </a>
+                        </Link>
                     </li>
 
                     <li id="menu-item-5566" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5566"><a title="Sell on Hapitate" href="https://vendor.hapitate.in/" target="_blank">
@@ -38,14 +38,14 @@ function Header() {
             <div className='row'>
             <div className=" header-logo-area d-flex justify-content-between" style={{ marginBottom: "2%" }}>
                 <div className="header-site-branding col-lg-2">
-                    <a href="./index.html" className="header-logo-link">
+                    <Link to="/" className="header-logo-link">
                         <img src="./assets/image/hapitate.png" alt="Hapitate" className="img-header-logo pt-3" width="135" style={{ margin: "-24px 34%" }} height="40" />
-                    </a>
+                    </Link>
                 </div>
                 <div className="input-group col-lg-4">
                     <div className=" input-search-field">
                         <div className="search input-group mb-3">
-                            <input type="email" className="form-control input" placeholder="Type Email Address"name="email" aria-label="Username"aria-describedby="basic-addon1"/>
+                            <input type="text" className="form-control input" placeholder="Search for Healthy Products"name="email" style={{borderColor:' #060632'}} aria-label="Username"aria-describedby="basic-addon1"/>
                             <div className="input-group-prepend ">
                                 <span className="input-group-text sidecurve" id="basic-addon1">
                                     <i className="fa fa-search "></i>
@@ -57,17 +57,17 @@ function Header() {
                 </div>
                 <div className="header-icons col-auto d-flex justify-content-end align-items-center">
                     <div className="header-icon" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Compare" data-bs-original-title="" title="">
-                        <a href="./compare/index.html">
+                        <Link to="/compare">
                         <i className="fa fa-retweet" aria-hidden="true"></i>
-                        </a>
+                        </Link>
                     </div>
                     <div className="header-icon" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Wishlist" data-bs-original-title="" title="">
-                        <a href="./wishlist/index.html">
+                        <Link to="/wishlist">
                         <i className="fa fa-heart-o" aria-hidden="true"></i>
-                        </a>
+                        </Link>
                     </div>
                     <div className="header-icon header-icon__user-account dropdown animate-dropdown" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="My Account" data-bs-original-title="" title="">
-                        <a className="dropdown-toggle" href="./my-account/index.html" data-bs-toggle="dropdown"><i className="fa fa-user-o" aria-hidden="true"></i></a>
+                        <Link className="dropdown-toggle" to="/my-account" data-bs-toggle="dropdown"><i className="fa fa-user-o" aria-hidden="true"></i></Link>
                         <ul className="dropdown-menu dropdown-menu-user-account">
                             <li>
                                 <div className="register-sign-in-dropdown-inner">

@@ -83,11 +83,9 @@ hr{
     padding: 0 5px;
 }
 
-.search{
-    margin-left: 10%;
-    min-width: 39%;
-    border-radius: 74%;
-    border-color: #060632;
+.input-search-field{
+    min-width: 124%;
+    padding-top: 2%;
 }
 #basic-addon1{
     background-color: #060632;
@@ -112,16 +110,29 @@ hr{
 .carousel-inner .active .row .col-lg-5 button{
     background-color: #00df78  !important;
 }
+.carousel-inner .active .row .col-lg-7 button{
+    background-color: #00df78  !important;
+}
+.carousel-inner .active .row .col-lg-7 p :hover{
+    background-color: white  !important;
+    color: #00df78  !important;
+}
 .single_add_to_cart_button{
     background-color: #0b1c28;
 }
-/* .carousel-inner .active .row .col-lg-5 .fa{
-    display: none;
-} */
 .carousel-inner .active .row .col-lg-5 p :hover{
     background-color: white  !important;
     color: #00df78  !important;
-    visibility: visible;
+}
+
+.carousel-inner .active .row .col-lg-5 p:hover .fa{
+    display: inline-block;
+    
+}
+
+.carousel-inner .active .row .col-lg-5 p .fa{
+    display: none;
+    
 }
 .button{
     background-color: #0b1c28 !important;

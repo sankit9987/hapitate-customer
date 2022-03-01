@@ -15,6 +15,8 @@ import EditProfile from "../pages/user_panel/EditProfile";
 import FavoriteReseller from "../pages/user_panel/FavoriteReseller";
 import Tickets from "../pages/user_panel/Tickets";
 import WithdrawNow from "../pages/user_panel/WithdrawNow";
+import Wishlist from "../pages/Wishlist";
+import Compare from "../pages/Compare";
 
 
 function Routs() {
@@ -37,6 +39,8 @@ function Routs() {
         <Route exact path="/favorite-reseller" element={<FavoriteReseller/>} />
         <Route exact path="/tickets" element={<Tickets/>} />
         <Route exact path="/withdraw/create" element={<WithdrawNow/>} />
+        <Route exact path="/wishlist" element={<Wishlist/>} />
+        <Route exact path="/compare" element={<Compare/>} />
       </Routes>
     </Router>
   )

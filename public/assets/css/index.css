@@ -53310,7 +53310,7 @@ body .cart-collaterals .cross-sells .owl-carousel .owl-stage-outer {
 }
 
 .cart-empty {
-    font-size: 3.5em;
+    font-size: 1.6em;
     font-weight: 300;
     text-align: center;
     line-height: 1.5em;
@@ -61061,9 +61061,9 @@ ul.products[data-view=list-view].columns-5>li.product .product-loop-footer .butt
 ul.products[data-view=list-view].columns-6>li.product .product-loop-footer .button,
 ul.products[data-view=list-view].columns-7>li.product .product-loop-footer .button,
 ul.products[data-view=list-view].columns-8>li.product .product-loop-footer .button,
-ul.products[data-view=list-view]>li.product .product-item__footer .add-to-cart-wrap a {
+/* ul.products[data-view=list-view]>li.product .product-item__footer .add-to-cart-wrap a {
     background-color: var(--bs-ec-primary)
-}
+} */
 
 .electro-navbar .departments-menu-v2 .departments-menu-v2-title+.dropdown-menu li.menu-item-has-children>.dropdown-menu,
 .products-carousel-banner-vertical-tabs .banners-tabs>.nav a.active:before {
