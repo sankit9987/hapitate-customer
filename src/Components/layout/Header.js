@@ -13,7 +13,7 @@ function Header() {
                 </ul>
                 <ul id="menu-top-bar-right" className="nav nav-inline float-end py-2 electro-animate-dropdown flip">
                     <li id="menu-item-5596" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5596">
-                        <a title="Shop" href="./shop/index.html">
+                        <a title="Shop" href="#">
                             <i className="fa fa-shopping-bag px-2" ></i>Shop
                         </a>
                     </li>
@@ -73,11 +73,11 @@ function Header() {
                                     <div className="register-sign-in-dropdown-inner">
                                         <div className="sign-in">
                                             <p>Returning Customer ?</p>
-                                            <div className="sign-in-action"><a href="./my-account/index.html" className="sign-in-button">Sign in</a></div>
+                                            <div className="sign-in-action"><a href="#" className="sign-in-button">Sign in</a></div>
                                         </div>
                                         <div className="register">
                                             <p>Don't have an account ?</p>
-                                            <div className="register-action"><a href="./my-account/index.html">Register</a></div>
+                                            <div className="register-action"><a href="#">Register</a></div>
                                         </div>
                                     </div>
                                 </li>
