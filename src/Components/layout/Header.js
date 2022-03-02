@@ -3,8 +3,8 @@ import './style/style.css'
 import { Link } from 'react-router-dom';
 function Header() {
     return (
-        <div className="top-bar d-xl-block">
-            <div className="clearfix d-flex justify-content-between">
+        <div className=" top-bar d-xl-block">
+            <div className=" container clearfix d-flex justify-content-between">
                 <ul id="menu-top-bar-left" className="nav nav-inline float-start electro-animate-dropdown flip py-2">
                     <li id="menu-item-3233" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-3233">
                         <Link title="Welcome to Your Healthy Appetite Store" to="/">Welcome to Your Healthy Appetite Store
@@ -35,75 +35,75 @@ function Header() {
                 </ul>
             </div>
             <hr />
-            <div className='row'>
-            <div className=" header-logo-area d-flex justify-content-between" style={{ marginBottom: "2%" }}>
-                <div className="header-site-branding col-lg-2">
-                    <Link to="/" className="header-logo-link">
-                        <img src="./assets/image/hapitate.png" alt="Hapitate" className="img-header-logo pt-3" width="135" style={{ margin: "-24px 34%" }} height="40" />
-                    </Link>
-                </div>
-                <div className="input-group col-lg-4 pt-2">
-                    <div className=" input-search-field">
-                        <div className="search input-group mb-3">
-                            <input type="text" className="form-control input" placeholder="Search for Healthy Products"name="email" style={{borderColor:' #060632'}} aria-label="Username"aria-describedby="basic-addon1"/>
-                            <div className="input-group-prepend ">
-                                <span className="input-group-text sidecurve" id="basic-addon1">
-                                    <i className="fa fa-search "></i>
-                                </span>
+            <div className='container'>
+                <div className=" header-logo-area d-flex justify-content-between" style={{ marginBottom: "2%" }}>
+                    <div className="header-site-branding col-lg-2">
+                        <Link to="/" className="header-logo-link">
+                            <img src="./assets/image/hapitate.png" alt="Hapitate" className="img-header-logo pl-3 ml-2 pt-3" width="135" height="40" />
+                        </Link>
+                    </div>
+                    <div className="input-group col-lg-4 pt-2">
+                        <div className=" input-search-field">
+                            <div className="search input-group mb-3">
+                                <input type="text" className="form-control input" placeholder="Search for Healthy Products" name="email" style={{ borderColor: ' #060632' }} aria-label="Username" aria-describedby="basic-addon1" />
+                                <div className="input-group-prepend ">
+                                    <span className="input-group-text sidecurve" id="basic-addon1">
+                                        <i className="fa fa-search "></i>
+                                    </span>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                </div>
-                <div className="header-icons col-auto d-flex justify-content-end align-items-center">
-                    <div className="header-icon" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Compare" data-bs-original-title="" title="">
-                        <Link to="/compare">
-                        <i className="fa fa-retweet" aria-hidden="true"></i>
-                        </Link>
                     </div>
-                    <div className="header-icon" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Wishlist" data-bs-original-title="" title="">
-                        <Link to="/wishlist">
-                        <i className="fa fa-heart-o" aria-hidden="true"></i>
-                        </Link>
-                    </div>
-                    <div className="header-icon header-icon__user-account dropdown animate-dropdown" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="My Account" data-bs-original-title="" title="">
-                        <Link className="dropdown-toggle" to="/my-account" data-bs-toggle="dropdown"><i className="fa fa-user-o" aria-hidden="true"></i></Link>
-                        <ul className="dropdown-menu dropdown-menu-user-account">
-                            <li>
-                                <div className="register-sign-in-dropdown-inner">
-                                    <div className="sign-in">
-                                        <p>Returning Customer ?</p>
-                                        <div className="sign-in-action"><a href="./my-account/index.html" className="sign-in-button">Sign in</a></div>
+                    <div className="header-icons col-auto d-flex justify-content-end align-items-center">
+                        <div className="header-icon" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Compare" data-bs-original-title="" title="">
+                            <Link to="/compare">
+                                <i className="fa fa-retweet" aria-hidden="true"></i>
+                            </Link>
+                        </div>
+                        <div className="header-icon" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Wishlist" data-bs-original-title="" title="">
+                            <Link to="/wishlist">
+                                <i className="fa fa-heart-o" aria-hidden="true"></i>
+                            </Link>
+                        </div>
+                        <div className="header-icon header-icon__user-account dropdown animate-dropdown" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="My Account" data-bs-original-title="" title="">
+                            <Link className="dropdown-toggle" to="/my-account" data-bs-toggle="dropdown"><i className="fa fa-user-o" aria-hidden="true"></i></Link>
+                            <ul className="dropdown-menu dropdown-menu-user-account">
+                                <li>
+                                    <div className="register-sign-in-dropdown-inner">
+                                        <div className="sign-in">
+                                            <p>Returning Customer ?</p>
+                                            <div className="sign-in-action"><a href="./my-account/index.html" className="sign-in-button">Sign in</a></div>
+                                        </div>
+                                        <div className="register">
+                                            <p>Don't have an account ?</p>
+                                            <div className="register-action"><a href="./my-account/index.html">Register</a></div>
+                                        </div>
                                     </div>
-                                    <div className="register">
-                                        <p>Don't have an account ?</p>
-                                        <div className="register-action"><a href="./my-account/index.html">Register</a></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="header-icon header-icon__cart animate-dropdown dropdown" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Cart" data-bs-original-title="" title="">
+                            <a className="dropdown-toggle" href="./cart/index.html" data-bs-toggle="dropdown">
+                                <i className="fa fa-shopping-bag" aria-hidden="true"></i>
+                                <span className="cart-items-count count header-icon-counter">0</span>
+                                <span className="cart-items-total-price total-price"><span className="woocommerce-Price-amount amount"><bdi><span className="woocommerce-Price-currencySymbol">₹</span>0.00</bdi></span></span>
+                            </a>
+                            <ul className="dropdown-menu dropdown-menu-mini-cart border-bottom-0-last-child">
+                                <li>
+                                    <div className="widget_shopping_cart_content border-bottom-0-last-child">
+                                        <p className="woocommerce-mini-cart__empty-message">No products in the cart.</p>
                                     </div>
-                                </div>
-                            </li>
-                        </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div className="header-icon header-icon__cart animate-dropdown dropdown" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Cart" data-bs-original-title="" title="">
-                        <a className="dropdown-toggle" href="./cart/index.html" data-bs-toggle="dropdown">
-                        <i className="fa fa-shopping-bag" aria-hidden="true"></i>
-                            <span className="cart-items-count count header-icon-counter">0</span>
-                            <span className="cart-items-total-price total-price"><span className="woocommerce-Price-amount amount"><bdi><span className="woocommerce-Price-currencySymbol">₹</span>0.00</bdi></span></span>
-                        </a>
-                        <ul className="dropdown-menu dropdown-menu-mini-cart border-bottom-0-last-child">
-                            <li>
-                                <div className="widget_shopping_cart_content border-bottom-0-last-child">
-                                    <p className="woocommerce-mini-cart__empty-message">No products in the cart.</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div >
+                </div >
             </div>
             <div className='container-fluid '>
                 <nav id="main_nav" className="navbar navbar-expand-lg navbar-dark bg-dark text-light">
                     <div className="collapse navbar-collapse" >
-                        <ul className="navbar-nav">
+                        <ul className="navbar-nav container">
                             <li className="nav-item dropdown">
                                 <a className="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> <b>Breakfast</b>    </a>
                                 <ul className="dropdown-menu">
