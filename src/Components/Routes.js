@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Four404 from "../pages/Four404";
 import Main from "../pages/Main";
 import Login from "../pages/Login";
+import MyAccount from "../pages/MyAccount";
 import ProductDetail from "../pages/ProductDetail";
 import Dashboard from "../pages/user_panel/Dashboard";
 import PrurchasedItem from "../pages/user_panel/PurchasedItem";
@@ -28,6 +29,7 @@ function Routs() {
         <Route path="*" element={<Four404/>} />
         <Route exact path="/" element={<Main/>} />
         <Route exact path="/product-detail" element={<ProductDetail/>} />
+        <Route exact path="/my-account" element={<MyAccount/>} />
         <Route exact path="/login" element={<Login/>} />
         <Route exact path="/register" element={<Register/>} />
         <Route exact path="/dashboard" element={<Dashboard/>} />

@@ -11745,8 +11745,8 @@ input[type=checkbox] + label:active:before {
 }
 
 input[type=checkbox]:checked + label:before {
-  background-color: #ff5500;
-  border-color: #ff5500;
+  background-color: #0b1c28;
+  border-color: #0b1c28;
   color: #fff;
 }
 

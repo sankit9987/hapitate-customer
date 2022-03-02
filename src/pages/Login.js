@@ -4,6 +4,9 @@ import {Link} from 'react-router-dom'
 function Login() {
     return (
         <Layout>
+            <div className='container'>
+                <nav className="woocommerce-breadcrumb"><a href="./../index.html">Home</a><span className="delimiter"><i className="fa fa-angle-right"></i></span>Login</nav>
+            </div>
         <section className="login-signup">
             <div className="container">
                 <div className="row justify-content-center">
@@ -16,10 +19,10 @@ function Login() {
                                     role="tablist"
                                 >
                                     <Link
-                                        className="nav-item nav-link login active"
                                         id="nav-log-tab"
+                                        className="nav-item nav-link login active"
                                         data-toggle="tab"
-                                        to="/"
+                                        to="/login"
                                         role="tab"
                                         aria-controls="nav-log"
                                         aria-selected="true"
@@ -70,7 +73,7 @@ function Login() {
                                         class="input-group-text"
                                         id="basic-addon1"
                                     >
-                                        <i class="far fa-envelope"></i>
+                                        <i class="fa fa-envelope"></i>
                                     </span>
                                 </div>
                                 <input
@@ -90,7 +93,7 @@ function Login() {
                                         class="input-group-text"
                                         id="basic-addon1"
                                     >
-                                        <i class="fal fa-key"></i>
+                                        <i class="fa fa-key"></i>
                                     </span>
                                 </div>
                                 <input
@@ -116,8 +119,6 @@ function Login() {
                                     <label for="mrp">
                                         Remember Password
                                     </label>
-                                </div>
-                                <div className="right">
                                     <a
                                         href="https://geniuscart.royalscripts.com/user/forgot"
                                         className="float-right p-2"
@@ -125,6 +126,7 @@ function Login() {
                                         Forgot Password?
                                     </a>
                                 </div>
+
                             </div>
                             <button
                                 type="submit"

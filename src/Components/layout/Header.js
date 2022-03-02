@@ -67,7 +67,7 @@ function Header() {
                         </Link>
                     </div>
                     <div className="header-icon header-icon__user-account dropdown animate-dropdown" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="My Account" data-bs-original-title="" title="">
-                        <Link className="dropdown-toggle" to="/login" data-bs-toggle="dropdown"><i className="fa fa-user-o" aria-hidden="true"></i></Link>
+                        <Link className="dropdown-toggle" to="/my-account" data-bs-toggle="dropdown"><i className="fa fa-user-o" aria-hidden="true"></i></Link>
                         <ul className="dropdown-menu dropdown-menu-user-account">
                             <li>
                                 <div className="register-sign-in-dropdown-inner">

@@ -37928,7 +37928,7 @@ body.electro-dark .electro-mode-switcher .dark {
 @media (min-width:1200px) {
     body .content-area {
         flex: 0 0 auto;
-        width: 75%
+        width: 100%;
     }
 }
 

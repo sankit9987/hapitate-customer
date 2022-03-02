@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Footer() {
     return (
@@ -132,7 +133,7 @@ function Footer() {
                                             <ul id="menu-footer-menu-4" className="menu">
                                                 <li id="menu-item-5540"
                                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5540">
-                                                    <a href="./vendor-register/index.html">Sell on Hapitate</a></li>
+                                                    <Link to="/login">Sell on Hapitate</Link></li>
                                                 
                                                 <li id="menu-item-5539"
                                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5539">
