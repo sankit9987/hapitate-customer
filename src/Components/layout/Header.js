@@ -37,15 +37,15 @@ function Header() {
             <hr />
             <div className='container'>
                 <div className=" header-logo-area d-flex justify-content-between" style={{ marginBottom: "2%" }}>
-                    <div className="header-site-branding col-lg-2">
+                    <div className="header-site-branding col-lg-2" style={{marginLeft: "-6%"}}>
                         <Link to="/" className="header-logo-link">
-                            <img src="./assets/image/hapitate.png" alt="Hapitate" className="img-header-logo pl-3 ml-2 pt-3" width="135" height="40" />
+                            <img src="./assets/image/hapitate.png" alt="Hapitate" className="img-header-logo pl-3 ml-2 pt-3" width="100%" height="40" />
                         </Link>
                     </div>
                     <div className="input-group col-lg-4 pt-2">
                         <div className=" input-search-field">
                             <div className="search input-group mb-3">
-                                <input type="text" className="form-control input" placeholder="Search for Healthy Products" name="email" style={{ borderColor: ' #060632' }} aria-label="Username" aria-describedby="basic-addon1" />
+                                <input type="text" className="form-control input" placeholder="Search for Healthy Products" name="email" style={{ border: '2px solid #060632' }} aria-label="Username" aria-describedby="basic-addon1" />
                                 <div className="input-group-prepend ">
                                     <span className="input-group-text sidecurve" id="basic-addon1">
                                         <i className="fa fa-search "></i>
@@ -84,7 +84,7 @@ function Header() {
                             </ul>
                         </div>
                         <div className="header-icon header-icon__cart animate-dropdown dropdown" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Cart" data-bs-original-title="" title="">
-                            <a className="dropdown-toggle" href="./cart/index.html" data-bs-toggle="dropdown">
+                            <a className="dropdown-toggle" href="#" data-bs-toggle="dropdown">
                                 <i className="fa fa-shopping-bag" aria-hidden="true"></i>
                                 <span className="cart-items-count count header-icon-counter">0</span>
                                 <span className="cart-items-total-price total-price"><span className="woocommerce-Price-amount amount"><bdi><span className="woocommerce-Price-currencySymbol">₹</span>0.00</bdi></span></span>

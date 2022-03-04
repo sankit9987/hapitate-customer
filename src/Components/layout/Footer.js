@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 function Footer() {
     return (
         <div>
-            <div className="footer-newsletter bg-dark py-5 text-light">
-                <div className="container-fluid pl-2">
+            <div className="footer-newsletter text-light" style={{backgroundColor:"#0b1c28"}}>
+                <div className="container pl-2">
                     <div className="footer-newsletter-inner row d-flex justify-content-between">
                         <div className="newsletter-content col-lg-7 ">
                             <h5 className="newsletter-title text-light "><i className="fa fa-paper-plane pr-2" aria-hidden="true"></i>Subscribe to our Newsletters</h5>
@@ -61,19 +61,19 @@ function Footer() {
                                             <ul id="menu-footer-menu-1" className="menu">
                                                 <li id="menu-item-5525"
                                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5525">
-                                                    <a href="./about/index.html">About Us</a></li>
+                                                    <a href="#">About Us</a></li>
                                                 <li id="menu-item-5526"
                                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5526">
-                                                    <a href="./blog/index.html">Blog</a></li>
+                                                    <a href="#">Blog</a></li>
                                                 <li id="menu-item-5543"
                                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5543">
-                                                    <a href="./faq/index.html">FAQ</a></li>
+                                                    <a href="#">FAQ</a></li>
                                                 <li id="menu-item-5527"
                                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5527">
-                                                    <a href="./career/index.html">Career</a></li>
+                                                    <a href="#">Career</a></li>
                                                 <li id="menu-item-5528"
                                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5528">
-                                                    <a href="./contact/index.html">Contact Us</a></li>
+                                                    <a href="#">Contact Us</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -87,16 +87,16 @@ function Footer() {
                                             <ul id="menu-footer-menu-2" className="menu">
                                                 <li id="menu-item-5530"
                                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5530">
-                                                    <a href="./my-account/index.html">My account</a></li>
+                                                    <Link to="/dashboard">My account</Link></li>
                                                 <li id="menu-item-5531"
                                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5531">
-                                                    <a href="./track-your-order/index.html">Track your Order</a></li>
+                                                    <a href="#">Track your Order</a></li>
                                                 <li id="menu-item-5545"
                                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5545">
-                                                    <a href="./wishlist/index.html">My Wishlist</a></li>
+                                                    <Link to="/wishlist">My Wishlist</Link></li>
                                                 <li id="menu-item-5544"
                                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5544">
-                                                    <a href="./compare/index.html">Compare</a></li>
+                                                    <Link to="/compare">Compare</Link></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -110,16 +110,16 @@ function Footer() {
                                             <ul id="menu-footer-menu-3" className="menu">
                                                 <li id="menu-item-5536"
                                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5536">
-                                                    <a href="./return-policy/index.html">Return Policy</a></li>
+                                                    <a href="#">Return Policy</a></li>
                                                 <li id="menu-item-4114"
                                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-4114">
-                                                    <a href="./terms-and-conditions/index.html">Terms of Use</a></li>
+                                                    <a href="#">Terms of Use</a></li>
                                                 <li id="menu-item-5534"
                                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-5534">
-                                                    <a href="./privacy-policy/index.html">Privacy Policy</a></li>
+                                                    <a href="#">Privacy Policy</a></li>
                                                 <li id="menu-item-5535"
                                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5535">
-                                                    <a href="./payments/index.html">Payments</a></li>
+                                                    <a href="#">Payments</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -137,7 +137,7 @@ function Footer() {
                                                 
                                                 <li id="menu-item-5539"
                                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5539">
-                                                    <a href="./vendor-membership/index.html">Advertise on Hapitate</a></li>
+                                                    <a href="#">Advertise on Hapitate</a></li>
                                                 <li id="menu-item-5541"
                                                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-5541">
                                                     <a href="mailto:customercare@hapitate.com">eMail Us</a></li>
@@ -155,7 +155,7 @@ function Footer() {
             </div>
 
             <div className="copyright-bar ml-2">
-                {/* <div className="container"> */}
+                <div className="container">
                     <div className="float-start copyright">Latest Updated on July 2021 : Hapitate.com | 100% Purchase Protection &amp;
                         Secure Payment Gateway :</div>
                     <div className="float-end payment">
@@ -165,7 +165,7 @@ function Footer() {
                                         alt="" width="324" height="38" data-was-processed="true"/>
                             </ul>
                     </div>
-                {/* </div> */}
+                </div>
             </div>
         </div>
     )

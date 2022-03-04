@@ -56,7 +56,7 @@ a:-webkit-any-link {
 .nav {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 23%;
+    margin-left: 33%;
     margin-bottom: 0;
     list-style: none;
 }
@@ -68,7 +68,7 @@ hr{
     margin-top: 0;
 }
 #menu-top-bar-left{
-    margin-left: 40px;
+    margin-left: -24px;
 }
 
 .container-fluid{
@@ -84,11 +84,11 @@ hr{
 }
 
 .input-search-field{
-    min-width: 124%;
+    min-width: 156%;
     padding-top: 2%;
 }
 #basic-addon1{
-    background-color: #060632;
+    background-color: #060632 ;
     color: white;
 }
 .input{
@@ -166,7 +166,7 @@ hr{
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
-@media only screen and (min-width: 280px) and (max-width: 991px){
+@media only screen and (min-width: 280px) and (max-width: 993px){
     .clearfix{
         display: none !important;
     }
