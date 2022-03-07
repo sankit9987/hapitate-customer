@@ -20,7 +20,7 @@ function Main() {
                             <div className='col-lg-7 justify-content-start'>
                                 <h3 className='text-muted' style={{ textAlign: "center", fontSize: "393%", fontWeight: "100" }}>Plant-Based</h3>
                                 <h1 style={{ textAlign: "center", fontSize: "393%" }}><b>Nutrition</b></h1>
-                                <img className="d-block w-100" src="./assets/image/hapitate.png" alt="First slide" style={{ height: "120px", width: "70px" }} />
+                                <img data-lazyloaded="1" src="//hapitate.com/wp-content/uploads/revslider/NewSlider/oziva.png" data-src="./wp-content/plugins/revslider/public/assets/assets/dummy.png" class="tp-rs-img rs-lazyload litespeed-loaded" width="709" height="283" data-lazyload="//hapitate.com/wp-content/uploads/revslider/NewSlider/oziva.png" data-no-retina="" data-was-processed="true" data-reference="//hapitate.com/wp-content/uploads/revslider/NewSlider/oziva.png" data-src-rs-ref="//hapitate.com/wp-content/uploads/revslider/NewSlider/oziva.png"  style={{ position: "relative", height:" 100%" ,width: "100%" }} />
                             </div>
                             <div className='col-lg-5 justify-content-end pt-3'>
                                 <h1 style={{ fontWeight: "100", margin: "0" }} className="d-flex"><i className="fa fa-chevron-circle-right " style={{ fontSize: "55%" }} aria-hidden="true"></i><p className="px-2" style={{ fontSize: "40%" }}>Better Metabolism</p></h1>
@@ -44,8 +44,11 @@ function Main() {
 
                             </div>
                             <div className='col-lg-5 justify-content-end pt-3'>
-
-                                <img className="d-block w-100" src="./assets/image/hapitate.png" alt="First slide" style={{ height: "120px", width: "70px" }} />
+                            <div className='d-flex'>
+                            <img data-lazyloaded="1" src="//hapitate.com/wp-content/uploads/revslider/NewSlider/true-element11.png" data-src="./wp-content/plugins/revslider/public/assets/assets/dummy.png" class="tp-rs-img rs-lazyload error" width="425" height="646" data-lazyload="//hapitate.com/wp-content/uploads/revslider/NewSlider/true-element11.png" data-no-retina="" data-was-processed="true" data-reference="//hapitate.com/wp-content/uploads/revslider/NewSlider/true-element11.png" data-src-rs-ref="//hapitate.com/wp-content/uploads/revslider/NewSlider/true-element11.png" style={{position: "relative", height: "100%",width: "34%"}}/>
+                            <img data-lazyloaded="1" src="//hapitate.com/wp-content/uploads/revslider/NewSlider/healthy-seeds.png" data-src="./wp-content/plugins/revslider/public/assets/assets/dummy.png" class="tp-rs-img rs-lazyload error" width="556" height="959" data-lazyload="//hapitate.com/wp-content/uploads/revslider/NewSlider/healthy-seeds.png" data-no-retina="" data-was-processed="true" data-reference="//hapitate.com/wp-content/uploads/revslider/NewSlider/healthy-seeds.png" data-src-rs-ref="//hapitate.com/wp-content/uploads/revslider/NewSlider/healthy-seeds.png" style={{position: "relative", height: "100%", width: "34%"}}/>
+                            <img data-lazyloaded="1" src="//hapitate.com/wp-content/uploads/revslider/NewSlider/true-element.png" data-src="./wp-content/plugins/revslider/public/assets/assets/dummy.png" class="tp-rs-img rs-lazyload error" width="212" height="321" data-lazyload="//hapitate.com/wp-content/uploads/revslider/NewSlider/true-element.png" data-no-retina="" data-was-processed="true" data-reference="//hapitate.com/wp-content/uploads/revslider/NewSlider/true-element.png" data-src-rs-ref="//hapitate.com/wp-content/uploads/revslider/NewSlider/true-element.png" style={{position: "relative", height: "100%", width: "34%"}}></img>
+                            </div>
                             </div>
 
                         </div>
