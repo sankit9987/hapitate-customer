@@ -113,7 +113,7 @@ hr{
 .carousel-inner .active .row .col-lg-5 button{
     background-color: #00df78  !important;
 }
-.carousel-inner .active .row .col-lg-7 button{
+.carousel-inner .row .col-lg-7 button{
     background-color: #00df78  !important;
 }
 .carousel-inner .active .row .col-lg-7 p :hover{
