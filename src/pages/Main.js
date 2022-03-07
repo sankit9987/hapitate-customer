@@ -145,7 +145,7 @@ function Main() {
             </div>
             <div data-vc-full-width="true" data-vc-full-width-init="true" data-vc-stretch-content="true"
                 className="vc_row wpb_row container pt-2 pr-5"
-                style={{ position: "relative", left: "-29.5px", boxSizing: "border-box", width: "862px" }}>
+                style={{ position: "relative", left: "-29.5px", boxSizing: "border-box", width: "1158px" }}>
                 <div className="col-xs-12 col-lg-4 col-sm-6 wpb_column vc_column_container vc_col-sm-4">
                     <div className="vc_column-inner">
                         <div className="wpb_wrapper">

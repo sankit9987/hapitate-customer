@@ -1,6 +1,48 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import Layout from '../Components/layout/Layout'
-function MyAccount() {
+import { useNavigate  } from "react-router-dom";
+import ApiService from "../services/api.service";
+import toast from "react-hot-toast";
+import { TokenService } from "../services/storage.service";
+import { update } from "../redux/authSlice";
+import { useSelector } from "react-redux";
+import { store } from "../store";
+import { auth } from "../api";
+const temp = {
+    email: "",
+    password: "",
+    user_type: "Vendor"
+}
+function MyAccount(props) {
+    
+    const [values, setValues] = useState(temp)
+    const history = useNavigate ()
+
+
+    const onChangeHandler = (e) => {
+        let { name, value } = e.target
+        setValues({ ...values, [name]: value })
+    }
+
+    const onSubmit = async (e) => {
+        e.preventDefault();
+
+        const res = await ApiService.post(auth.POST, values)
+            .then((response) => {
+                    TokenService.saveToken(response.data.token);
+                    TokenService.saveData(response.data);
+                    store.dispatch(update(response.data))
+                    toast.success("Successfully logged in!");
+                    history.push("/");
+
+            })
+            .catch((error) => {
+                toast.error("Invalid Credentials!");
+            });
+    };
+
+
+
   return (
     <Layout>
         <div id="content" className="site-content" tabindex="-1">
@@ -19,16 +61,17 @@ function MyAccount() {
                                     <div className="u-columns col2-set" id="customer_login">
                                         <div className="u-column1 col-1">
                                             <h2>Login</h2>
-                                            <form className="woocommerce-form woocommerce-form-login login" method="post">
+                                            <form className="woocommerce-form woocommerce-form-login login" onSubmit={onSubmit} method="post">
                                                 <p className="before-login-text">
                                                     Welcome back! Sign in to your account.</p>
                                                 <p
                                                     className="woocommerce-form-row woocommerce-form-row--wide form-row-wide">
                                                     <label for="username">Username or email address&nbsp;<span
                                                             className="required">*</span></label>
-                                                    <input type="text"
+                                                    <input type="text" onChange={onChangeHandler}
+                                                    value={values.email}
                                                         className="woocommerce-Input woocommerce-Input--text input-text"
-                                                        name="username" id="username" autocomplete="username" value=""/>
+                                                        name="email" id="email" autocomplete="username" />
                                                 </p>
                                                 <p
                                                     className="woocommerce-form-row woocommerce-form-row--wide form-row-wide">
@@ -36,14 +79,14 @@ function MyAccount() {
                                                             className="required">*</span></label>
                                                     <span className="password-input"><input
                                                             className="woocommerce-Input woocommerce-Input--text input-text"
-                                                            type="password" name="password" id="password"
+                                                            type="password" name="password" id="password" onChange={onChangeHandler} value={values.password}
                                                             autocomplete="current-password"/><span
                                                             className="show-password-input"></span></span>
                                                 </p>
                                                 <p className="">
                                                     <label
                                                         className="woocommerce-form__label woocommerce-form__label-for-checkbox woocommerce-form-login__rememberme">
-                                                        <input
+                                                        <input 
                                                             className="woocommerce-form__input woocommerce-form__input-checkbox"
                                                             name="rememberme" type="checkbox" id="rememberme"
                                                             value="forever"/> <span>Remember me</span>
@@ -73,7 +116,7 @@ function MyAccount() {
                                                             className="required">*</span></label>
                                                     <input type="email"
                                                         className="woocommerce-Input woocommerce-Input--text input-text"
-                                                        name="email" id="reg_email" autocomplete="email" value=""/>
+                                                        name="email1" id="reg_email" autocomplete="email" value=""/>
                                                 </p>
                                                 <p>A link to set a new password will be sent to your email address.</p>
                                                 <p className="form-row form-row-wide mailchimp-newsletter"><input

@@ -1,7 +1,53 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import Layout from '../Components/layout/Layout'
 import {Link} from 'react-router-dom'
+import ApiService from "../services/api.service";
+import toast from "react-hot-toast";
+import { TokenService } from "../services/storage.service";
+// import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
+import { update } from "../redux/authSlice";
+import { useSelector } from "react-redux";
+import { store } from "../store";
+import { auth } from "../api";
 function Login() {
+    const temp = {
+        email: "",
+        password: "",
+        user_type: "Vendor"
+    }
+    const user = useSelector((state) => state.auth);
+    const [values, setValues] = useState(temp)
+    // const history = useHistory()
+
+    useEffect(() => {
+        if (user.login) {
+            // history.push('/dashboard')
+        }
+    }, [user])
+
+    const onChangeHandler = (e) => {
+        let { name, value } = e.target
+        setValues({ ...values, [name]: value })
+    }
+
+    const onSubmit = async (e) => {
+        e.preventDefault();
+
+        const res = await ApiService.post(auth.POST, values)
+            .then((response) => {
+                if (response.status == 200) {
+                    TokenService.saveToken(response.data.token);
+                    TokenService.saveData(response.data);
+                    store.dispatch(update(response.data))
+                    // history.push("/dashboard");
+                    toast.success("Successfully logged in!");
+
+                }
+            })
+            .catch((error) => {
+                toast.error("Invalid Credentials!");
+            });
+    };
     return (
         <Layout>
             <div className='container'>
