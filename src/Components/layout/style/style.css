@@ -179,6 +179,9 @@ hr{
             display: block !important;
             
         }
+        #myNavbar{
+            display: none;
+        }
         .input-search-field {
             min-width: 101%;
             padding-top: 2%;
