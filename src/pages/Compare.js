@@ -18,7 +18,7 @@ function Compare() {
                                             <h6 class="lead-title text-center cart-empty">
                                                 No products were added to the compare table</h6>
                                             <p class="return-to-shop">
-                                                <a class="wc-backward btn button" href="./../shop/index.html">
+                                                <a class="wc-backward btn button" href="/">
                                                     <i class="fa fa-reply pr-2"></i>
                                                     Return To Shop </a>
                                             </p>

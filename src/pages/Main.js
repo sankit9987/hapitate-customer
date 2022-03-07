@@ -123,8 +123,8 @@ function Main() {
                 </div>
             </div>
             <div data-vc-full-width="true" data-vc-full-width-init="true" data-vc-stretch-content="true"
-                className="vc_row wpb_row vc_row-fluid"
-                style={{ position: "relative", left: "-31.5px", boxSizing: "border-box", width: "1263px" }}>
+                className="vc_row wpb_row container pt-2 pr-5"
+                style={{ position: "relative", left: "-29.5px", boxSizing: "border-box", width: "862px" }}>
                 <div className="col-xs-12 col-lg-4 col-sm-6 wpb_column vc_column_container vc_col-sm-4">
                     <div className="vc_column-inner">
                         <div className="wpb_wrapper">
@@ -214,8 +214,8 @@ function Main() {
                 </div>
             </div>
             <div data-vc-full-width="true" data-vc-full-width-init="true" data-vc-stretch-content="true"
-    className="vc_row wpb_row col-lg-12 vc_row-fluid vc_column-gap-35 vc_row-no-padding"
-    style={{position: "relative", left: "-14.5px", boxSizing: "border-box", width: "1263px"}}>
+    className="vc_row wpb_row col-lg-12 vc_row-fluid vc_column-gap-35 "
+    style={{position: "relative", left: "-14.5px", boxSizing: "border-box",/* width: "1263px"*/}}>
     <div className="wpb_column vc_column_container vc_col-sm-6">
         <div className="vc_column-inner">
             <div className="wpb_wrapper">
@@ -314,7 +314,7 @@ function Main() {
         <div className="vc_column-inner">
             <div className="wpb_wrapper">
                 <div className="products-carousel-tabs">
-                    <ul className="nav nav-inline">
+                    <ul className="nav nav-inline" style={{marginLeft:"0px"}}>
                         <li className="nav-item">
                             <a className="nav-link active" href="#home-tab-61d54c0aba765-0" data-bs-toggle="tab">
                                 Granola </a>

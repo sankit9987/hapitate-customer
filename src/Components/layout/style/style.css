@@ -53,6 +53,9 @@ a:-webkit-any-link {
 .top-bar .nav-inline .menu-item {
     font-size: 0.89em;
 }
+.input{
+    width: 63%;
+}
 .nav {
     display: flex;
     flex-wrap: wrap;
@@ -77,7 +80,7 @@ hr{
 }
 .navbar-dark .navbar-nav .nav-link {
     color: rgb(255 255 255 / 100%);
-    font-size: .875rem;
+    font-size: 16px;
 }
 .navbar-nav li{
     padding: 0 5px;
@@ -147,7 +150,9 @@ hr{
     border: 1px solid #0b1c28 !important;
 
 }
-
+#myNavbar{
+    background-color: #001a2d  !important;
+}
 #nav-log-tab{
     background-color: #103b5a;
 }

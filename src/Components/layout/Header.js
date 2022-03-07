@@ -37,7 +37,7 @@ function Header() {
             <hr />
             <div className='container'>
                 <div className=" header-logo-area d-flex justify-content-between" style={{ marginBottom: "2%" }}>
-                    <div className="header-site-branding col-lg-2" style={{marginLeft: "-6%"}}>
+                    <div className="header-site-branding col-lg-2" style={{ marginLeft: "-6%" }}>
                         <Link to="/" className="header-logo-link">
                             <img src="./assets/image/hapitate.png" alt="Hapitate" className="img-header-logo pl-3 ml-2 pt-3" width="100%" height="40" />
                         </Link>
@@ -101,76 +101,267 @@ function Header() {
                 </div >
             </div>
             <div className='container-fluid '>
-                <nav id="main_nav" className="navbar navbar-expand-lg navbar-dark bg-dark text-light">
-                    <div className="collapse navbar-collapse" >
-                        <ul className="navbar-nav container">
-                            <li className="nav-item dropdown">
-                                <a className="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> <b>Breakfast</b>    </a>
-                                <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#"> Submenu item 1</a></li>
-                                    <li><a className="dropdown-item" href="#"> Submenu item 2 </a></li>
-                                    <li><a className="dropdown-item" href="#"> Submenu item 3 </a></li>
-                                </ul>
-                            </li>
-                            <li className="nav-item dropdown">
-                                <a className="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> <b>Snacks</b>   </a>
-                                <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#"> Submenu item 1</a></li>
-                                    <li><a className="dropdown-item" href="#"> Submenu item 2 </a></li>
-                                    <li><a className="dropdown-item" href="#"> Submenu item 3 </a></li>
-                                </ul>
-                            </li>
-                            <li className="nav-item dropdown">
-                                <a className="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> <b>Beverages</b>   </a>
-                                <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#"> Submenu item 1</a></li>
-                                    <li><a className="dropdown-item" href="#"> Submenu item 2 </a></li>
-                                    <li><a className="dropdown-item" href="#"> Submenu item 3 </a></li>
-                                </ul>
-                            </li>
-                            <li className="nav-item dropdown">
-                                <a className="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> <b>Grocery</b>   </a>
-                                <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#"> Submenu item 1</a></li>
-                                    <li><a className="dropdown-item" href="#"> Submenu item 2 </a></li>
-                                    <li><a className="dropdown-item" href="#"> Submenu item 3 </a></li>
-                                </ul>
-                            </li>
-                            <li className="nav-item dropdown">
-                                <a className="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> <b>SuperFoods</b>   </a>
-                                <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#"> Submenu item 1</a></li>
-                                    <li><a className="dropdown-item" href="#"> Submenu item 2 </a></li>
-                                    <li><a className="dropdown-item" href="#"> Submenu item 3 </a></li>
-                                </ul>
-                            </li>
-                            <li className="nav-item dropdown">
-                                <a className="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> <b>Nutrition's</b>   </a>
-                                <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#"> Submenu item 1</a></li>
-                                    <li><a className="dropdown-item" href="#"> Submenu item 2 </a></li>
-                                    <li><a className="dropdown-item" href="#"> Submenu item 3 </a></li>
-                                </ul>
-                            </li>
-                            <li className="nav-item dropdown">
-                                <a className="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> <b>Kid's Nutrition</b>   </a>
-                                <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#"> Submenu item 1</a></li>
-                                    <li><a className="dropdown-item" href="#"> Submenu item 2 </a></li>
-                                    <li><a className="dropdown-item" href="#"> Submenu item 3 </a></li>
-                                </ul>
-                            </li>
-                            <li className="nav-item dropdown">
-                                <a className="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  <b>Pet Lover's</b>  </a>
-                                <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#"> Submenu item 1</a></li>
-                                    <li><a className="dropdown-item" href="#"> Submenu item 2 </a></li>
-                                    <li><a className="dropdown-item" href="#"> Submenu item 3 </a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
+                <nav className="navbar navbar-dark  navbar-expand-lg" id="myNavbar">
+
+                    <ul className="navbar-nav  nav-fill">
+
+                        <li className="nav-item px-4 dropdown">
+                            <a className="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Breakfast</a>
+                            <div className="dropdown-menu dropdown-menu" aria-labelledby="servicesDropdown">
+                                
+                                <div className="d-md-flex align-items-start justify-content-start">
+                                    <div className='py-4 d-flex'>
+                                        <div>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Oats</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>Poha</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>Amaranth</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>Cereals</a>
+                                        </div>
+                                        <div>
+                                        <img data-lazyloaded="1" src="./wp-content/uploads/2021/07/breakfast1-150x150.png" width="150" height="150" data-src="./wp-content/uploads/2021/07/breakfast1-150x150.png" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcset="./wp-content/uploads/2021/07/breakfast1-150x150.png 150w, ./wp-content/uploads/2021/07/breakfast1-300x300.png 300w, ./wp-content/uploads/2021/07/breakfast1-100x100.png 100w, ./wp-content/uploads/2021/07/breakfast1.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcset="./wp-content/uploads/2021/07/breakfast1-150x150.png 150w, ./wp-content/uploads/2021/07/breakfast1-300x300.png 300w, ./wp-content/uploads/2021/07/breakfast1-100x100.png 100w, ./wp-content/uploads/2021/07/breakfast1.png 500w" data-was-processed="true"/>
+                                        </div>
+                                    </div>
+                                    <div className='py-4 d-flex'>
+                                        <div>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Granola</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Muesli</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Quinoa</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>Nutty Magic</a>
+                                        </div>
+                                        <div>
+                                        <img data-lazyloaded="1" src="./wp-content/uploads/2021/07/breakfast2-150x150.png" width="150" height="150" data-src="./wp-content/uploads/2021/07/breakfast2-150x150.png" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcset="./wp-content/uploads/2021/07/breakfast2-150x150.png 150w, ./wp-content/uploads/2021/07/breakfast2-300x300.png 300w, ./wp-content/uploads/2021/07/breakfast2-100x100.png 100w, ./wp-content/uploads/2021/07/breakfast2.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcset="./wp-content/uploads/2021/07/breakfast2-150x150.png 150w, ./wp-content/uploads/2021/07/breakfast2-300x300.png 300w, ./wp-content/uploads/2021/07/breakfast2-100x100.png 100w, ./wp-content/uploads/2021/07/breakfast2.png 500w" data-was-processed="true"/>
+                                        </div>
+                                    </div>
+                                    <div className='py-4 d-flex'>
+                                        <div>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Porridge</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Ready to Eat</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Spreads & Dips</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Beverages</a>
+                                        </div>
+                                        <div>
+                                        <img data-lazyloaded="1" src="./wp-content/uploads/2021/07/breakfast3-150x150.png" width="150" height="150" data-src="./wp-content/uploads/2021/07/breakfast3-150x150.png" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcset="./wp-content/uploads/2021/07/breakfast3-150x150.png 150w, ./wp-content/uploads/2021/07/breakfast3-300x300.png 300w, ./wp-content/uploads/2021/07/breakfast3-100x100.png 100w, ./wp-content/uploads/2021/07/breakfast3.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcset="./wp-content/uploads/2021/07/breakfast3-150x150.png 150w, ./wp-content/uploads/2021/07/breakfast3-300x300.png 300w, ./wp-content/uploads/2021/07/breakfast3-100x100.png 100w, ./wp-content/uploads/2021/07/breakfast3.png 500w" data-was-processed="true"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li className="nav-item px-4 dropdown">
+                            <a className="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Snacks</a>
+                            <div className="dropdown-menu dropdown-menu" aria-labelledby="servicesDropdown">
+                                
+                                <div className="d-md-flex align-items-start justify-content-start">
+                                    <div className='py-4 d-flex'>
+                                        <div>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>   Cookies</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Crackers</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Snacking Bars</a>
+                                            
+                                        </div>
+                                        <div>
+                                        <img data-lazyloaded="1" src="./wp-content/uploads/2021/07/snack1-150x150.png" width="150" height="150" data-src="./wp-content/uploads/2021/07/snack1-150x150.png" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcset="./wp-content/uploads/2021/07/snack1-150x150.png 150w, ./wp-content/uploads/2021/07/snack1-300x300.png 300w, ./wp-content/uploads/2021/07/snack1-100x100.png 100w, ./wp-content/uploads/2021/07/snack1.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcset="./wp-content/uploads/2021/07/snack1-150x150.png 150w, ./wp-content/uploads/2021/07/snack1-300x300.png 300w, ./wp-content/uploads/2021/07/snack1-100x100.png 100w, ./wp-content/uploads/2021/07/snack1.png 500w" data-was-processed="true"/>
+                                        </div>
+                                    </div>
+                                    <div className='py-4 d-flex'>
+                                        <div>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Indian Mix</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Puffs</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Roasted Mix</a>
+                                        </div>
+                                        <div>
+                                        <img data-lazyloaded="1" src="./wp-content/uploads/2021/07/Snack2-150x150.png" width="150" height="150" data-src="./wp-content/uploads/2021/07/Snack2-150x150.png" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcset="./wp-content/uploads/2021/07/Snack2-150x150.png 150w, ./wp-content/uploads/2021/07/Snack2-300x300.png 300w, ./wp-content/uploads/2021/07/Snack2-100x100.png 100w, ./wp-content/uploads/2021/07/Snack2.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcset="./wp-content/uploads/2021/07/Snack2-150x150.png 150w, ./wp-content/uploads/2021/07/Snack2-300x300.png 300w, ./wp-content/uploads/2021/07/Snack2-100x100.png 100w, ./wp-content/uploads/2021/07/Snack2.png 500w" data-was-processed="true"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li className="nav-item px-4 dropdown">
+                            <a className="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Beveranges</a>
+                            <div className="dropdown-menu dropdown-menu" aria-labelledby="servicesDropdown">
+                                
+                                <div className="d-md-flex align-items-start justify-content-start">
+                                    <div className='py-4 d-flex'>
+                                        <div>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>   Exotic Coffee</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>Health Drinks</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Herbal Tea</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Plant Based</a>
+                                        </div>
+                                        <div>
+                                        <img data-lazyloaded="1" src="./wp-content/uploads/2021/07/Beverages-Final.png" width="1400" height="250" data-src="./wp-content/uploads/2021/07/Beverages-Final.png" className="vc_single_image-img attachment-full litespeed-loaded" alt="" loading="lazy" data-srcset="./wp-content/uploads/2021/07/Beverages-Final.png 1400w, ./wp-content/uploads/2021/07/Beverages-Final-300x54.png 300w, ./wp-content/uploads/2021/07/Beverages-Final-1024x183.png 1024w, ./wp-content/uploads/2021/07/Beverages-Final-768x137.png 768w, ./wp-content/uploads/2021/07/Beverages-Final-600x107.png 600w" data-sizes="(max-width: 1400px) 100vw, 1400px" sizes="(max-width: 1400px) 100vw, 1400px" srcset="./wp-content/uploads/2021/07/Beverages-Final.png 1400w, ./wp-content/uploads/2021/07/Beverages-Final-300x54.png 300w, ./wp-content/uploads/2021/07/Beverages-Final-1024x183.png 1024w, ./wp-content/uploads/2021/07/Beverages-Final-768x137.png 768w, ./wp-content/uploads/2021/07/Beverages-Final-600x107.png 600w" data-was-processed="true"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li className="nav-item px-4 dropdown">
+                            <a className="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Grocery</a>
+                            <div className="dropdown-menu dropdown-menu" aria-labelledby="servicesDropdown">
+                                
+                                <div className="d-md-flex align-items-start justify-content-start">
+                                    <div className='py-4 d-flex'>
+                                    <div>
+                                    <img data-lazyloaded="1" src="./wp-content/uploads/2021/07/grocery1-150x150.png" width="150" height="150" data-src="./wp-content/uploads/2021/07/grocery1-150x150.png" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcset="./wp-content/uploads/2021/07/grocery1-150x150.png 150w, ./wp-content/uploads/2021/07/grocery1-300x300.png 300w, ./wp-content/uploads/2021/07/grocery1-100x100.png 100w, ./wp-content/uploads/2021/07/grocery1.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcset="./wp-content/uploads/2021/07/grocery1-150x150.png 150w, ./wp-content/uploads/2021/07/grocery1-300x300.png 300w, ./wp-content/uploads/2021/07/grocery1-100x100.png 100w, ./wp-content/uploads/2021/07/grocery1.png 500w" data-was-processed="true"/>
+                                        </div>
+                                        <div>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Grains</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Pulses</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Flours</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Organic Fruits & Vegetable's</a>
+                                        </div>
+                                        
+                                    </div>
+                                    <div className='py-4 d-flex'>
+                                    <div>
+                                    <img data-lazyloaded="1" src="./wp-content/uploads/2021/07/Grocery22-150x150.png" width="150" height="150" data-src="./wp-content/uploads/2021/07/Grocery22-150x150.png" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcset="./wp-content/uploads/2021/07/Grocery22-150x150.png 150w, ./wp-content/uploads/2021/07/Grocery22-300x300.png 300w, ./wp-content/uploads/2021/07/Grocery22-100x100.png 100w, ./wp-content/uploads/2021/07/Grocery22.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcset="./wp-content/uploads/2021/07/Grocery22-150x150.png 150w, ./wp-content/uploads/2021/07/Grocery22-300x300.png 300w, ./wp-content/uploads/2021/07/Grocery22-100x100.png 100w, ./wp-content/uploads/2021/07/Grocery22.png 500w" data-was-processed="true"/>
+                                        </div>
+                                        <div>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Desi Ghee</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Pure Cooking Oil</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Spices & Herbs</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Natural Salts</a>
+                                        </div>
+                                        
+                                    </div>
+                                    <div className='py-4 d-flex'>
+                                    <div>
+                                    <img data-lazyloaded="1" src="./wp-content/uploads/2021/07/Grocery3-150x150.png" width="150" height="150" data-src="./wp-content/uploads/2021/07/Grocery3-150x150.png" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcset="./wp-content/uploads/2021/07/Grocery3-150x150.png 150w, ./wp-content/uploads/2021/07/Grocery3-300x300.png 300w, ./wp-content/uploads/2021/07/Grocery3-100x100.png 100w, ./wp-content/uploads/2021/07/Grocery3.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcset="./wp-content/uploads/2021/07/Grocery3-150x150.png 150w, ./wp-content/uploads/2021/07/Grocery3-300x300.png 300w, ./wp-content/uploads/2021/07/Grocery3-100x100.png 100w, ./wp-content/uploads/2021/07/Grocery3.png 500w" data-was-processed="true"/>
+                                        </div>
+                                        <div>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Sugar Replacements</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> After Meals</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Healthy Spreads</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Dairy & Alternatives</a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li className="nav-item px-4 dropdown">
+                            <a className="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SuperFoods</a>
+                            <div className="dropdown-menu dropdown-menu" aria-labelledby="servicesDropdown">
+                                
+                                <div className="d-md-flex align-items-start justify-content-start">
+                                    <div className='py-4 d-flex'>
+                                        <div>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Meal Replacements</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Protein Bars</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Super Seeds</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Trail Mix </a>
+                                        </div>
+                                        <div>
+                                        <img data-lazyloaded="1" src="./wp-content/uploads/2021/07/Superfoodsfinal.png" width="1400" height="250" data-src="./wp-content/uploads/2021/07/Superfoodsfinal.png" className="vc_single_image-img attachment-full litespeed-loaded" alt="" loading="lazy" data-srcset="./wp-content/uploads/2021/07/Superfoodsfinal.png 1400w, ./wp-content/uploads/2021/07/Superfoodsfinal-300x54.png 300w, ./wp-content/uploads/2021/07/Superfoodsfinal-1024x183.png 1024w, ./wp-content/uploads/2021/07/Superfoodsfinal-768x137.png 768w, ./wp-content/uploads/2021/07/Superfoodsfinal-600x107.png 600w" data-sizes="(max-width: 1400px) 100vw, 1400px" sizes="(max-width: 1400px) 100vw, 1400px" srcset="./wp-content/uploads/2021/07/Superfoodsfinal.png 1400w, ./wp-content/uploads/2021/07/Superfoodsfinal-300x54.png 300w, ./wp-content/uploads/2021/07/Superfoodsfinal-1024x183.png 1024w, ./wp-content/uploads/2021/07/Superfoodsfinal-768x137.png 768w, ./wp-content/uploads/2021/07/Superfoodsfinal-600x107.png 600w" data-was-processed="true"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li className="nav-item px-4 dropdown">
+                            <a className="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nutrition’s</a>
+                            <div className="dropdown-menu dropdown-menu" aria-labelledby="servicesDropdown">
+                            <div class="dropdown-header"><h4>Women's Care</h4> </div>
+                                <div className="d-md-flex align-items-start justify-content-start">
+                                    <div className='pt-4 d-flex'>
+                                        <div>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Women's Sport Nutrition</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Protein Blends</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Detox Mix</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Keto Friendly</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Metabolism</a>
+                                        </div>
+                                        
+                                    </div>
+                                        <div className='py-4'>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Skin & Hair Care</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Acne Control</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Hormonal Balance</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Pregnant Moms</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Bone Strength</a>
+                                       
+                                    </div>
+                                    <div className='py-4'> 
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Blood Pressure</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>   Heart & Brain</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Hypertension's</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Weight Gain</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Weight Loss</a>
+                                    </div>
+                                    <div className='py-4'> 
+                                    <img data-lazyloaded="1" src="./wp-content/uploads/2021/07/womenscaree.png" width="950" height="300" data-src="./wp-content/uploads/2021/07/womenscaree.png" class="vc_single_image-img attachment-full litespeed-loaded" alt="" loading="lazy" data-srcset="./wp-content/uploads/2021/07/womenscaree.png 950w, ./wp-content/uploads/2021/07/womenscaree-300x95.png 300w, ./wp-content/uploads/2021/07/womenscaree-768x243.png 768w, ./wp-content/uploads/2021/07/womenscaree-600x189.png 600w" data-sizes="(max-width: 950px) 100vw, 950px" sizes="(max-width: 950px) 100vw, 950px" srcset="./wp-content/uploads/2021/07/womenscaree.png 950w, ./wp-content/uploads/2021/07/womenscaree-300x95.png 300w, ./wp-content/uploads/2021/07/womenscaree-768x243.png 768w, ./wp-content/uploads/2021/07/womenscaree-600x189.png 600w" data-was-processed="true"/>
+                                    </div>
+                                </div>
+                            
+                                
+                                        <div class="dropdown-header"><h4>Men's Care</h4> </div>
+                                <div className="d-md-flex align-items-start justify-content-start">
+                                    <div className='py-4 d-flex'>
+                                        <div>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Men's Nutrition Food</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Lean Muscle</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Muscle Gain</a>
+                                        </div>
+                                        
+                                    </div>
+                                        <div className='py-4'>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Detox</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Hypertension</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Blood Pressure Control</a>
+                                            
+                                       
+                                    </div>
+                                    <div className='py-4'> 
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Protein Blend</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>   Weight Management</a>
+                                            
+                                    </div>
+                                    <div className='py-2'> 
+                                    <img data-lazyloaded="1" src="./wp-content/uploads/2021/07/Mens-Fitnesss-copy.png" width="950" height="300" data-src="./wp-content/uploads/2021/07/Mens-Fitnesss-copy.png" class="vc_single_image-img attachment-full litespeed-loaded" alt="" loading="lazy" data-srcset="./wp-content/uploads/2021/07/Mens-Fitnesss-copy.png 950w, ./wp-content/uploads/2021/07/Mens-Fitnesss-copy-300x95.png 300w, ./wp-content/uploads/2021/07/Mens-Fitnesss-copy-768x243.png 768w, ./wp-content/uploads/2021/07/Mens-Fitnesss-copy-600x189.png 600w" data-sizes="(max-width: 950px) 100vw, 950px" sizes="(max-width: 950px) 100vw, 950px" srcset="./wp-content/uploads/2021/07/Mens-Fitnesss-copy.png 950w, ./wp-content/uploads/2021/07/Mens-Fitnesss-copy-300x95.png 300w, ./wp-content/uploads/2021/07/Mens-Fitnesss-copy-768x243.png 768w, ./wp-content/uploads/2021/07/Mens-Fitnesss-copy-600x189.png 600w" data-was-processed="true"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li className="nav-item px-4 dropdown">
+                            <a className="nav-link " href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kid’s Nutrition</a>
+                        </li>
+                        <li className="nav-item px-4 dropdown">
+                            <a className="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pet Lovers</a>
+                            <div className="dropdown-menu dropdown-menu" aria-labelledby="servicesDropdown">
+                                
+                                <div className="d-md-flex align-items-start justify-content-start">
+                                    <div className='py-4 d-flex'>
+                                        <div>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Grain Free Food</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Treats</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Skin Care</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Grooming</a>
+                                        </div>
+                                        
+                                    </div>
+                                        <div className='py-4'>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Clothing</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Accessories</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Crates & Beds</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Furniture’s</a>
+                                       
+                                    </div>
+                                    <div className='py-4'> 
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Leash, Collar & Harness</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>   Scratchers</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Toys</a>
+                                            <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Bowls & Feeders</a>
+                                       
+                                    </div>
+                                    <div className='py-4'> 
+                                    <img data-lazyloaded="1" src="./wp-content/uploads/2021/07/petscare.png" width="950" height="300" data-src="./wp-content/uploads/2021/07/petscare.png" className="vc_single_image-img attachment-full litespeed-loaded" alt="" loading="lazy" data-srcset="./wp-content/uploads/2021/07/petscare.png 950w, ./wp-content/uploads/2021/07/petscare-300x95.png 300w, ./wp-content/uploads/2021/07/petscare-768x243.png 768w, ./wp-content/uploads/2021/07/petscare-600x189.png 600w" data-sizes="(max-width: 950px) 100vw, 950px" sizes="(max-width: 950px) 100vw, 950px" srcset="./wp-content/uploads/2021/07/petscare.png 950w, ./wp-content/uploads/2021/07/petscare-300x95.png 300w, ./wp-content/uploads/2021/07/petscare-768x243.png 768w, ./wp-content/uploads/2021/07/petscare-600x189.png 600w" data-was-processed="true"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
                 </nav>
+                
             </div>
         </div >
     )

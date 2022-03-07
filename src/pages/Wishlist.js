@@ -52,7 +52,7 @@ function Wishlist() {
                                                 </thead>
                                                 <tbody class="wishlist-items-wrapper">
                                                     <tr>
-                                                        <td colspan="6" class="wishlist-empty">No products added to the wishlist
+                                                        <td colspan="6" class="wishlist-empty text-center">No products added to the wishlist
                                                         </td>
                                                     </tr>
                                                 </tbody>
