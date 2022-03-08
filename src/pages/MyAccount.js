@@ -2,7 +2,8 @@ import React,{useState,useEffect} from 'react'
 import Layout from '../Components/layout/Layout'
 import { useNavigate  } from "react-router-dom";
 import ApiService from "../services/api.service";
-import toast from "react-hot-toast";
+// import toast from "react-hot-toast";
+import {ToastContainer ,toast} from "react-toastify";
 import { TokenService } from "../services/storage.service";
 import { update } from "../redux/authSlice";
 import { useSelector } from "react-redux";
@@ -29,11 +30,12 @@ function MyAccount(props) {
 
         const res = await ApiService.post(auth.POST, values)
             .then((response) => {
-                    TokenService.saveToken(response.data.token);
-                    TokenService.saveData(response.data);
-                    store.dispatch(update(response.data))
-                    toast.success("Successfully logged in!");
-                    history.push("/");
+                TokenService.saveToken(response.data.token);
+                TokenService.saveData(response.data);
+                store.dispatch(update(response.data))
+                console.log(store.dispatch(update(response.data)))
+                toast("Successfully logged in!");
+                history("/");
 
             })
             .catch((error) => {
@@ -163,6 +165,7 @@ function MyAccount(props) {
         </div>
     </div>
 </div>
+<ToastContainer />
     </Layout>
   )
 }
