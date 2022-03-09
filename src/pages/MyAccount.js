@@ -1,9 +1,8 @@
-import React,{useState,useEffect} from 'react'
-import Layout from '../Components/layout/Layout'
+import React,{useState,useEffect} from 'react';
+import Layout from '../Components/layout/Layout';
 import { useNavigate  } from "react-router-dom";
 import ApiService from "../services/api.service";
-// import toast from "react-hot-toast";
-import {ToastContainer ,toast} from "react-toastify";
+import toast from "react-hot-toast";
 import { TokenService } from "../services/storage.service";
 import { update } from "../redux/authSlice";
 import { useSelector } from "react-redux";
@@ -14,12 +13,16 @@ const temp = {
     password: "",
     user_type: "Vendor"
 }
-function MyAccount(props) {
-    
+function MyAccount() {
+    const user = useState((state) => state.auth);
     const [values, setValues] = useState(temp)
-    const history = useNavigate ()
+    const history = useNavigate()
 
-
+    useEffect(() => {
+        if (user.login) {
+            history("/");
+        }
+    }, [user])
     const onChangeHandler = (e) => {
         let { name, value } = e.target
         setValues({ ...values, [name]: value })
@@ -34,7 +37,7 @@ function MyAccount(props) {
                 TokenService.saveData(response.data);
                 store.dispatch(update(response.data))
                 console.log(store.dispatch(update(response.data)))
-                toast("Successfully logged in!");
+                toast.success("Successfully logged in!");
                 history("/");
 
             })
@@ -93,10 +96,7 @@ function MyAccount(props) {
                                                             name="rememberme" type="checkbox" id="rememberme"
                                                             value="forever"/> <span>Remember me</span>
                                                     </label>
-                                                    <input type="hidden" id="woocommerce-login-nonce"
-                                                        name="woocommerce-login-nonce" value="67787194c7"/><input
-                                                        type="hidden" name="_wp_http_referer"
-                                                        value="/hapitate/my-account/"/> <button type="submit"
+                                                    <button type="submit"
                                                         className="woocommerce-button button woocommerce-form-login__submit"
                                                         name="login" value="Log in">Log in</button>
                                                 </p>
@@ -165,7 +165,6 @@ function MyAccount(props) {
         </div>
     </div>
 </div>
-<ToastContainer />
     </Layout>
   )
 }

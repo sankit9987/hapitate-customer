@@ -106,7 +106,7 @@ function Header() {
                     <ul className="navbar-nav  nav-fill">
 
                         <li className="nav-item px-4 dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Breakfast</a>
+                            <a className="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b> Breakfast</b></a>
                             <div className="dropdown-menu dropdown-menu" aria-labelledby="servicesDropdown">
 
                                 <div className="d-md-flex align-items-start justify-content-start">
@@ -173,7 +173,7 @@ function Header() {
 
                         </li>
                         <li className="nav-item px-4 dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Snacks</a>
+                            <a className="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>Snacks</b></a>
                             <div className="dropdown-menu dropdown-menu" aria-labelledby="servicesDropdown">
 
                                 <div className="d-md-flex align-items-start justify-content-start">
@@ -227,7 +227,7 @@ function Header() {
                             </div>
                         </li>
                         <li className="nav-item px-4 dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Beveranges</a>
+                            <a className="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>Beveranges</b></a>
                             <div className="dropdown-menu dropdown-menu" style={{ marginLeft: "-153%" }} aria-labelledby="servicesDropdown">
 
                                 <div className="d-md-flex align-items-start justify-content-start">
@@ -271,7 +271,7 @@ function Header() {
                             </div>
                         </li>
                         <li className="nav-item px-4 dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Grocery</a>
+                            <a className="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>Grocery</b></a>
                             <div className="dropdown-menu dropdown-menu" style={{ marginLeft: "-201%" }} aria-labelledby="servicesDropdown">
 
                                 <div className="d-md-flex align-items-start justify-content-start">
@@ -340,7 +340,7 @@ function Header() {
                             </div>
                         </li>
                         <li className="nav-item px-4 dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SuperFoods</a>
+                            <a className="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>SuperFoods</b></a>
                             <div className="dropdown-menu dropdown-menu" style={{ marginLeft: "-236%" }} aria-labelledby="servicesDropdown">
 
                                 <div className="d-md-flex align-items-start justify-content-start">
@@ -384,7 +384,7 @@ function Header() {
                             </div>
                         </li>
                         <li className="nav-item px-4 dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nutrition’s</a>
+                            <a className="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>Nutrition’s</b></a>
                             <div className="dropdown-menu dropdown-menu" style={{ marginLeft: "-457%" }} aria-labelledby="servicesDropdown">
                                 <div className="dropdown-header"><h4>Women's Care</h4> </div>
                                 <div className="d-md-flex align-items-start justify-content-start">
@@ -448,10 +448,10 @@ function Header() {
                             </div>
                         </li>
                         <li className="nav-item px-4 dropdown">
-                            <a className="nav-link " href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kid’s Nutrition</a>
+                            <a className="nav-link " href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>Kid’s Nutrition</b></a>
                         </li>
                         <li className="nav-item px-4 dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pet Lovers</a>
+                            <a className="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>Pet Lovers</b></a>
                             <div className="dropdown-menu dropdown-menu" style={{ marginLeft: "-653%" }} aria-labelledby="servicesDropdown">
 
                                 <div className="d-md-flex align-items-start justify-content-start">

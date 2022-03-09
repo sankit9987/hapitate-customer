@@ -2,6 +2,8 @@ import React from 'react';
 import Layout from '../Components/layout/Layout';
 import '../Components/layout/style/style.css';
 import FeaturedProductDetail from '../Components/layout/FeaturedProductDetail';
+import BestSeller from '../Components/layout/BestSeller';
+import HealthProduct from '../Components/layout/HealthProduct';
 
 function Main() {
     return (
@@ -20,7 +22,7 @@ function Main() {
                             <div className='col-lg-7 justify-content-start'>
                                 <h3 className='text-muted' style={{ textAlign: "center", fontSize: "393%", fontWeight: "100" }}>Plant-Based</h3>
                                 <h1 style={{ textAlign: "center", fontSize: "393%" }}><b>Nutrition</b></h1>
-                                <img data-lazyloaded="1" src="//hapitate.com/wp-content/uploads/revslider/NewSlider/oziva.png" data-src="./wp-content/plugins/revslider/public/assets/assets/dummy.png" class="tp-rs-img rs-lazyload litespeed-loaded" width="709" height="283" data-lazyload="//hapitate.com/wp-content/uploads/revslider/NewSlider/oziva.png" data-no-retina="" data-was-processed="true" data-reference="//hapitate.com/wp-content/uploads/revslider/NewSlider/oziva.png" data-src-rs-ref="//hapitate.com/wp-content/uploads/revslider/NewSlider/oziva.png" style={{ position: "relative", height: " 100%", width: "100%" }} />
+                                <img data-lazyloaded="1" src="//hapitate.com/wp-content/uploads/revslider/NewSlider/oziva.png" data-src="./wp-content/plugins/revslider/public/assets/assets/dummy.png" className="tp-rs-img rs-lazyload litespeed-loaded" width="709" height="283" data-lazyload="//hapitate.com/wp-content/uploads/revslider/NewSlider/oziva.png" data-no-retina="" data-was-processed="true" data-reference="//hapitate.com/wp-content/uploads/revslider/NewSlider/oziva.png" data-src-rs-ref="//hapitate.com/wp-content/uploads/revslider/NewSlider/oziva.png" style={{ position: "relative", height: " 100%", width: "100%" }} />
                             </div>
                             <div className='col-lg-5 justify-content-end pt-3'>
                                 <h1 style={{ fontWeight: "100", margin: "0" }} className="d-flex"><i className="fa fa-chevron-circle-right " style={{ fontSize: "55%" }} aria-hidden="true"></i><p className="px-2" style={{ fontSize: "40%" }}>Better Metabolism</p></h1>
@@ -45,9 +47,9 @@ function Main() {
                             </div>
                             <div className='col-lg-5 justify-content-end pt-3'>
                                 <div className='d-flex'>
-                                    <img data-lazyloaded="1" src="//hapitate.com/wp-content/uploads/revslider/NewSlider/true-element11.png" data-src="./wp-content/plugins/revslider/public/assets/assets/dummy.png" class="tp-rs-img rs-lazyload error" width="425" height="646" data-lazyload="//hapitate.com/wp-content/uploads/revslider/NewSlider/true-element11.png" data-no-retina="" data-was-processed="true" data-reference="//hapitate.com/wp-content/uploads/revslider/NewSlider/true-element11.png" data-src-rs-ref="//hapitate.com/wp-content/uploads/revslider/NewSlider/true-element11.png" style={{ position: "relative", height: "100%", width: "34%" }} />
-                                    <img data-lazyloaded="1" src="//hapitate.com/wp-content/uploads/revslider/NewSlider/healthy-seeds.png" data-src="./wp-content/plugins/revslider/public/assets/assets/dummy.png" class="tp-rs-img rs-lazyload error" width="556" height="959" data-lazyload="//hapitate.com/wp-content/uploads/revslider/NewSlider/healthy-seeds.png" data-no-retina="" data-was-processed="true" data-reference="//hapitate.com/wp-content/uploads/revslider/NewSlider/healthy-seeds.png" data-src-rs-ref="//hapitate.com/wp-content/uploads/revslider/NewSlider/healthy-seeds.png" style={{ position: "relative", height: "100%", width: "34%" }} />
-                                    <img data-lazyloaded="1" src="//hapitate.com/wp-content/uploads/revslider/NewSlider/true-element.png" data-src="./wp-content/plugins/revslider/public/assets/assets/dummy.png" class="tp-rs-img rs-lazyload error" width="212" height="321" data-lazyload="//hapitate.com/wp-content/uploads/revslider/NewSlider/true-element.png" data-no-retina="" data-was-processed="true" data-reference="//hapitate.com/wp-content/uploads/revslider/NewSlider/true-element.png" data-src-rs-ref="//hapitate.com/wp-content/uploads/revslider/NewSlider/true-element.png" style={{ position: "relative", height: "100%", width: "34%" }}></img>
+                                    <img data-lazyloaded="1" src="//hapitate.com/wp-content/uploads/revslider/NewSlider/true-element11.png" data-src="./wp-content/plugins/revslider/public/assets/assets/dummy.png" className="tp-rs-img rs-lazyload error" width="425" height="646" data-lazyload="//hapitate.com/wp-content/uploads/revslider/NewSlider/true-element11.png" data-no-retina="" data-was-processed="true" data-reference="//hapitate.com/wp-content/uploads/revslider/NewSlider/true-element11.png" data-src-rs-ref="//hapitate.com/wp-content/uploads/revslider/NewSlider/true-element11.png" style={{ position: "relative", height: "100%", width: "34%" }} />
+                                    <img data-lazyloaded="1" src="//hapitate.com/wp-content/uploads/revslider/NewSlider/healthy-seeds.png" data-src="./wp-content/plugins/revslider/public/assets/assets/dummy.png" className="tp-rs-img rs-lazyload error" width="556" height="959" data-lazyload="//hapitate.com/wp-content/uploads/revslider/NewSlider/healthy-seeds.png" data-no-retina="" data-was-processed="true" data-reference="//hapitate.com/wp-content/uploads/revslider/NewSlider/healthy-seeds.png" data-src-rs-ref="//hapitate.com/wp-content/uploads/revslider/NewSlider/healthy-seeds.png" style={{ position: "relative", height: "100%", width: "34%" }} />
+                                    <img data-lazyloaded="1" src="//hapitate.com/wp-content/uploads/revslider/NewSlider/true-element.png" data-src="./wp-content/plugins/revslider/public/assets/assets/dummy.png" className="tp-rs-img rs-lazyload error" width="212" height="321" data-lazyload="//hapitate.com/wp-content/uploads/revslider/NewSlider/true-element.png" data-no-retina="" data-was-processed="true" data-reference="//hapitate.com/wp-content/uploads/revslider/NewSlider/true-element.png" data-src-rs-ref="//hapitate.com/wp-content/uploads/revslider/NewSlider/true-element.png" style={{ position: "relative", height: "100%", width: "34%" }}></img>
                                 </div>
                             </div>
 
@@ -66,9 +68,9 @@ function Main() {
 
                             </div>
                                 <div className='d-flex'>
-                                <img data-lazyloaded="1" src="//hapitate.com/wp-content/uploads/revslider/NewSlider/plant-powe.png" data-src="./wp-content/plugins/revslider/public/assets/assets/dummy.png" class="tp-rs-img rs-lazyload litespeed-loaded" width="1440" height="852" data-lazyload="//hapitate.com/wp-content/uploads/revslider/NewSlider/plant-powe.png" data-no-retina="" data-was-processed="true" data-reference="//hapitate.com/wp-content/uploads/revslider/NewSlider/plant-powe.png" data-src-rs-ref="//hapitate.com/wp-content/uploads/revslider/NewSlider/plant-powe.png" style={{position: "relative", height: "38%", width: "43%"}}/>
+                                <img data-lazyloaded="1" src="//hapitate.com/wp-content/uploads/revslider/NewSlider/plant-powe.png" data-src="./wp-content/plugins/revslider/public/assets/assets/dummy.png" className="tp-rs-img rs-lazyload litespeed-loaded" width="1440" height="852" data-lazyload="//hapitate.com/wp-content/uploads/revslider/NewSlider/plant-powe.png" data-no-retina="" data-was-processed="true" data-reference="//hapitate.com/wp-content/uploads/revslider/NewSlider/plant-powe.png" data-src-rs-ref="//hapitate.com/wp-content/uploads/revslider/NewSlider/plant-powe.png" style={{position: "relative", height: "38%", width: "43%"}}/>
 
-                                <img data-lazyloaded="1" src="//hapitate.com/wp-content/uploads/revslider/NewSlider/plantpower.png" data-src="./wp-content/plugins/revslider/public/assets/assets/dummy.png" class="tp-rs-img ml-5 rs-lazyload litespeed-loaded" width="1265" height="959" data-lazyload="//hapitate.com/wp-content/uploads/revslider/NewSlider/plantpower.png" data-no-retina="" data-was-processed="true" data-reference="//hapitate.com/wp-content/uploads/revslider/NewSlider/plantpower.png" data-src-rs-ref="//hapitate.com/wp-content/uploads/revslider/NewSlider/plantpower.png" style={{position: "relative", height: "38%",width: "43%",marginLeft:"8rem !important"}}/>
+                                <img data-lazyloaded="1" src="//hapitate.com/wp-content/uploads/revslider/NewSlider/plantpower.png" data-src="./wp-content/plugins/revslider/public/assets/assets/dummy.png" className="tp-rs-img ml-5 rs-lazyload litespeed-loaded" width="1265" height="959" data-lazyload="//hapitate.com/wp-content/uploads/revslider/NewSlider/plantpower.png" data-no-retina="" data-was-processed="true" data-reference="//hapitate.com/wp-content/uploads/revslider/NewSlider/plantpower.png" data-src-rs-ref="//hapitate.com/wp-content/uploads/revslider/NewSlider/plantpower.png" style={{position: "relative", height: "38%",width: "43%",marginLeft:"8rem !important"}}/>
                                 </div>
                         </div>
                 </div>
@@ -2368,7 +2370,139 @@ function Main() {
                     </div>
                 </div>
             </div>
+            <BestSeller/>
             <FeaturedProductDetail />
+            <div data-vc-full-width="true" data-vc-full-width-init="true" data-vc-stretch-content="true"
+    className="vc_row wpb_row vc_row-fluid vc_custom_1627480599484 vc_row-has-fill"
+    style={{position: "relative", left: "-31.5px", boxSizing: "border-box", width: "1263px"}}>
+    <div className="wpb_column vc_column_container vc_col-sm-6">
+        <div className="vc_column-inner vc_custom_1627480458636">
+            <div className="wpb_wrapper">
+                <div className="wpb_single_image wpb_content_element vc_align_left">
+                    <figure className="wpb_wrapper vc_figure">
+                        <a href="#" target="_self"
+                            className="vc_single_image-wrapper   vc_box_border_grey"><img data-lazyloaded="1"
+                                src="./wp-content/uploads/2021/07/beveragesbanner.png" width="1340" height="1032"
+                                data-src="./wp-content/uploads/2021/07/beveragesbanner.png"
+                                className="vc_single_image-img attachment-full litespeed-loaded" alt="" loading="lazy"
+                                data-srcset="./wp-content/uploads/2021/07/beveragesbanner.png 1340w, ./wp-content/uploads/2021/07/beveragesbanner-300x231.png 300w, ./wp-content/uploads/2021/07/beveragesbanner-1024x789.png 1024w, ./wp-content/uploads/2021/07/beveragesbanner-768x591.png 768w, ./wp-content/uploads/2021/07/beveragesbanner-600x462.png 600w"
+                                data-sizes="(max-width: 1340px) 100vw, 1340px" sizes="(max-width: 1340px) 100vw, 1340px"
+                                srcset="./wp-content/uploads/2021/07/beveragesbanner.png 1340w, ./wp-content/uploads/2021/07/beveragesbanner-300x231.png 300w, ./wp-content/uploads/2021/07/beveragesbanner-1024x789.png 1024w, ./wp-content/uploads/2021/07/beveragesbanner-768x591.png 768w, ./wp-content/uploads/2021/07/beveragesbanner-600x462.png 600w"
+                                data-was-processed="true"/><noscript><img width="1340" height="1032"
+                                    src="./wp-content/uploads/2021/07/beveragesbanner.png"
+                                    className="vc_single_image-img attachment-full" alt="" loading="lazy"
+                                    srcset="./wp-content/uploads/2021/07/beveragesbanner.png 1340w, ./wp-content/uploads/2021/07/beveragesbanner-300x231.png 300w, ./wp-content/uploads/2021/07/beveragesbanner-1024x789.png 1024w, ./wp-content/uploads/2021/07/beveragesbanner-768x591.png 768w, ./wp-content/uploads/2021/07/beveragesbanner-600x462.png 600w"
+                                    sizes="(max-width: 1340px) 100vw, 1340px"/></noscript></a>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="wpb_column vc_column_container vc_col-sm-6">
+        <div className="vc_column-inner vc_custom_1627480467481">
+            <div className="wpb_wrapper">
+                <div className="vc_row wpb_row vc_inner vc_row-fluid">
+                    <div className="wpb_column vc_column_container vc_col-sm-6">
+                        <div className="vc_column-inner">
+                            <div className="wpb_wrapper">
+                                <div className="wpb_single_image wpb_content_element vc_align_left">
+                                    <figure className="wpb_wrapper vc_figure">
+                                        <a href="https://hapitate.com/product-category/beverages/exotic-coffee/"
+                                            target="_self" className="vc_single_image-wrapper   vc_box_border_grey"><img
+                                                data-lazyloaded="1" src="./wp-content/uploads/2021/07/exotic_coffee.png"
+                                                width="931" height="699"
+                                                data-src="./wp-content/uploads/2021/07/exotic_coffee.png"
+                                                className="vc_single_image-img attachment-full litespeed-loaded" alt=""
+                                                loading="lazy"
+                                                data-srcset="./wp-content/uploads/2021/07/exotic_coffee.png 931w, ./wp-content/uploads/2021/07/exotic_coffee-300x225.png 300w, ./wp-content/uploads/2021/07/exotic_coffee-768x577.png 768w, ./wp-content/uploads/2021/07/exotic_coffee-600x450.png 600w"
+                                                data-sizes="(max-width: 931px) 100vw, 931px"
+                                                sizes="(max-width: 931px) 100vw, 931px"
+                                                srcset="./wp-content/uploads/2021/07/exotic_coffee.png 931w, ./wp-content/uploads/2021/07/exotic_coffee-300x225.png 300w, ./wp-content/uploads/2021/07/exotic_coffee-768x577.png 768w, ./wp-content/uploads/2021/07/exotic_coffee-600x450.png 600w"
+                                                data-was-processed="true"/><noscript><img width="931" height="699"
+                                                    src="./wp-content/uploads/2021/07/exotic_coffee.png"
+                                                    className="vc_single_image-img attachment-full" alt="" loading="lazy"
+                                                    srcset="./wp-content/uploads/2021/07/exotic_coffee.png 931w, ./wp-content/uploads/2021/07/exotic_coffee-300x225.png 300w, ./wp-content/uploads/2021/07/exotic_coffee-768x577.png 768w, ./wp-content/uploads/2021/07/exotic_coffee-600x450.png 600w"
+                                                    sizes="(max-width: 931px) 100vw, 931px"/></noscript></a>
+                                    </figure>
+                                </div>
+                                <div className="wpb_single_image wpb_content_element vc_align_left">
+                                    <figure className="wpb_wrapper vc_figure">
+                                        <a href="https://hapitate.com/product-category/beverages/plant-based/"
+                                            target="_self" className="vc_single_image-wrapper   vc_box_border_grey"><img
+                                                data-lazyloaded="1" src="./wp-content/uploads/2021/07/plant_based.png"
+                                                width="931" height="698"
+                                                data-src="./wp-content/uploads/2021/07/plant_based.png"
+                                                className="vc_single_image-img attachment-full litespeed-loaded"
+                                                alt="plant based healthy drinks" loading="lazy"
+                                                data-srcset="./wp-content/uploads/2021/07/plant_based.png 931w, ./wp-content/uploads/2021/07/plant_based-300x225.png 300w, ./wp-content/uploads/2021/07/plant_based-768x576.png 768w, ./wp-content/uploads/2021/07/plant_based-600x450.png 600w"
+                                                data-sizes="(max-width: 931px) 100vw, 931px"
+                                                sizes="(max-width: 931px) 100vw, 931px"
+                                                srcset="./wp-content/uploads/2021/07/plant_based.png 931w, ./wp-content/uploads/2021/07/plant_based-300x225.png 300w, ./wp-content/uploads/2021/07/plant_based-768x576.png 768w, ./wp-content/uploads/2021/07/plant_based-600x450.png 600w"
+                                                data-was-processed="true"/><noscript><img width="931" height="698"
+                                                    src="./wp-content/uploads/2021/07/plant_based.png"
+                                                    className="vc_single_image-img attachment-full"
+                                                    alt="plant based healthy drinks" loading="lazy"
+                                                    srcset="./wp-content/uploads/2021/07/plant_based.png 931w, ./wp-content/uploads/2021/07/plant_based-300x225.png 300w, ./wp-content/uploads/2021/07/plant_based-768x576.png 768w, ./wp-content/uploads/2021/07/plant_based-600x450.png 600w"
+                                                    sizes="(max-width: 931px) 100vw, 931px"/></noscript></a>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="wpb_column vc_column_container vc_col-sm-6">
+                        <div className="vc_column-inner">
+                            <div className="wpb_wrapper">
+                                <div className="wpb_single_image wpb_content_element vc_align_left">
+                                    <figure className="wpb_wrapper vc_figure">
+                                        <a href="https://hapitate.com/product-category/beverages/herbal-tea/"
+                                            target="_self" className="vc_single_image-wrapper   vc_box_border_grey"><img
+                                                data-lazyloaded="1" src="./wp-content/uploads/2021/07/herbal_tea.png"
+                                                width="931" height="699"
+                                                data-src="./wp-content/uploads/2021/07/herbal_tea.png"
+                                                className="vc_single_image-img attachment-full litespeed-loaded"
+                                                alt="plant based healthy herbal tea" loading="lazy"
+                                                data-srcset="./wp-content/uploads/2021/07/herbal_tea.png 931w, ./wp-content/uploads/2021/07/herbal_tea-300x225.png 300w, ./wp-content/uploads/2021/07/herbal_tea-768x577.png 768w, ./wp-content/uploads/2021/07/herbal_tea-600x450.png 600w"
+                                                data-sizes="(max-width: 931px) 100vw, 931px"
+                                                sizes="(max-width: 931px) 100vw, 931px"
+                                                srcset="./wp-content/uploads/2021/07/herbal_tea.png 931w, ./wp-content/uploads/2021/07/herbal_tea-300x225.png 300w, ./wp-content/uploads/2021/07/herbal_tea-768x577.png 768w, ./wp-content/uploads/2021/07/herbal_tea-600x450.png 600w"
+                                                data-was-processed="true"/><noscript><img width="931" height="699"
+                                                    src="./wp-content/uploads/2021/07/herbal_tea.png"
+                                                    className="vc_single_image-img attachment-full"
+                                                    alt="plant based healthy herbal tea" loading="lazy"
+                                                    srcset="./wp-content/uploads/2021/07/herbal_tea.png 931w, ./wp-content/uploads/2021/07/herbal_tea-300x225.png 300w, ./wp-content/uploads/2021/07/herbal_tea-768x577.png 768w, ./wp-content/uploads/2021/07/herbal_tea-600x450.png 600w"
+                                                    sizes="(max-width: 931px) 100vw, 931px"/></noscript></a>
+                                    </figure>
+                                </div>
+                                <div className="wpb_single_image wpb_content_element vc_align_left">
+                                    <figure className="wpb_wrapper vc_figure">
+                                        <a href="https://hapitate.com/product-category/beverages/health-drinks/"
+                                            target="_self" className="vc_single_image-wrapper   vc_box_border_grey"><img
+                                                data-lazyloaded="1" src="./wp-content/uploads/2021/07/health_drinks.png"
+                                                width="931" height="698"
+                                                data-src="./wp-content/uploads/2021/07/health_drinks.png"
+                                                className="vc_single_image-img attachment-full litespeed-loaded"
+                                                alt="plant based health drinks" loading="lazy"
+                                                data-srcset="./wp-content/uploads/2021/07/health_drinks.png 931w, ./wp-content/uploads/2021/07/health_drinks-300x225.png 300w, ./wp-content/uploads/2021/07/health_drinks-768x576.png 768w, ./wp-content/uploads/2021/07/health_drinks-600x450.png 600w"
+                                                data-sizes="(max-width: 931px) 100vw, 931px"
+                                                sizes="(max-width: 931px) 100vw, 931px"
+                                                srcset="./wp-content/uploads/2021/07/health_drinks.png 931w, ./wp-content/uploads/2021/07/health_drinks-300x225.png 300w, ./wp-content/uploads/2021/07/health_drinks-768x576.png 768w, ./wp-content/uploads/2021/07/health_drinks-600x450.png 600w"
+                                                data-was-processed="true"/><noscript><img width="931" height="698"
+                                                    src="./wp-content/uploads/2021/07/health_drinks.png"
+                                                    className="vc_single_image-img attachment-full"
+                                                    alt="plant based health drinks" loading="lazy"
+                                                    srcset="./wp-content/uploads/2021/07/health_drinks.png 931w, ./wp-content/uploads/2021/07/health_drinks-300x225.png 300w, ./wp-content/uploads/2021/07/health_drinks-768x576.png 768w, ./wp-content/uploads/2021/07/health_drinks-600x450.png 600w"
+                                                    sizes="(max-width: 931px) 100vw, 931px"/></noscript></a>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<HealthProduct/>
         </Layout >
     )
 }
