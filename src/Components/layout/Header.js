@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Header() {
     return (
         <div className=" top-bar d-xl-block">
-            <div className=" container clearfix d-flex justify-content-between">
+            <div className=" container d-flex justify-content-between">
                 <ul id="menu-top-bar-left" className="nav nav-inline float-start electro-animate-dropdown flip py-2">
                     <li id="menu-item-3233" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-3233">
                         <Link title="Welcome to Your Healthy Appetite Store" to="/">Welcome to Your Healthy Appetite Store
@@ -101,9 +101,9 @@ function Header() {
                 </div >
             </div>
             <div className='container-fluid '>
-                <nav className="navbar navbar-dark  navbar-expand-lg" id="myNavbar">
+                <nav className="navbar navbar-dark   navbar-expand-lg" id="myNavbar">
 
-                    <ul className="navbar-nav  nav-fill">
+                    <ul className="navbar-nav container  nav-fill">
 
                         <li className="nav-item px-4 dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b> Breakfast</b></a>
@@ -448,7 +448,11 @@ function Header() {
                             </div>
                         </li>
                         <li className="nav-item px-4 dropdown">
+<<<<<<< HEAD
                             <a className="nav-link " href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>Kid’s Nutrition</b></a>
+=======
+                            <a className="nav-link " href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" style={{ whiteSpace: 'nowrap' }} aria-expanded="false">Kid’s Nutrition</a>
+>>>>>>> 255c52b10b93d9c8bee18ce1d083da54a7184c78
                         </li>
                         <li className="nav-item px-4 dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>Pet Lovers</b></a>
@@ -483,32 +487,32 @@ function Header() {
                                     </div>
                                 </div>
                                 <div class="vc_row wpb_row vc_row-fluid">
-                                <div class="wpb_column vc_column_container vc_col-sm-12">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper">
-                                            <div class="wpb_single_image wpb_content_element vc_align_left">
-                                                <figure class="wpb_wrapper vc_figure">
-                                                    <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                        <img data-lazyloaded="1" src="./wp-content/uploads/2021/07/layouts6.png" width="1153"
-                                                            height="124" data-src="./wp-content/uploads/2021/07/layouts6.png"
-                                                            class="vc_single_image-img attachment-full litespeed-loaded" alt="" loading="lazy"
-                                                            data-srcset="./wp-content/uploads/2021/07/layouts6.png 1153w, ./wp-content/uploads/2021/07/layouts6-300x32.png 300w, ./wp-content/uploads/2021/07/layouts6-1024x110.png 1024w, ./wp-content/uploads/2021/07/layouts6-768x83.png 768w, ./wp-content/uploads/2021/07/layouts6-600x65.png 600w"
-                                                            data-sizes="(max-width: 1153px) 100vw, 1153px" sizes="(max-width: 1153px) 100vw, 1153px"
-                                                            srcset="./wp-content/uploads/2021/07/layouts6.png 1153w, ./wp-content/uploads/2021/07/layouts6-300x32.png 300w, ./wp-content/uploads/2021/07/layouts6-1024x110.png 1024w, ./wp-content/uploads/2021/07/layouts6-768x83.png 768w, ./wp-content/uploads/2021/07/layouts6-600x65.png 600w"
-                                                            data-was-processed="true" /><noscript><img width="1153" height="124"
-                                                                src="./wp-content/uploads/2021/07/layouts6.png"
-                                                                class="vc_single_image-img attachment-full" alt="" loading="lazy"
+                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_single_image wpb_content_element vc_align_left">
+                                                    <figure class="wpb_wrapper vc_figure">
+                                                        <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                            <img data-lazyloaded="1" src="./wp-content/uploads/2021/07/layouts6.png" width="1153"
+                                                                height="124" data-src="./wp-content/uploads/2021/07/layouts6.png"
+                                                                class="vc_single_image-img attachment-full litespeed-loaded" alt="" loading="lazy"
+                                                                data-srcset="./wp-content/uploads/2021/07/layouts6.png 1153w, ./wp-content/uploads/2021/07/layouts6-300x32.png 300w, ./wp-content/uploads/2021/07/layouts6-1024x110.png 1024w, ./wp-content/uploads/2021/07/layouts6-768x83.png 768w, ./wp-content/uploads/2021/07/layouts6-600x65.png 600w"
+                                                                data-sizes="(max-width: 1153px) 100vw, 1153px" sizes="(max-width: 1153px) 100vw, 1153px"
                                                                 srcset="./wp-content/uploads/2021/07/layouts6.png 1153w, ./wp-content/uploads/2021/07/layouts6-300x32.png 300w, ./wp-content/uploads/2021/07/layouts6-1024x110.png 1024w, ./wp-content/uploads/2021/07/layouts6-768x83.png 768w, ./wp-content/uploads/2021/07/layouts6-600x65.png 600w"
-                                                                sizes="(max-width: 1153px) 100vw, 1153px" /></noscript>
-                                                    </div>
-                                                </figure>
+                                                                data-was-processed="true" /><noscript><img width="1153" height="124"
+                                                                    src="./wp-content/uploads/2021/07/layouts6.png"
+                                                                    class="vc_single_image-img attachment-full" alt="" loading="lazy"
+                                                                    srcset="./wp-content/uploads/2021/07/layouts6.png 1153w, ./wp-content/uploads/2021/07/layouts6-300x32.png 300w, ./wp-content/uploads/2021/07/layouts6-1024x110.png 1024w, ./wp-content/uploads/2021/07/layouts6-768x83.png 768w, ./wp-content/uploads/2021/07/layouts6-600x65.png 600w"
+                                                                    sizes="(max-width: 1153px) 100vw, 1153px" /></noscript>
+                                                        </div>
+                                                    </figure>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            </div>
-                            
+
                         </li>
                     </ul>
                 </nav>
