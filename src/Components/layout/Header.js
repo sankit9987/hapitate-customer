@@ -448,11 +448,8 @@ function Header() {
                             </div>
                         </li>
                         <li className="nav-item px-4 dropdown">
-<<<<<<< HEAD
                             <a className="nav-link " href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>Kid’s Nutrition</b></a>
-=======
-                            <a className="nav-link " href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" style={{ whiteSpace: 'nowrap' }} aria-expanded="false">Kid’s Nutrition</a>
->>>>>>> 255c52b10b93d9c8bee18ce1d083da54a7184c78
+                            {/* <a className="nav-link " href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" style={{ whiteSpace: 'nowrap' }} aria-expanded="false">Kid’s Nutrition</a> */}
                         </li>
                         <li className="nav-item px-4 dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>Pet Lovers</b></a>

@@ -4,6 +4,9 @@ import '../Components/layout/style/style.css';
 import FeaturedProductDetail from '../Components/layout/FeaturedProductDetail';
 import BestSeller from '../Components/layout/BestSeller';
 import HealthProduct from '../Components/layout/HealthProduct';
+import CategoryProduct from '../Components/layout/CategoryProduct';
+import MensProduct from '../Components/layout/MensProduct';
+import PetProduct from '../Components/layout/PetProduct';
 
 function Main() {
     return (
@@ -2371,7 +2374,7 @@ function Main() {
                 </div>
             </div>
             <BestSeller/>
-            <FeaturedProductDetail />
+            
             <div data-vc-full-width="true" data-vc-full-width-init="true" data-vc-stretch-content="true"
     className="vc_row wpb_row vc_row-fluid vc_custom_1627480599484 vc_row-has-fill"
     style={{position: "relative", left: "-31.5px", boxSizing: "border-box", width: "1263px"}}>
@@ -2503,6 +2506,10 @@ function Main() {
     </div>
 </div>
 <HealthProduct/>
+<CategoryProduct/>
+<MensProduct/>
+<PetProduct/>
+<FeaturedProductDetail />
         </Layout >
     )
 }
