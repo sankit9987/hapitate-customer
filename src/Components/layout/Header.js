@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Header() {
     return (
         <div className=" top-bar d-xl-block">
-            <div className=" container d-flex justify-content-between">
+            <div className=" container d-flex justify-content-between clearfix">
                 <ul id="menu-top-bar-left" className="nav nav-inline float-start electro-animate-dropdown flip py-2">
                     <li id="menu-item-3233" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-3233">
                         <Link title="Welcome to Your Healthy Appetite Store" to="/">Welcome to Your Healthy Appetite Store
@@ -41,6 +41,20 @@ function Header() {
                         <Link to="/" className="header-logo-link">
                             <img src="./assets/image/hapitate.png" alt="Hapitate" className="img-header-logo pl-3 ml-2 pt-3" width="100%" height="40" />
                         </Link>
+                        <div id="mobile" className='d-none'>
+                        <div className="header-icon header-icon__user-account dropdown animate-dropdown" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="My Account" data-bs-original-title="" title="">
+                            <Link className="dropdown-toggle" to="/my-account" data-bs-toggle="dropdown"><i className="fa fa-user-o" aria-hidden="true"></i></Link>
+                            
+                        </div>
+                        <div className="header-icon header-icon__cart animate-dropdown dropdown" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Cart" data-bs-original-title="" title="">
+                            <a className="dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                <i className="fa fa-shopping-bag" aria-hidden="true"></i>
+                                <span className="cart-items-count count header-icon-counter">0</span>
+                                <span className="cart-items-total-price total-price"><span className="woocommerce-Price-amount amount"><bdi><span className="woocommerce-Price-currencySymbol">₹</span>0.00</bdi></span></span>
+                            </a>
+                           
+                        </div>
+                        </div>
                     </div>
                     <div className="input-group col-lg-4 pt-2">
                         <div className=" input-search-field">

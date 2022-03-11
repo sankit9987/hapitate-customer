@@ -176,7 +176,25 @@ hr{
     }
         .header-logo-area{
             display: block !important;
-            
+         
+        }
+        .img-header-logo{
+            width: 89% !important;
+            height: 100%;
+            padding-top: 0 !important;
+        }
+        .header-logo-area .header-icons{
+            display: none !important;
+        }
+        .header-site-branding{
+            display: flex !important;
+            justify-content: space-between;
+        }
+        .text{
+            font-size: 245% !important;
+        }
+        #mobile{
+            display: flex !important;
         }
         #myNavbar{
             display: none;

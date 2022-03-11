@@ -23,8 +23,8 @@ function Main() {
                     <div className="carousel-item active " style={{ backgroundImage: `url("./assets/image/Slider-BG.jpg")`, backgroundSize: "cover", backgroundRepeat: "round" }}>
                         <div className='row'>
                             <div className='col-lg-7 justify-content-start'>
-                                <h3 className='text-muted' style={{ textAlign: "center", fontSize: "393%", fontWeight: "100" }}>Plant-Based</h3>
-                                <h1 style={{ textAlign: "center", fontSize: "393%" }}><b>Nutrition</b></h1>
+                                <h3 className='text-muted text' style={{ textAlign: "center", fontSize: "393%", fontWeight: "100" }}>Plant-Based</h3>
+                                <h1 style={{ textAlign: "center", fontSize: "393%" }} className='text'><b>Nutrition</b></h1>
                                 <img data-lazyloaded="1" src="//hapitate.com/wp-content/uploads/revslider/NewSlider/oziva.png" data-src="./wp-content/plugins/revslider/public/assets/assets/dummy.png" className="tp-rs-img rs-lazyload litespeed-loaded" width="709" height="283" data-lazyload="//hapitate.com/wp-content/uploads/revslider/NewSlider/oziva.png" data-no-retina="" data-was-processed="true" data-reference="//hapitate.com/wp-content/uploads/revslider/NewSlider/oziva.png" data-src-rs-ref="//hapitate.com/wp-content/uploads/revslider/NewSlider/oziva.png" style={{ position: "relative", height: " 100%", width: "100%" }} />
                             </div>
                             <div className='col-lg-5 justify-content-end pt-3'>
@@ -36,11 +36,11 @@ function Main() {
 
                         </div>
                     </div>
-                    <div className="carousel-item" style={{ backgroundImage: `url("./assets/image/Slider-BG.jpg")`, backgroundSize: "cover", backgroundRepeat: "round" }}>
+                    {/* <div className="carousel-item" style={{ backgroundImage: `url("./assets/image/Slider-BG.jpg")`, backgroundSize: "cover", backgroundRepeat: "round" }}>
                         <div className='row'>
                             <div className='col-lg-7 justify-content-start'>
-                                <h3 className='text-muted ' style={{ textAlign: "center", fontSize: "393%", fontWeight: "100" }}>Fiber Rich</h3>
-                                <h1 className="text-dark" style={{ textAlign: "center", fontSize: "393%" }}><b>Breakfast</b></h1>
+                                <h3 className='text-muted text' style={{ textAlign: "center", fontSize: "393%", fontWeight: "100" }}>Fiber Rich</h3>
+                                <h1 className="text-dark text" style={{ textAlign: "center", fontSize: "393%" }}><b>Breakfast</b></h1>
                                 <div className='d-flex justify-content-center'>
                                     <h3> <i className="fa fa-chevron-circle-right" aria-hidden="true"></i>High-Protein</h3>
                                     <h3 className="pl-2"><i className="fa fa-check-circle" aria-hidden="true"></i>Plant-Based</h3>
@@ -62,8 +62,8 @@ function Main() {
                     <div className="carousel-item" style={{ backgroundImage: `url("./assets/image/Slider-BG.jpg")`, backgroundSize: "cover", backgroundRepeat: "round" }}>
                         
                             <div className='justify-content-start'>
-                                <h5 className='text-cenetr ' style={{ textAlign: "center", fontSize: "268%", fontWeight: "500" }}><b>ISOLATES, SUPPLEMENTS, SUPERFOODS</b><br />
-                                <p className='text-right' style={{paddingRight: "17%",fontSize: "78%",fontWeight:"0",color:"#00df78"}}>FOR HEALTHY GOALS</p>
+                                <h5 className='text-cenetr text' style={{ textAlign: "center", fontSize: "268%", fontWeight: "500" }}><b>ISOLATES, SUPPLEMENTS, SUPERFOODS</b><br />
+                                <p className='text-right ' style={{paddingRight: "17%",fontSize: "78%",fontWeight:"0",color:"#00df78"}}>FOR HEALTHY GOALS</p>
                                 
                                 </h5>
                                 
@@ -75,7 +75,7 @@ function Main() {
 
                                 <img data-lazyloaded="1" src="//hapitate.com/wp-content/uploads/revslider/NewSlider/plantpower.png" data-src="./wp-content/plugins/revslider/public/assets/assets/dummy.png" className="tp-rs-img ml-5 rs-lazyload litespeed-loaded" width="1265" height="959" data-lazyload="//hapitate.com/wp-content/uploads/revslider/NewSlider/plantpower.png" data-no-retina="" data-was-processed="true" data-reference="//hapitate.com/wp-content/uploads/revslider/NewSlider/plantpower.png" data-src-rs-ref="//hapitate.com/wp-content/uploads/revslider/NewSlider/plantpower.png" style={{position: "relative", height: "38%",width: "43%",marginLeft:"8rem !important"}}/>
                                 </div>
-                        </div>
+                        </div> */}
                 </div>
 
                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
