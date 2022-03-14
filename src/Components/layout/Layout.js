@@ -1,12 +1,12 @@
 import React from "react";
 import Footer from "./Footer";
-import Header from "./Header";
+import Header2 from "./Header2";
 
 function Layout({ children }) {
     return (
         <div className="container-fluid">
             <div className="page-main">
-                <Header />
+                <Header2 />
 
                 <div className="wrapper">
                     {children}

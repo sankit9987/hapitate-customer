@@ -61342,9 +61342,9 @@ section.section-product-cards-carousel header ul.nav .active .nav-link {
 }
 
 .electro-navbar-primary .nav>.menu-item+.menu-item>a,
-.home-mobile-v2-features-block .features-list .feature+.feature .media {
+/* .home-mobile-v2-features-block .features-list .feature+.feature .media {
     border-left-color: var(--bs-ec-primary-d)
-}
+} */
 
 .header-v5 .vertical-menu .list-group-item>.dropdown-menu {
     border-top-color: var(--bs-ec-primary)

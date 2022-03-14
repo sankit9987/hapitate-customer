@@ -85,10 +85,10 @@ hr{
     padding: 0 5px;
 }
 
-.input-search-field{
+/* .input-search-field{
     min-width: 156%;
     padding-top: 2%;
-}
+} */
 #basic-addon1{
     background-color: #060632 ;
     color: white;
@@ -136,6 +136,9 @@ hr{
     display: none;
     
 }
+.electro-navbar-primary  .yamm .dropdown-toggle :hover{
+    background-color: #0b1c28;
+}
 .button{
     background-color: #0b1c28 !important;
     color: white !important;
@@ -163,6 +166,10 @@ hr{
 }
 .nav .active{
     background-color: #0b1c28 !important;
+}
+#header{
+    position: sticky;
+    top: 0;
 }
 @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{ display: none; }

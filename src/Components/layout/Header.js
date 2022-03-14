@@ -11,7 +11,7 @@ function Header() {
                         </Link>
                     </li>
                 </ul>
-                <ul id="menu-top-bar-right" className="nav nav-inline float-end py-2 electro-animate-dropdown flip">
+                <ul id="menu-top-bar-right" style={{marginRight: "-41%"}} className="nav nav-inline float-end py-2 electro-animate-dropdown flip">
                     <li id="menu-item-5596" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5596">
                         <a title="Shop" href="#">
                             <i className="fa fa-shopping-bag px-2" ></i>Shop
@@ -35,7 +35,7 @@ function Header() {
                 </ul>
             </div>
             <hr />
-            <div className='container'>
+            <div className='container' id="header">
                 <div className=" header-logo-area d-flex justify-content-between" style={{ marginBottom: "2%" }}>
                     <div className="header-site-branding col-lg-2" style={{ marginLeft: "-6%" }}>
                         <Link to="/" className="header-logo-link">
@@ -46,7 +46,7 @@ function Header() {
                             <Link className="dropdown-toggle" to="/my-account" data-bs-toggle="dropdown"><i className="fa fa-user-o" aria-hidden="true"></i></Link>
                             
                         </div>
-                        <div className="header-icon header-icon__cart animate-dropdown dropdown" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Cart" data-bs-original-title="" title="">
+                        <div className="header-icon header-icon__cart animate-dropdown dropdown" data-bs-toggle="tooltip"  data-bs-placement="bottom" data-bs-title="Cart" data-bs-original-title="" title="">
                             <a className="dropdown-toggle" href="#" data-bs-toggle="dropdown">
                                 <i className="fa fa-shopping-bag" aria-hidden="true"></i>
                                 <span className="cart-items-count count header-icon-counter">0</span>
@@ -56,7 +56,7 @@ function Header() {
                         </div>
                         </div>
                     </div>
-                    <div className="input-group col-lg-4 pt-2">
+                    <div className="input-group col-lg-4 pt-2" style={{marginRight: "4%"}}>
                         <div className=" input-search-field">
                             <div className="search input-group mb-3">
                                 <input type="text" className="form-control input" placeholder="Search for Healthy Products" name="email" style={{ border: '2px solid #060632' }} aria-label="Username" aria-describedby="basic-addon1" />
@@ -69,7 +69,7 @@ function Header() {
                         </div>
 
                     </div>
-                    <div className="header-icons col-auto d-flex justify-content-end align-items-center">
+                    <div className="header-icons col-auto d-flex justify-content-end align-items-center" style={{marginRight: "-6%"}}>
                         <div className="header-icon" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Compare" data-bs-original-title="" title="">
                             <Link to="/compare">
                                 <i className="fa fa-retweet" aria-hidden="true"></i>
@@ -99,7 +99,7 @@ function Header() {
                         </div>
                         <div className="header-icon header-icon__cart animate-dropdown dropdown" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Cart" data-bs-original-title="" title="">
                             <a className="dropdown-toggle" href="#" data-bs-toggle="dropdown">
-                                <i className="fa fa-shopping-bag" aria-hidden="true"></i>
+                            <i class="fa-solid fa-bag-shopping"></i>
                                 <span className="cart-items-count count header-icon-counter">0</span>
                                 <span className="cart-items-total-price total-price"><span className="woocommerce-Price-amount amount"><bdi><span className="woocommerce-Price-currencySymbol">₹</span>0.00</bdi></span></span>
                             </a>
@@ -117,7 +117,7 @@ function Header() {
             <div className='container-fluid '>
                 <nav className="navbar navbar-dark   navbar-expand-lg" id="myNavbar">
 
-                    <ul className="navbar-nav container  nav-fill">
+                    <ul className="navbar-nav   nav-fill">
 
                         <li className="nav-item px-4 dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b> Breakfast</b></a>
@@ -132,7 +132,7 @@ function Header() {
                                             <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>Cereals</a>
                                         </div>
                                         <div>
-                                            <img data-lazyloaded="1" src="./wp-content/uploads/2021/07/breakfast1-150x150.png" width="150" height="150" data-src="./wp-content/uploads/2021/07/breakfast1-150x150.png" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcSet="./wp-content/uploads/2021/07/breakfast1-150x150.png 150w, ./wp-content/uploads/2021/07/breakfast1-300x300.png 300w, ./wp-content/uploads/2021/07/breakfast1-100x100.png 100w, ./wp-content/uploads/2021/07/breakfast1.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcSet="./wp-content/uploads/2021/07/breakfast1-150x150.png 150w, ./wp-content/uploads/2021/07/breakfast1-300x300.png 300w, ./wp-content/uploads/2021/07/breakfast1-100x100.png 100w, ./wp-content/uploads/2021/07/breakfast1.png 500w" data-was-processed="true" />
+                                            <img data-lazyloaded="1" src="./assets/image/breakfast.png" width="150" height="150" data-src="../assets/image/breakfast.png" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcSet="./assets/image/breakfast.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcSet="./assets/image/breakfast.png 500w" data-was-processed="true" />
                                         </div>
                                     </div>
                                     <div className='py-4 d-flex'>
@@ -143,7 +143,7 @@ function Header() {
                                             <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>Nutty Magic</a>
                                         </div>
                                         <div>
-                                            <img data-lazyloaded="1" src="./wp-content/uploads/2021/07/breakfast2-150x150.png" width="150" height="150" data-src="./wp-content/uploads/2021/07/breakfast2-150x150.png" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcSet="./wp-content/uploads/2021/07/breakfast2-150x150.png 150w, ./wp-content/uploads/2021/07/breakfast2-300x300.png 300w, ./wp-content/uploads/2021/07/breakfast2-100x100.png 100w, ./wp-content/uploads/2021/07/breakfast2.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcSet="./wp-content/uploads/2021/07/breakfast2-150x150.png 150w, ./wp-content/uploads/2021/07/breakfast2-300x300.png 300w, ./wp-content/uploads/2021/07/breakfast2-100x100.png 100w, ./wp-content/uploads/2021/07/breakfast2.png 500w" data-was-processed="true" />
+                                            <img data-lazyloaded="1" src="./assets/image/breakfast2.png" width="150" height="150" data-src="./wp-content/uploads/2021/07/breakfast2-150x150.png" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcSet="./assets/image/breakfast2.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcSet="./assets/image/breakfast2.png 500w" data-was-processed="true" />
                                         </div>
                                     </div>
                                     <div className='py-4 d-flex'>
@@ -154,7 +154,7 @@ function Header() {
                                             <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Beverages</a>
                                         </div>
                                         <div>
-                                            <img data-lazyloaded="1" src="./wp-content/uploads/2021/07/breakfast3-150x150.png" width="150" height="150" data-src="./wp-content/uploads/2021/07/breakfast3-150x150.png" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcSet="./wp-content/uploads/2021/07/breakfast3-150x150.png 150w, ./wp-content/uploads/2021/07/breakfast3-300x300.png 300w, ./wp-content/uploads/2021/07/breakfast3-100x100.png 100w, ./wp-content/uploads/2021/07/breakfast3.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcSet="./wp-content/uploads/2021/07/breakfast3-150x150.png 150w, ./wp-content/uploads/2021/07/breakfast3-300x300.png 300w, ./wp-content/uploads/2021/07/breakfast3-100x100.png 100w, ./wp-content/uploads/2021/07/breakfast3.png 500w" data-was-processed="true" />
+                                            <img data-lazyloaded="1" src="./assets/image/breakfast3.png" width="150" height="150" data-src="./assets/image/breakfast3.png" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcSet="./assets/image/breakfast3.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcSet="./assets/image/breakfast3.png  500w" data-was-processed="true" />
                                         </div>
                                     </div>
                                 </div>
@@ -199,17 +199,17 @@ function Header() {
 
                                         </div>
                                         <div>
-                                            <img data-lazyloaded="1" src="./wp-content/uploads/2021/07/snack1-150x150.png" width="150" height="150" data-src="./wp-content/uploads/2021/07/snack1-150x150.png" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcSet="./wp-content/uploads/2021/07/snack1-150x150.png 150w, ./wp-content/uploads/2021/07/snack1-300x300.png 300w, ./wp-content/uploads/2021/07/snack1-100x100.png 100w, ./wp-content/uploads/2021/07/snack1.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcSet="./wp-content/uploads/2021/07/snack1-150x150.png 150w, ./wp-content/uploads/2021/07/snack1-300x300.png 300w, ./wp-content/uploads/2021/07/snack1-100x100.png 100w, ./wp-content/uploads/2021/07/snack1.png 500w" data-was-processed="true" />
+                                            <img data-lazyloaded="1" src="./assets/image/snack1.png" width="150" height="150" data-src="./assets/image/snack1.png" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcSet="./assets/image/snack1.png 150w, ./assets/image/snack1.png 300w, ./assets/image/snack1.png 100w, ./assets/image/snack1.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcSet="./assets/image/snack1.png 500w" data-was-processed="true" />
                                         </div>
                                     </div>
-                                    <div className='py-4 d-flex'>
+                                    <div className='py-4 d-flex px-3'>
                                         <div>
                                             <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Indian Mix</a>
                                             <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Puffs</a>
                                             <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Roasted Mix</a>
                                         </div>
                                         <div>
-                                            <img data-lazyloaded="1" src="./wp-content/uploads/2021/07/Snack2-150x150.png" width="150" height="150" data-src="./wp-content/uploads/2021/07/Snack2-150x150.png" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcSet="./wp-content/uploads/2021/07/Snack2-150x150.png 150w, ./wp-content/uploads/2021/07/Snack2-300x300.png 300w, ./wp-content/uploads/2021/07/Snack2-100x100.png 100w, ./wp-content/uploads/2021/07/Snack2.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcSet="./wp-content/uploads/2021/07/Snack2-150x150.png 150w, ./wp-content/uploads/2021/07/Snack2-300x300.png 300w, ./wp-content/uploads/2021/07/Snack2-100x100.png 100w, ./wp-content/uploads/2021/07/Snack2.png 500w" data-was-processed="true" />
+                                            <img data-lazyloaded="1" src="./assets/image/snack2.png" width="150" height="150" data-src="./assets/image/snack2.png" className=" vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcSet="./assets/image/snack2.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcSet="./assets/image/snack2.png 500w" data-was-processed="true" />
                                         </div>
                                     </div>
                                 </div>
@@ -253,7 +253,7 @@ function Header() {
                                             <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Plant Based</a>
                                         </div>
                                         <div>
-                                            <img data-lazyloaded="1" src="./wp-content/uploads/2021/07/Beverages-Final.png" width="1400" height="250" data-src="./wp-content/uploads/2021/07/Beverages-Final.png" className="vc_single_image-img attachment-full litespeed-loaded" alt="" loading="lazy" data-srcSet="./wp-content/uploads/2021/07/Beverages-Final.png 1400w, ./wp-content/uploads/2021/07/Beverages-Final-300x54.png 300w, ./wp-content/uploads/2021/07/Beverages-Final-1024x183.png 1024w, ./wp-content/uploads/2021/07/Beverages-Final-768x137.png 768w, ./wp-content/uploads/2021/07/Beverages-Final-600x107.png 600w" data-sizes="(max-width: 1400px) 100vw, 1400px" sizes="(max-width: 1400px) 100vw, 1400px" srcSet="./wp-content/uploads/2021/07/Beverages-Final.png 1400w, ./wp-content/uploads/2021/07/Beverages-Final-300x54.png 300w, ./wp-content/uploads/2021/07/Beverages-Final-1024x183.png 1024w, ./wp-content/uploads/2021/07/Beverages-Final-768x137.png 768w, ./wp-content/uploads/2021/07/Beverages-Final-600x107.png 600w" data-was-processed="true" />
+                                            <img data-lazyloaded="1" src="./assets/image/Beverages.png" width="1400" height="250" data-src="./assets/image/Beverages.png" className="vc_single_image-img attachment-full litespeed-loaded" alt="" loading="lazy" data-srcSet="./assets/image/Beverages.png 1024w, ./assets/image/Beverages.png 768w, ./assets/image/Beverages.png 600w" data-sizes="(max-width: 1400px) 100vw, 1400px" sizes="(max-width: 1400px) 100vw, 1400px" srcSet="./assets/image/Beverages.png 1400w, ./assets/image/Beverages.png 300w, ./assets/image/Beverages.png 1024w, ./assets/image/Beverages.png 768w, ./assets/image/Beverages.png 600w" data-was-processed="true" />
                                         </div>
                                     </div>
                                 </div>
@@ -291,7 +291,7 @@ function Header() {
                                 <div className="d-md-flex align-items-start justify-content-start">
                                     <div className='py-4 d-flex'>
                                         <div>
-                                            <img data-lazyloaded="1" src="./wp-content/uploads/2021/07/grocery1-150x150.png" width="150" height="150" data-src="./wp-content/uploads/2021/07/grocery1-150x150.png" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcSet="./wp-content/uploads/2021/07/grocery1-150x150.png 150w, ./wp-content/uploads/2021/07/grocery1-300x300.png 300w, ./wp-content/uploads/2021/07/grocery1-100x100.png 100w, ./wp-content/uploads/2021/07/grocery1.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcSet="./wp-content/uploads/2021/07/grocery1-150x150.png 150w, ./wp-content/uploads/2021/07/grocery1-300x300.png 300w, ./wp-content/uploads/2021/07/grocery1-100x100.png 100w, ./wp-content/uploads/2021/07/grocery1.png 500w" data-was-processed="true" />
+                                            <img data-lazyloaded="1" src="./assets/image/breakfast3.png" width="150" height="150" data-src="./assets/image/Grocery1.png" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcSet="./assets/image/Grocery1.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcSet="./assets/image/Grocery1.png 500w" data-was-processed="true" />
                                         </div>
                                         <div>
                                             <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Grains</a>
@@ -303,7 +303,7 @@ function Header() {
                                     </div>
                                     <div className='py-4 d-flex'>
                                         <div>
-                                            <img data-lazyloaded="1" src="./wp-content/uploads/2021/07/Grocery22-150x150.png" width="150" height="150" data-src="./wp-content/uploads/2021/07/Grocery22-150x150.png" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcSet="./wp-content/uploads/2021/07/Grocery22-150x150.png 150w, ./wp-content/uploads/2021/07/Grocery22-300x300.png 300w, ./wp-content/uploads/2021/07/Grocery22-100x100.png 100w, ./wp-content/uploads/2021/07/Grocery22.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcSet="./wp-content/uploads/2021/07/Grocery22-150x150.png 150w, ./wp-content/uploads/2021/07/Grocery22-300x300.png 300w, ./wp-content/uploads/2021/07/Grocery22-100x100.png 100w, ./wp-content/uploads/2021/07/Grocery22.png 500w" data-was-processed="true" />
+                                            <img data-lazyloaded="1" src="./assets/image/Grocery2.png" width="150" height="150" data-src="./assets/image/Grocery2.png" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcSet="./assets/image/Grocery2.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcSet="./assets/image/Grocery2.png 500w" data-was-processed="true" />
                                         </div>
                                         <div>
                                             <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Desi Ghee</a>
@@ -315,7 +315,7 @@ function Header() {
                                     </div>
                                     <div className='py-4 d-flex'>
                                         <div>
-                                            <img data-lazyloaded="1" src="./wp-content/uploads/2021/07/Grocery3-150x150.png" width="150" height="150" data-src="./wp-content/uploads/2021/07/Grocery3-150x150.png" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcSet="./wp-content/uploads/2021/07/Grocery3-150x150.png 150w, ./wp-content/uploads/2021/07/Grocery3-300x300.png 300w, ./wp-content/uploads/2021/07/Grocery3-100x100.png 100w, ./wp-content/uploads/2021/07/Grocery3.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcSet="./wp-content/uploads/2021/07/Grocery3-150x150.png 150w, ./wp-content/uploads/2021/07/Grocery3-300x300.png 300w, ./wp-content/uploads/2021/07/Grocery3-100x100.png 100w, ./wp-content/uploads/2021/07/Grocery3.png 500w" data-was-processed="true" />
+                                            <img data-lazyloaded="1" src="./assets/image/Grocery2.png" width="150" height="150" data-src="./assets/image/Grocery2.png" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcSet="./assets/image/Grocery2.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcSet="./assets/image/Grocery2.png 500w" data-was-processed="true" />
                                         </div>
                                         <div>
                                             <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i> Sugar Replacements</a>
@@ -366,7 +366,7 @@ function Header() {
                                             <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>  Trail Mix </a>
                                         </div>
                                         <div>
-                                            <img data-lazyloaded="1" src="./wp-content/uploads/2021/07/Superfoodsfinal.png" width="1400" height="250" data-src="./wp-content/uploads/2021/07/Superfoodsfinal.png" className="vc_single_image-img attachment-full litespeed-loaded" alt="" loading="lazy" data-srcSet="./wp-content/uploads/2021/07/Superfoodsfinal.png 1400w, ./wp-content/uploads/2021/07/Superfoodsfinal-300x54.png 300w, ./wp-content/uploads/2021/07/Superfoodsfinal-1024x183.png 1024w, ./wp-content/uploads/2021/07/Superfoodsfinal-768x137.png 768w, ./wp-content/uploads/2021/07/Superfoodsfinal-600x107.png 600w" data-sizes="(max-width: 1400px) 100vw, 1400px" sizes="(max-width: 1400px) 100vw, 1400px" srcSet="./wp-content/uploads/2021/07/Superfoodsfinal.png 1400w, ./wp-content/uploads/2021/07/Superfoodsfinal-300x54.png 300w, ./wp-content/uploads/2021/07/Superfoodsfinal-1024x183.png 1024w, ./wp-content/uploads/2021/07/Superfoodsfinal-768x137.png 768w, ./wp-content/uploads/2021/07/Superfoodsfinal-600x107.png 600w" data-was-processed="true" />
+                                            <img data-lazyloaded="1" src="./assets/image/Superfoods.png" width="1400" height="250" data-src="./assets/image/Superfoods.png" className="vc_single_image-img attachment-full litespeed-loaded" alt="" loading="lazy" data-srcSet="./assets/image/Superfoods.png 1400w,./assets/image/Superfoods.png 300w, ./assets/image/Superfoods.png 1024w, ./assets/image/Superfoods.png 768w, ./assets/image/Superfoods.png 600w" data-sizes="(max-width: 1400px) 100vw, 1400px" sizes="(max-width: 1400px) 100vw, 1400px" srcSet="./assets/image/Superfoods.png 1400w,./assets/image/Superfoods.png 300w, ./assets/image/Superfoods.png 1024w, ./assets/image/Superfoods.png 768w, ./assets/image/Superfoods.png 600w" data-was-processed="true" />
                                         </div>
                                     </div>
                                 </div>

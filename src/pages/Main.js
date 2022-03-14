@@ -36,7 +36,7 @@ function Main() {
 
                         </div>
                     </div>
-                    {/* <div className="carousel-item" style={{ backgroundImage: `url("./assets/image/Slider-BG.jpg")`, backgroundSize: "cover", backgroundRepeat: "round" }}>
+                 <div className="carousel-item" style={{ backgroundImage: `url("./assets/image/Slider-BG.jpg")`, backgroundSize: "cover", backgroundRepeat: "round" }}>
                         <div className='row'>
                             <div className='col-lg-7 justify-content-start'>
                                 <h3 className='text-muted text' style={{ textAlign: "center", fontSize: "393%", fontWeight: "100" }}>Fiber Rich</h3>
@@ -75,7 +75,7 @@ function Main() {
 
                                 <img data-lazyloaded="1" src="//hapitate.com/wp-content/uploads/revslider/NewSlider/plantpower.png" data-src="./wp-content/plugins/revslider/public/assets/assets/dummy.png" className="tp-rs-img ml-5 rs-lazyload litespeed-loaded" width="1265" height="959" data-lazyload="//hapitate.com/wp-content/uploads/revslider/NewSlider/plantpower.png" data-no-retina="" data-was-processed="true" data-reference="//hapitate.com/wp-content/uploads/revslider/NewSlider/plantpower.png" data-src-rs-ref="//hapitate.com/wp-content/uploads/revslider/NewSlider/plantpower.png" style={{position: "relative", height: "38%",width: "43%",marginLeft:"8rem !important"}}/>
                                 </div>
-                        </div> */}
+                        </div> 
                 </div>
 
                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -97,7 +97,7 @@ function Main() {
                                 <div className="feature">
                                     <div className="media">
                                         <div className="media-left media-middle feature-icon">
-                                            <i className="ec ec-tag"></i>
+                                        <i class="fa-solid fa-tag" style={{color:"#c7c6c6"}}></i>
                                         </div>
                                         <div className="media-body media-middle feature-text">
                                             <strong>Only Best</strong> Brands
@@ -117,7 +117,7 @@ function Main() {
                                 <div className="feature">
                                     <div className="media">
                                         <div className="media-left media-middle feature-icon">
-                                            <i className="ec ec-payment"></i>
+                                        <i class="fa-solid fa-shield-exclamation" style={{color:"#c7c6c6"}}></i>
                                         </div>
                                         <div className="media-body media-middle feature-text">
                                             <strong>Secured</strong> Payment System
@@ -127,7 +127,7 @@ function Main() {
                                 <div className="feature">
                                     <div className="media">
                                         <div className="media-left media-middle feature-icon">
-                                            <i className="ec ec-returning"></i>
+                                        <i class="fa-solid fa-arrow-rotate-left" style={{color:"#c7c6c6"}}></i>
                                         </div>
                                         <div className="media-body media-middle feature-text">
                                             <strong>Easy &amp; Free</strong>Return Policy
@@ -137,7 +137,7 @@ function Main() {
                                 <div className="feature">
                                     <div className="media">
                                         <div className="media-left media-middle feature-icon">
-                                            <i className="ec ec-transport"></i>
+                                        <i class="fa-solid fa-truck-fast" style={{color:"#c7c6c6"}}></i>
                                         </div>
                                         <div className="media-body media-middle feature-text">
                                             Feedbacks<strong>Free Delivery</strong> from ₹ 499</div>
@@ -150,7 +150,7 @@ function Main() {
             </div>
             <div data-vc-full-width="true" data-vc-full-width-init="true" data-vc-stretch-content="true"
                 className="vc_row wpb_row container pt-2 pr-5"
-                style={{ position: "relative", left: "-29.5px", boxSizing: "border-box", width: "1158px" }}>
+                style={{ position: "relative",  boxSizing: "border-box", width: "100vw" }}>
                 <div className="col-xs-12 col-lg-4 col-sm-6 wpb_column vc_column_container vc_col-sm-4">
                     <div className="vc_column-inner">
                         <div className="wpb_wrapper">
