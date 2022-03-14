@@ -14,7 +14,7 @@ const temp = {
     user_type: "Customer"
 }
 function MyAccount() {
-    const user = useState((state) => state.auth);
+    const user = useSelector((state) => state.auth);
     const [values, setValues] = useState(temp)
     const history = useNavigate()
 
@@ -165,11 +165,11 @@ function MyAccount() {
                     </div >
                 </div >
             </div >
-            </Layout >
-//         </div >
-//     </div >
-// </div >
-  )
+        </Layout >
+        //         </div >
+        //     </div >
+        // </div >
+    )
 }
 
 export default MyAccount
