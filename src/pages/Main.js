@@ -7,6 +7,7 @@ import HealthProduct from '../Components/layout/HealthProduct';
 import CategoryProduct from '../Components/layout/CategoryProduct';
 import MensProduct from '../Components/layout/MensProduct';
 import PetProduct from '../Components/layout/PetProduct';
+import './main.css'
 
 function Main() {
     return (
@@ -31,7 +32,7 @@ function Main() {
                                 <h1 style={{ fontWeight: "100", margin: "0" }} className="d-flex"><i className="fa fa-chevron-circle-right " style={{ fontSize: "55%" }} aria-hidden="true"></i><p className="px-2" style={{ fontSize: "40%" }}>Better Metabolism</p></h1>
                                 <h1 style={{ fontWeight: "100", margin: "0" }} className="d-flex"><i className="fa fa-chevron-circle-right" style={{ fontSize: "55%" }} aria-hidden="true"></i><p className="px-2" style={{ fontSize: "40%" }}>Better Immunity</p></h1>
                                 <h1 style={{ fontWeight: "100", margin: "0" }} className="d-flex"><i className="fa fa-chevron-circle-right" style={{ fontSize: "55%" }} aria-hidden="true"></i><p className="px-2" style={{ fontSize: "40%" }}>Better Strength</p></h1>
-                                <p className='mx-5'><button><b>START BUYING <i className="fa fa-angle-right mx-3 " aria-hidden="true"></i></b></button></p>
+                                <p className='mx-5'><button className='bforbuy'><b>START BUYING <i className="fa fa-angle-right mx-3 " aria-hidden="true"></i></b></button></p>
                             </div>
 
                         </div>
@@ -45,7 +46,8 @@ function Main() {
                                     <h3> <i className="fa fa-chevron-circle-right" aria-hidden="true"></i>High-Protein</h3>
                                     <h3 className="pl-2"><i className="fa fa-check-circle" aria-hidden="true"></i>Plant-Based</h3>
                                 </div>
-                                <p className='mx-5 text-center py-5'><button><b>START BUYING </b></button></p>
+                                <p className='mx-5 text-center py-5'>
+                                <button className='bforbuy'><b>START BUYING <i className="fa fa-angle-right mx-3 " aria-hidden="true"></i></b></button></p>
 
                             </div>
                             <div className='col-lg-5 justify-content-end pt-3'>
@@ -67,7 +69,7 @@ function Main() {
                                 
                                 </h5>
                                 
-                                <p className='mx-5 text-center py-5' style={{    position: "absolute",zIndex: "99", paddingLeft: "42%", top: "74%"}}><button style={{backgroundColor:"#00df78"}}><b>START BUYING </b></button></p>
+                                <p className='mx-5 text-center py-5' style={{position: "absolute", paddingLeft: "42%", top: "74%"}}><button className='bforbuy'><b>START BUYING </b></button></p>
 
                             </div>
                                 <div className='d-flex'>
@@ -83,7 +85,7 @@ function Main() {
                     <span className="sr-only">Previous</span>
                 </a>
                 <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span cla ssName="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="sr-only">Next</span>
                 </a>
             </div>
@@ -151,7 +153,7 @@ function Main() {
             <div data-vc-full-width="true" data-vc-full-width-init="true" data-vc-stretch-content="true"
                 className="vc_row wpb_row container pt-2 pr-5"
                 style={{ position: "relative",  boxSizing: "border-box", width: "100vw" }}>
-                <div className="col-xs-12 col-lg-4 col-sm-6 wpb_column vc_column_container vc_col-sm-4">
+                <div className="col-xs-12 col-lg-4 wpb_column vc_column_container vc_col-sm-4">
                     <div className="vc_column-inner">
                         <div className="wpb_wrapper">
                             <div
@@ -251,9 +253,9 @@ function Main() {
                                         <div className="wpb_wrapper">
                                             <div className="home-vertical-nav departments-menu-v2">
                                                 <div className="dropdown show-dropdown">
-                                                    <div className="vertical-menu-title departments-menu-v2-title">
+                                                    <div className="vertical-menu-title departments-menu-v2-title vertical_menu">
                                                         <span className="title">Organic Breakfast For Energetic Day.</span>
-                                                        <a href="#">View All</a>
+                                                        <a href="#" className="title">View All</a>
                                                     </div>
                                                     <ul id="menu-breakfast" className="yamm dropdown-menu">
                                                         <li id="menu-item-7645"
@@ -312,7 +314,7 @@ function Main() {
                                                     <a href="#" target="_blank"
                                                         className="vc_single_image-wrapper   vc_box_border_grey"><img
                                                             data-lazyloaded="1"
-                                                            src="./wp-content/uploads/2021/07/verticalreadytoeat_breakfast.png"
+                                                            src="https://hapitate.com/wp-content/uploads/2021/07/verticalreadytoeat_breakfast.png" 
                                                             width="301" height="433"
                                                             data-src="./wp-content/uploads/2021/07/verticalreadytoeat_breakfast.png"
                                                             className="vc_single_image-img attachment-full litespeed-loaded"
@@ -342,23 +344,23 @@ function Main() {
                             <div className="products-carousel-tabs">
                                 <ul className="nav nav-inline" style={{ marginLeft: "0px" }}>
                                     <li className="nav-item">
-                                        <a className="nav-link active" href="#home-tab-61d54c0aba765-0" data-bs-toggle="tab">
+                                        <a className="navlink" href="#home-tab-61d54c0aba765-0" data-bs-toggle="tab">
                                             Granola </a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#home-tab-61d54c0aba765-1" data-bs-toggle="tab">
+                                        <a className="navlink" href="#home-tab-61d54c0aba765-1" data-bs-toggle="tab">
                                             Muesli </a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#home-tab-61d54c0aba765-2" data-bs-toggle="tab">
+                                        <a className="navlink" href="#home-tab-61d54c0aba765-2" data-bs-toggle="tab">
                                             Amaranth </a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#home-tab-61d54c0aba765-3" data-bs-toggle="tab">
+                                        <a className="navlink" href="#home-tab-61d54c0aba765-3" data-bs-toggle="tab">
                                             Quinoa </a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#home-tab-61d54c0aba765-4" data-bs-toggle="tab">
+                                        <a className="navlink" href="#home-tab-61d54c0aba765-4" data-bs-toggle="tab">
                                             Porridge </a>
                                     </li>
                                 </ul>
@@ -601,11 +603,11 @@ function Main() {
                                                                         data-bs-toggle="tooltip" data-bs-title="Add to cart"
                                                                         data-bs-original-title="" title=""><a
                                                                             href="#" data-quantity="1"
-                                                                            className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                            
                                                                             data-product_id="5736"
                                                                             data-product_sku="D02-1-1-1-1-1-1-1-2-1-1-1-1-1-1-1"
                                                                             aria-label="Add “Roasted Mix (Copy)” to your cart"
-                                                                            rel="nofollow">Add to cart</a></div>
+                                                                            rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                                 </div>
                                                                 <div className="hover-area">
                                                                     <div className="action-buttons">
@@ -732,11 +734,11 @@ function Main() {
                                                                         data-bs-toggle="tooltip" data-bs-title="Add to cart"
                                                                         data-bs-original-title="" title=""><a
                                                                             href="#" data-quantity="1"
-                                                                            className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                           
                                                                             data-product_id="5735"
                                                                             data-product_sku="D02-1-1-1-1-1-1-1-2-1-1-1-1-1-1"
                                                                             aria-label="Add “Roasted Mix” to your cart"
-                                                                            rel="nofollow">Add to cart</a></div>
+                                                                            rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                                 </div>
                                                                 <div className="hover-area">
                                                                     <div className="action-buttons">
@@ -1406,7 +1408,7 @@ function Main() {
                                                                             data-product_id="5736"
                                                                             data-product_sku="D02-1-1-1-1-1-1-1-2-1-1-1-1-1-1-1"
                                                                             aria-label="Add “Roasted Mix (Copy)” to your cart"
-                                                                            rel="nofollow">Add to cart</a></div>
+                                                                            rel="nofollow">Add to cart<i class="fa-solid fa-bag-shopping"></i></a></div>
                                                                 </div>
                                                                 <div className="hover-area">
                                                                     <div className="action-buttons">
@@ -2206,7 +2208,7 @@ function Main() {
                                                                             data-product_id="5736"
                                                                             data-product_sku="D02-1-1-1-1-1-1-1-2-1-1-1-1-1-1-1"
                                                                             aria-label="Add “Roasted Mix (Copy)” to your cart"
-                                                                            rel="nofollow">Add to cart</a></div>
+                                                                            rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                                 </div>
                                                                 <div className="hover-area">
                                                                     <div className="action-buttons">
@@ -2336,7 +2338,7 @@ function Main() {
                                                                             data-product_id="5735"
                                                                             data-product_sku="D02-1-1-1-1-1-1-1-2-1-1-1-1-1-1"
                                                                             aria-label="Add “Roasted Mix” to your cart"
-                                                                            rel="nofollow">Add to cart</a></div>
+                                                                            rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                                 </div>
                                                                 <div className="hover-area">
                                                                     <div className="action-buttons">

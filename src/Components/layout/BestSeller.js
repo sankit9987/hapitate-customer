@@ -99,13 +99,13 @@ function BestSeller() {
                                                                 <del><span className="woocommerce-Price-amount amount"><bdi><span
                                                                                 className="woocommerce-Price-currencySymbol">₹</span>599.00</bdi></span></del></span></span>
                                                         <div className="add-to-cart-wrap show-in-mobile"
-                                                            data-bs-toggle="tooltip" data-bs-title="Add to cart"
-                                                            data-bs-original-title="" title=""><a
+                                                            data-bs-toggle="tooltip" data-bs-title=""
+                                                            data-bs-original-title="" title=""><a 
                                                                 href="#" data-quantity="1"
-                                                                className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                
                                                                 data-product_id="7763" data-product_sku="vedavicSKU"
                                                                 aria-label="Add “vedavic” to your cart"
-                                                                rel="nofollow">Add to cart</a></div>
+                                                                rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                     </div>
                                                     <div className="hover-area">
                                                         <div className="action-buttons">
@@ -125,8 +125,9 @@ function BestSeller() {
                                                                 </div>
                                                             </div>
                                                             <a href="#"
-                                                                className="add-to-compare-link"
-                                                                data-product_id="7763">Compare</a>
+                                                                
+                                                                data-product_id="7763"><i class="fa fa-retweet" aria-hidden="true"></i>
+                                                                Compare</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -216,14 +217,14 @@ function BestSeller() {
                                                                 <del><span className="woocommerce-Price-amount amount"><bdi><span
                                                                                 className="woocommerce-Price-currencySymbol">₹</span>399.00</bdi></span></del></span></span>
                                                         <div className="add-to-cart-wrap show-in-mobile"
-                                                            data-bs-toggle="tooltip" data-bs-title="Add to cart"
+                                                            data-bs-toggle="tooltip" data-bs-title=""
                                                             data-bs-original-title="" title=""><a
                                                                 href="#" data-quantity="1"
-                                                                className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                
                                                                 data-product_id="5755"
                                                                 data-product_sku="D3-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1"
                                                                 aria-label="Add “Trail Mix (Copy)” to your cart"
-                                                                rel="nofollow">Add to cart</a></div>
+                                                                rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                     </div>
                                                     <div className="hover-area">
                                                         <div className="action-buttons">
@@ -243,8 +244,9 @@ function BestSeller() {
                                                                 </div>
                                                             </div>
                                                             <a href="#"
-                                                                className="add-to-compare-link"
-                                                                data-product_id="5755">Compare</a>
+                                                                
+                                                                data-product_id="7763"><i class="fa fa-retweet" aria-hidden="true"></i>
+                                                                Compare</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -334,14 +336,14 @@ function BestSeller() {
                                                                 <del><span className="woocommerce-Price-amount amount"><bdi><span
                                                                                 className="woocommerce-Price-currencySymbol">₹</span>399.00</bdi></span></del></span></span>
                                                         <div className="add-to-cart-wrap show-in-mobile"
-                                                            data-bs-toggle="tooltip" data-bs-title="Add to cart"
+                                                            data-bs-toggle="tooltip" data-bs-title=""
                                                             data-bs-original-title="" title=""><a
                                                                 href="#" data-quantity="1"
-                                                                className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                
                                                                 data-product_id="5754"
                                                                 data-product_sku="D3-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1"
                                                                 aria-label="Add “Trail Mix (Copy)” to your cart"
-                                                                rel="nofollow">Add to cart</a></div>
+                                                                rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                     </div>
                                                     <div className="hover-area">
                                                         <div className="action-buttons">
@@ -361,8 +363,9 @@ function BestSeller() {
                                                                 </div>
                                                             </div>
                                                             <a href="#"
-                                                                className="add-to-compare-link"
-                                                                data-product_id="5754">Compare</a>
+                                                                
+                                                                data-product_id="7763"><i class="fa fa-retweet" aria-hidden="true"></i>
+                                                                Compare</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -449,14 +452,14 @@ function BestSeller() {
                                                                 <del><span className="woocommerce-Price-amount amount"><bdi><span
                                                                                 className="woocommerce-Price-currencySymbol">₹</span>399.00</bdi></span></del></span></span>
                                                         <div className="add-to-cart-wrap show-in-mobile"
-                                                            data-bs-toggle="tooltip" data-bs-title="Add to cart"
+                                                            data-bs-toggle="tooltip" data-bs-title=""
                                                             data-bs-original-title="" title=""><a
                                                                 href="#" data-quantity="1"
-                                                                className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                
                                                                 data-product_id="5753"
                                                                 data-product_sku="D3-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1"
                                                                 aria-label="Add “Trail Mix” to your cart"
-                                                                rel="nofollow">Add to cart</a></div>
+                                                                rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                     </div>
                                                     <div className="hover-area">
                                                         <div className="action-buttons">
@@ -475,9 +478,10 @@ function BestSeller() {
                                                                     </a>
                                                                 </div>
                                                             </div>
-                                                            <a href="#"
-                                                                className="add-to-compare-link"
-                                                                data-product_id="5753">Compare</a>
+                                                           <a href="#"
+                                                                
+                                                                data-product_id="7763"><i class="fa fa-retweet" aria-hidden="true"></i>
+                                                                Compare</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -531,7 +535,8 @@ function BestSeller() {
                                                                 <span
                                                                     className="wcfmmp_sold_by_label">Store:&nbsp;</span><img
                                                                     data-lazyloaded="1"
-                                                                    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIiB2aWV3Qm94PSIwIDAgMzAwIDMwMCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0iI2NmZDRkYiIvPjwvc3ZnPg=="
+                                                                width="300" height="300"
                                                                     className="wcfmmp_sold_by_logo"
                                                                     data-src="https://hapitate.com/wp-content/plugins/wc-frontend-manager/assets/images/wcfmmp-blue.png"/><noscript><img
                                                                         className="wcfmmp_sold_by_logo"
@@ -564,14 +569,14 @@ function BestSeller() {
                                                                 <del><span className="woocommerce-Price-amount amount"><bdi><span
                                                                                 className="woocommerce-Price-currencySymbol">₹</span>399.00</bdi></span></del></span></span>
                                                         <div className="add-to-cart-wrap show-in-mobile"
-                                                            data-bs-toggle="tooltip" data-bs-title="Add to cart"
+                                                            data-bs-toggle="tooltip" data-bs-title=""
                                                             data-bs-original-title="" title=""><a
                                                                 href="#" data-quantity="1"
-                                                                className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                
                                                                 data-product_id="5752"
                                                                 data-product_sku="D3-1-1-1-1-1-1-1-1-1-1-1-1-1-1"
                                                                 aria-label="Add “Super Seeds” to your cart"
-                                                                rel="nofollow">Add to cart</a></div>
+                                                                rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                     </div>
                                                     <div className="hover-area">
                                                         <div className="action-buttons">
@@ -591,8 +596,9 @@ function BestSeller() {
                                                                 </div>
                                                             </div>
                                                             <a href="#"
-                                                                className="add-to-compare-link"
-                                                                data-product_id="5752">Compare</a>
+                                                                
+                                                                data-product_id="7763"><i class="fa fa-retweet" aria-hidden="true"></i>
+                                                                Compare</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -679,14 +685,14 @@ function BestSeller() {
                                                                 <del><span className="woocommerce-Price-amount amount"><bdi><span
                                                                                 className="woocommerce-Price-currencySymbol">₹</span>399.00</bdi></span></del></span></span>
                                                         <div className="add-to-cart-wrap show-in-mobile"
-                                                            data-bs-toggle="tooltip" data-bs-title="Add to cart"
+                                                            data-bs-toggle="tooltip" data-bs-title=""
                                                             data-bs-original-title="" title=""><a
                                                                 href="#" data-quantity="1"
-                                                                className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                
                                                                 data-product_id="5751"
                                                                 data-product_sku="D3-1-1-1-1-1-1-1-1-1-1-1-1-1"
                                                                 aria-label="Add “Protein Bars” to your cart"
-                                                                rel="nofollow">Add to cart</a></div>
+                                                                rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                     </div>
                                                     <div className="hover-area">
                                                         <div className="action-buttons">
@@ -706,8 +712,9 @@ function BestSeller() {
                                                                 </div>
                                                             </div>
                                                             <a href="#"
-                                                                className="add-to-compare-link"
-                                                                data-product_id="5751">Compare</a>
+                                                                
+                                                                data-product_id="7763"><i class="fa fa-retweet" aria-hidden="true"></i>
+                                                                Compare</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -791,14 +798,14 @@ function BestSeller() {
                                                                     className="woocommerce-Price-amount amount"><bdi><span
                                                                             className="woocommerce-Price-currencySymbol">₹</span>399.00</bdi></span></span></span>
                                                         <div className="add-to-cart-wrap show-in-mobile"
-                                                            data-bs-toggle="tooltip" data-bs-title="Add to cart"
+                                                            data-bs-toggle="tooltip" data-bs-title=""
                                                             data-bs-original-title="" title=""><a
                                                                 href="#" data-quantity="1"
-                                                                className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                
                                                                 data-product_id="5750"
                                                                 data-product_sku="D3-1-1-1-1-1-1-1-1-1-1-1-1"
                                                                 aria-label="Add “Fruits &amp; Berries” to your cart"
-                                                                rel="nofollow">Add to cart</a></div>
+                                                                rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                     </div>
                                                     <div className="hover-area">
                                                         <div className="action-buttons">
@@ -818,8 +825,9 @@ function BestSeller() {
                                                                 </div>
                                                             </div>
                                                             <a href="#"
-                                                                className="add-to-compare-link"
-                                                                data-product_id="5750">Compare</a>
+                                                                
+                                                                data-product_id="7763"><i class="fa fa-retweet" aria-hidden="true"></i>
+                                                                Compare</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -907,14 +915,14 @@ function BestSeller() {
                                                                 <del><span className="woocommerce-Price-amount amount"><bdi><span
                                                                                 className="woocommerce-Price-currencySymbol">₹</span>399.00</bdi></span></del></span></span>
                                                         <div className="add-to-cart-wrap show-in-mobile"
-                                                            data-bs-toggle="tooltip" data-bs-title="Add to cart"
+                                                            data-bs-toggle="tooltip" data-bs-title=""
                                                             data-bs-original-title="" title=""><a
                                                                 href="#" data-quantity="1"
-                                                                className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                
                                                                 data-product_id="5730"
                                                                 data-product_sku="D02-1-1-1-1-1-1-1-2-1"
                                                                 aria-label="Add “Spreads &amp; Dips” to your cart"
-                                                                rel="nofollow">Add to cart</a></div>
+                                                                rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                     </div>
                                                     <div className="hover-area">
                                                         <div className="action-buttons">
@@ -934,8 +942,9 @@ function BestSeller() {
                                                                 </div>
                                                             </div>
                                                             <a href="#"
-                                                                className="add-to-compare-link"
-                                                                data-product_id="5730">Compare</a>
+                                                                
+                                                                data-product_id="7763"><i class="fa fa-retweet" aria-hidden="true"></i>
+                                                                Compare</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1054,15 +1063,15 @@ function BestSeller() {
                                                                             className="woocommerce-Price-amount amount"><bdi><span
                                                                                     className="woocommerce-Price-currencySymbol">₹</span>399.00</bdi></span></del></span></span>
                                                             <div className="add-to-cart-wrap show-in-mobile"
-                                                                data-bs-toggle="tooltip" data-bs-title="Add to cart"
+                                                                data-bs-toggle="tooltip" data-bs-title=""
                                                                 data-bs-original-title="" title=""><a
                                                                     href="#"
                                                                     data-quantity="1"
-                                                                    className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                    
                                                                     data-product_id="5729"
                                                                     data-product_sku="D02-1-1-1-1-1-1-1-2"
                                                                     aria-label="Add “Ready to Eat” to your cart"
-                                                                    rel="nofollow">Add to cart</a></div>
+                                                                    rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1083,8 +1092,9 @@ function BestSeller() {
                                                             </div>
                                                         </div>
                                                         <a href="#"
-                                                            className="add-to-compare-link"
-                                                            data-product_id="5729">Compare</a>
+                                                                
+                                                                data-product_id="7763"><i class="fa fa-retweet" aria-hidden="true"></i>
+                                                                Compare</a>
                                                     </div>
                                                 </div>
                                             </div>

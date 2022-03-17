@@ -37,7 +37,7 @@ function Header() {
             <hr />
             <div className='container' id="header">
                 <div className=" header-logo-area d-flex justify-content-between" style={{ marginBottom: "2%" }}>
-                    <div className="header-site-branding col-lg-2" style={{ marginLeft: "-6%" }}>
+                    <div className="header-site-branding"style={{marginLeft:"-20px"}}>
                         <Link to="/" className="header-logo-link">
                             <img src="./assets/image/hapitate.png" alt="Hapitate" className="img-header-logo pl-3 ml-2 pt-3" width="100%" height="40" />
                         </Link>
@@ -49,7 +49,7 @@ function Header() {
                         <div className="header-icon header-icon__cart animate-dropdown dropdown" data-bs-toggle="tooltip"  data-bs-placement="bottom" data-bs-title="Cart" data-bs-original-title="" title="">
                             <a className="dropdown-toggle" href="#" data-bs-toggle="dropdown">
                                 <i className="fa fa-shopping-bag" aria-hidden="true"></i>
-                                <span className="cart-items-count count header-icon-counter">0</span>
+                                <span class="cart-items-count count header-icon-counter">1</span>
                                 <span className="cart-items-total-price total-price"><span className="woocommerce-Price-amount amount"><bdi><span className="woocommerce-Price-currencySymbol">₹</span>0.00</bdi></span></span>
                             </a>
                            
@@ -57,7 +57,7 @@ function Header() {
                         </div>
                     </div>
                     <div className="input-group col-lg-4 pt-2" style={{marginRight: "4%"}}>
-                        <div className=" input-search-field">
+                        <div className="input-search-field">
                             <div className="search input-group mb-3">
                                 <input type="text" className="form-control input" placeholder="Search for Healthy Products" name="email" style={{ border: '2px solid #060632' }} aria-label="Username" aria-describedby="basic-addon1" />
                                 <div className="input-group-prepend ">
@@ -71,17 +71,23 @@ function Header() {
                     </div>
                     <div className="header-icons col-auto d-flex justify-content-end align-items-center" style={{marginRight: "-6%"}}>
                         <div className="header-icon" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Compare" data-bs-original-title="" title="">
-                            <Link to="/compare">
-                                <i className="fa fa-retweet" aria-hidden="true"></i>
-                            </Link>
+                           
+                              <a href='/compare' className='link'> 
+                              <div className="tooltip"><i className="fa fa-retweet iconhover" aria-hidden="true"></i>
+                                <span className="tooltiptext">Compare</span>
+                              </div>
+                                
+                               
+                             </a>
+                           
                         </div>
                         <div className="header-icon" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Wishlist" data-bs-original-title="" title="">
-                            <Link to="/wishlist">
-                                <i className="fa fa-heart-o" aria-hidden="true"></i>
+                            <Link to="/wishlist" style={{ color: '#FFF' }}>
+                                <i className="fa fa-heart-o iconhover" aria-hidden="true"></i>
                             </Link>
                         </div>
                         <div className="header-icon header-icon__user-account dropdown animate-dropdown" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="My Account" data-bs-original-title="" title="">
-                            <Link className="dropdown-toggle" to="/my-account" data-bs-toggle="dropdown"><i className="fa fa-user-o" aria-hidden="true"></i></Link>
+                            <a className="dropdown-toggle link" href="/my-account"   data-bs-toggle="dropdown"><i className="fa fa-user-o iconhover" aria-hidden="true"></i></a>
                             <ul className="dropdown-menu dropdown-menu-user-account">
                                 <li>
                                     <div className="register-sign-in-dropdown-inner">
@@ -98,7 +104,7 @@ function Header() {
                             </ul>
                         </div>
                         <div className="header-icon header-icon__cart animate-dropdown dropdown" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Cart" data-bs-original-title="" title="">
-                            <a className="dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            <a className="dropdown-toggle link" href="#" data-bs-toggle="dropdown">
                             <i class="fa-solid fa-bag-shopping"></i>
                                 <span className="cart-items-count count header-icon-counter">0</span>
                                 <span className="cart-items-total-price total-price"><span className="woocommerce-Price-amount amount"><bdi><span className="woocommerce-Price-currencySymbol">₹</span>0.00</bdi></span></span>
@@ -114,7 +120,7 @@ function Header() {
                     </div>
                 </div >
             </div>
-            <div className='container-fluid '>
+            <div className='container-fluid'>
                 <nav className="navbar navbar-dark   navbar-expand-lg" id="myNavbar">
 
                     <ul className="navbar-nav   nav-fill">

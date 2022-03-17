@@ -114,16 +114,16 @@ function MensProduct() {
                                 <div className="products-carousel-tabs">
                                     <ul className="nav nav-inline">
                                         <li className="nav-item">
-                                            <a className="nav-link active" href="#home-tab-61d54c0e19803-0"
+                                            <a className="navlink" href="#home-tab-61d54c0e19803-0"
                                                 data-bs-toggle="tab">
                                                 Featured </a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="#home-tab-61d54c0e19803-1" data-bs-toggle="tab">
+                                            <a className="navlink" href="#home-tab-61d54c0e19803-1" data-bs-toggle="tab">
                                                 On Sale </a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="#home-tab-61d54c0e19803-2" data-bs-toggle="tab">
+                                            <a className="navlink" href="#home-tab-61d54c0e19803-2" data-bs-toggle="tab">
                                                 Bestsellers </a>
                                         </li>
                                     </ul>
@@ -245,11 +245,11 @@ function MensProduct() {
                                                                             data-bs-original-title="" title=""><a
                                                                                 href="./index.html?add-to-cart=5712"
                                                                                 data-quantity="1"
-                                                                                className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                                
                                                                                 data-product_id="5712"
                                                                                 data-product_sku="D01-1-1-1-2"
                                                                                 aria-label="Add “Healthy Spreads” to your cart"
-                                                                                rel="nofollow">Add to cart</a></div>
+                                                                                rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                                     </div>
                                                                     <div className="hover-area">
                                                                         <div className="action-buttons">

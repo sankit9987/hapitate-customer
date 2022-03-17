@@ -1,4 +1,5 @@
 import React from 'react'
+import './style/style.css'
 
 function CategoryProduct() {
     return (
@@ -348,20 +349,20 @@ function CategoryProduct() {
                                 <h2 className="sr-only visually-hidden">Products Grid</h2>
                                 <div className="container">
                                     <ul className="nav nav-inline products-4-1-4__nav">
-                                        <li className="nav-item"><a href="#" className="active nav-link">Healthy Kitchen</a></li>
-                                        <li className="nav-item"><a className="nav-link"
+                                        <li className="nav-item"><a href="#" className="navlink1">Healthy Kitchen</a></li>
+                                        <li className="nav-item"><a className="navlink1"
                                             href="./product-category/grocery/sugar-replacements/index.html">Sugar
                                             Replacements</a></li>
-                                        <li className="nav-item"><a className="nav-link"
+                                        <li className="nav-item"><a className="navlink1"
                                             href="./product-category/superfoods/fruits-berries/index.html">Fruits &amp;
                                             Berries</a></li>
-                                        <li className="nav-item"><a className="nav-link"
+                                        <li className="nav-item"><a className="navlink1"
                                             href="./product-category/grocery/meal-replacements/index.html">Meal Replacements</a>
                                         </li>
-                                        <li className="nav-item"><a className="nav-link"
+                                        <li className="nav-item"><a className="navlink1"
                                             href="./product-category/grocery/organic-fruits-vegetables/index.html">Organic
                                             Fruits &amp; Vegetable's</a></li>
-                                        <li className="nav-item"><a className="nav-link"
+                                        <li className="nav-item"><a className="navlink1"
                                             href="./product-category/grocery/dairy-alternatives/index.html">Dairy
                                             Alternatives</a></li>
                                     </ul>
@@ -450,10 +451,10 @@ function CategoryProduct() {
                                                                         data-bs-toggle="tooltip" data-bs-title="Add to cart"
                                                                         data-bs-original-title="" title=""><a
                                                                             href="./index.html?add-to-cart=7763" data-quantity="1"
-                                                                            className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                           
                                                                             data-product_id="7763" data-product_sku="vedavicSKU"
                                                                             aria-label="Add “vedavic” to your cart"
-                                                                            rel="nofollow">Add to cart</a></div>
+                                                                            rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                                 </div>
                                                                 <div className="hover-area">
                                                                     <div className="action-buttons">
@@ -473,8 +474,8 @@ function CategoryProduct() {
                                                                             </div>
                                                                         </div>
                                                                         <a href="./index.html?action=yith-woocompare-add-product&amp;id=7763"
-                                                                            className="add-to-compare-link"
-                                                                            data-product_id="7763">Compare</a>
+                                                                           
+                                                                            data-product_id="7763"><i class="fa fa-retweet" aria-hidden="true"></i>Compare</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -564,11 +565,11 @@ function CategoryProduct() {
                                                                         data-bs-toggle="tooltip" data-bs-title="Add to cart"
                                                                         data-bs-original-title="" title=""><a
                                                                             href="./index.html?add-to-cart=5785" data-quantity="1"
-                                                                            className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                           
                                                                             data-product_id="5785"
                                                                             data-product_sku="D5-1-1-1-1-1-1-1-1-1-1-1-1-1-2-1-1-2-1-1-1-1-1-1"
                                                                             aria-label="Add “Women's Sport Nutrition” to your cart"
-                                                                            rel="nofollow">Add to cart</a></div>
+                                                                            rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                                 </div>
                                                                 <div className="hover-area">
                                                                     <div className="action-buttons">
@@ -588,8 +589,8 @@ function CategoryProduct() {
                                                                             </div>
                                                                         </div>
                                                                         <a href="./index.html?action=yith-woocompare-add-product&amp;id=5785"
-                                                                            className="add-to-compare-link"
-                                                                            data-product_id="5785">Compare</a>
+                                                                           
+                                                                            data-product_id="5785"><i class="fa fa-retweet" aria-hidden="true"></i>Compare</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -675,11 +676,11 @@ function CategoryProduct() {
                                                                         data-bs-toggle="tooltip" data-bs-title="Add to cart"
                                                                         data-bs-original-title="" title=""><a
                                                                             href="./index.html?add-to-cart=5784" data-quantity="1"
-                                                                            className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                           
                                                                             data-product_id="5784"
                                                                             data-product_sku="D5-1-1-1-1-1-1-1-1-1-1-1-1-1-2-1-1-2-1-1-1-1-1"
                                                                             aria-label="Add “Weight Loss” to your cart"
-                                                                            rel="nofollow">Add to cart</a></div>
+                                                                            rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                                 </div>
                                                                 <div className="hover-area">
                                                                     <div className="action-buttons">
@@ -699,8 +700,8 @@ function CategoryProduct() {
                                                                             </div>
                                                                         </div>
                                                                         <a href="./index.html?action=yith-woocompare-add-product&amp;id=5784"
-                                                                            className="add-to-compare-link"
-                                                                            data-product_id="5784">Compare</a>
+                                                                           
+                                                                            data-product_id="5784"><i class="fa fa-retweet" aria-hidden="true"></i>Compare</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -790,11 +791,11 @@ function CategoryProduct() {
                                                                         data-bs-toggle="tooltip" data-bs-title="Add to cart"
                                                                         data-bs-original-title="" title=""><a
                                                                             href="./index.html?add-to-cart=5783" data-quantity="1"
-                                                                            className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                           
                                                                             data-product_id="5783"
                                                                             data-product_sku="D5-1-1-1-1-1-1-1-1-1-1-1-1-1-2-1-1-2-1-1-1-1"
                                                                             aria-label="Add “Weight Gain” to your cart"
-                                                                            rel="nofollow">Add to cart</a></div>
+                                                                            rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                                 </div>
                                                                 <div className="hover-area">
                                                                     <div className="action-buttons">
@@ -814,8 +815,8 @@ function CategoryProduct() {
                                                                             </div>
                                                                         </div>
                                                                         <a href="./index.html?action=yith-woocompare-add-product&amp;id=5783"
-                                                                            className="add-to-compare-link"
-                                                                            data-product_id="5783">Compare</a>
+                                                                           
+                                                                            data-product_id="5783"><i class="fa fa-retweet" aria-hidden="true"></i>Compare</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -941,11 +942,11 @@ function CategoryProduct() {
                                                                             data-bs-original-title="" title=""><a
                                                                                 href="./index.html?add-to-cart=5782"
                                                                                 data-quantity="1"
-                                                                                className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                               
                                                                                 data-product_id="5782"
                                                                                 data-product_sku="D5-1-1-1-1-1-1-1-1-1-1-1-1-1-2-1-1-2-1-1-1"
                                                                                 aria-label="Add “Skin &amp; Hair Care” to your cart"
-                                                                                rel="nofollow">Add to cart</a></div>
+                                                                                rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -966,8 +967,8 @@ function CategoryProduct() {
                                                                         </div>
                                                                     </div>
                                                                     <a href="./index.html?action=yith-woocompare-add-product&amp;id=5782"
-                                                                        className="add-to-compare-link"
-                                                                        data-product_id="5782">Compare</a>
+                                                                       
+                                                                        data-product_id="5782"><i class="fa fa-retweet" aria-hidden="true"></i>Compare</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1061,11 +1062,11 @@ function CategoryProduct() {
                                                                         data-bs-toggle="tooltip" data-bs-title="Add to cart"
                                                                         data-bs-original-title="" title=""><a
                                                                             href="./index.html?add-to-cart=5781" data-quantity="1"
-                                                                            className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                           
                                                                             data-product_id="5781"
                                                                             data-product_sku="D5-1-1-1-1-1-1-1-1-1-1-1-1-1-2-1-1-2-1-1"
                                                                             aria-label="Add “Protein Blends” to your cart"
-                                                                            rel="nofollow">Add to cart</a></div>
+                                                                            rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                                 </div>
                                                                 <div className="hover-area">
                                                                     <div className="action-buttons">
@@ -1085,8 +1086,8 @@ function CategoryProduct() {
                                                                             </div>
                                                                         </div>
                                                                         <a href="./index.html?action=yith-woocompare-add-product&amp;id=5781"
-                                                                            className="add-to-compare-link"
-                                                                            data-product_id="5781">Compare</a>
+                                                                           
+                                                                            data-product_id="5781"><i class="fa fa-retweet" aria-hidden="true"></i>Compare</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1177,11 +1178,11 @@ function CategoryProduct() {
                                                                         data-bs-toggle="tooltip" data-bs-title="Add to cart"
                                                                         data-bs-original-title="" title=""><a
                                                                             href="./index.html?add-to-cart=5780" data-quantity="1"
-                                                                            className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                           
                                                                             data-product_id="5780"
                                                                             data-product_sku="D5-1-1-1-1-1-1-1-1-1-1-1-1-1-2-1-1-2-1"
                                                                             aria-label="Add “Pregnant Moms” to your cart"
-                                                                            rel="nofollow">Add to cart</a></div>
+                                                                            rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                                 </div>
                                                                 <div className="hover-area">
                                                                     <div className="action-buttons">
@@ -1201,8 +1202,8 @@ function CategoryProduct() {
                                                                             </div>
                                                                         </div>
                                                                         <a href="./index.html?action=yith-woocompare-add-product&amp;id=5780"
-                                                                            className="add-to-compare-link"
-                                                                            data-product_id="5780">Compare</a>
+                                                                           
+                                                                            data-product_id="5780"><i class="fa fa-retweet" aria-hidden="true">Compare</i></a>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1292,11 +1293,11 @@ function CategoryProduct() {
                                                                         data-bs-toggle="tooltip" data-bs-title="Add to cart"
                                                                         data-bs-original-title="" title=""><a
                                                                             href="./index.html?add-to-cart=5779" data-quantity="1"
-                                                                            className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                           
                                                                             data-product_id="5779"
                                                                             data-product_sku="D5-1-1-1-1-1-1-1-1-1-1-1-1-1-2-1-1-2"
                                                                             aria-label="Add “Metabolism” to your cart"
-                                                                            rel="nofollow">Add to cart</a></div>
+                                                                            rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                                 </div>
                                                                 <div className="hover-area">
                                                                     <div className="action-buttons">
@@ -1316,8 +1317,8 @@ function CategoryProduct() {
                                                                             </div>
                                                                         </div>
                                                                         <a href="./index.html?action=yith-woocompare-add-product&amp;id=5779"
-                                                                            className="add-to-compare-link"
-                                                                            data-product_id="5779">Compare</a>
+                                                                           
+                                                                            data-product_id="5779"><i class="fa fa-retweet" aria-hidden="true"></i>Compare</a>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1409,11 +1410,11 @@ function CategoryProduct() {
                                                                         data-bs-toggle="tooltip" data-bs-title="Add to cart"
                                                                         data-bs-original-title="" title=""><a
                                                                             href="./index.html?add-to-cart=5778" data-quantity="1"
-                                                                            className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                           
                                                                             data-product_id="5778"
                                                                             data-product_sku="D5-1-1-1-1-1-1-1-1-1-1-1-1-1-2-1-1-1"
                                                                             aria-label="Add “Keto Friendly (Copy)” to your cart"
-                                                                            rel="nofollow">Add to cart</a></div>
+                                                                            rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                                 </div>
                                                                 <div className="hover-area">
                                                                     <div className="action-buttons">
@@ -1433,8 +1434,8 @@ function CategoryProduct() {
                                                                             </div>
                                                                         </div>
                                                                         <a href="./index.html?action=yith-woocompare-add-product&amp;id=5778"
-                                                                            className="add-to-compare-link"
-                                                                            data-product_id="5778">Compare</a>
+                                                                           
+                                                                            data-product_id="5778"><i class="fa fa-retweet" aria-hidden="true"></i>Compare</a>
                                                                     </div>
                                                                 </div>
                                                             </div>

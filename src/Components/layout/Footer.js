@@ -1,14 +1,19 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import'./style/style.css'
 
 function Footer() {
     return (
         <div>
             <div className="footer-newsletter text-light" style={{backgroundColor:"#0b1c28"}}>
-                <div className="container pl-2">
+                <div className="container pl-2" style={{height:"80px"}}>
                     <div className="footer-newsletter-inner row d-flex justify-content-between">
                         <div className="newsletter-content col-lg-7 ">
-                            <h5 className="newsletter-title text-light "><i className="fa fa-paper-plane pr-2" aria-hidden="true"></i>Subscribe to our Newsletters</h5>
+                            <h5 className="newsletter-title text-light " 
+                          style={{
+                                fontSize: "20px",
+                                marginTop: "10px"
+                            }}><i className="fa fa-paper-plane pr-2" aria-hidden="true"></i>Subscribe to our Newsletters</h5>
                             <span className="newsletter-marketing-text">...and receive
                                 <strong>Latest Health Tracking Updates</strong>
                             </span>
@@ -28,7 +33,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="footer-bottom-widgets mx-4">
+            <div className="footer-bottom-widgets">
                 <div className="footer-bottom-widgets-inner row">
                     <div className="footer-contact col-md-5">
                         <div className="footer-logo">

@@ -157,7 +157,8 @@ function ProductDescription() {
                                                             </div>
                                                         </div>
                                                         <a href="./../../../../index.html?action=yith-woocompare-add-product&amp;id=5737"
-                                                            className="add-to-compare-link" data-product_id="5737">Compare</a>
+                                                            className="add-to-compare-link" data-product_id="5737"><i class="fa fa-retweet" aria-hidden="true"></i>
+                                                            <span>Compare</span></a>
                                                     </div>
                                                 </div>
                                             </div>

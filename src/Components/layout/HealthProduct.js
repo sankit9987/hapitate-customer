@@ -141,19 +141,19 @@ function HealthProduct() {
                 <div className="products-carousel-tabs">
                     <ul className="nav nav-inline">
                         <li className="nav-item">
-                            <a className="nav-link" href="#home-tab-61d54c0beb775-0" data-bs-toggle="tab">
+                            <a className="navlink" href="#home-tab-61d54c0beb775-0" data-bs-toggle="tab">
                                 Imported Coffee </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#home-tab-61d54c0beb775-1" data-bs-toggle="tab">
+                            <a className="navlink" href="#home-tab-61d54c0beb775-1" data-bs-toggle="tab">
                                 Herbal Tea </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#home-tab-61d54c0beb775-2" data-bs-toggle="tab">
+                            <a className="navlink" href="#home-tab-61d54c0beb775-2" data-bs-toggle="tab">
                                 Plant Based Drinks </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" href="#home-tab-61d54c0beb775-3" data-bs-toggle="tab">
+                            <a className="navlink" href="#home-tab-61d54c0beb775-3" data-bs-toggle="tab">
                                 Health Drinks </a>
                         </li>
                     </ul>
@@ -261,7 +261,7 @@ function HealthProduct() {
                                                             data-bs-toggle="tooltip" data-bs-title="Add to cart"
                                                             data-bs-original-title="" title=""><a
                                                                 href="./index.html?add-to-cart=5759" data-quantity="1"
-                                                                className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                
                                                                 data-product_id="5759" data-product_sku="D4-1-1-1"
                                                                 aria-label="Add “Plant Based” to your cart"
                                                                 rel="nofollow">Add to cart</a></div>
@@ -391,7 +391,7 @@ function HealthProduct() {
                                                             data-bs-toggle="tooltip" data-bs-title="Add to cart"
                                                             data-bs-original-title="" title=""><a
                                                                 href="./index.html?add-to-cart=5758" data-quantity="1"
-                                                                className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                
                                                                 data-product_id="5758" data-product_sku="D4-1-1"
                                                                 aria-label="Add “Herbal Tea” to your cart"
                                                                 rel="nofollow">Add to cart</a></div>
@@ -521,7 +521,7 @@ function HealthProduct() {
                                                             data-bs-toggle="tooltip" data-bs-title="Add to cart"
                                                             data-bs-original-title="" title=""><a
                                                                 href="./index.html?add-to-cart=5757" data-quantity="1"
-                                                                className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                
                                                                 data-product_id="5757" data-product_sku="D4-1"
                                                                 aria-label="Add “Health Drinks” to your cart"
                                                                 rel="nofollow">Add to cart</a></div>
@@ -651,7 +651,7 @@ function HealthProduct() {
                                                             data-bs-toggle="tooltip" data-bs-title="Add to cart"
                                                             data-bs-original-title="" title=""><a
                                                                 href="./index.html?add-to-cart=5756" data-quantity="1"
-                                                                className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                
                                                                 data-product_id="5756" data-product_sku="D4"
                                                                 aria-label="Add “Exotic Coffee” to your cart"
                                                                 rel="nofollow">Add to cart</a></div>
@@ -788,10 +788,10 @@ function HealthProduct() {
                                                             data-bs-toggle="tooltip" data-bs-title="Add to cart"
                                                             data-bs-original-title="" title=""><a
                                                                 href="./index.html?add-to-cart=5759" data-quantity="1"
-                                                                className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                
                                                                 data-product_id="5759" data-product_sku="D4-1-1-1"
                                                                 aria-label="Add “Plant Based” to your cart"
-                                                                rel="nofollow">Add to cart</a></div>
+                                                                rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                     </div>
                                                     <div className="hover-area">
                                                         <div className="action-buttons">
@@ -918,10 +918,10 @@ function HealthProduct() {
                                                             data-bs-toggle="tooltip" data-bs-title="Add to cart"
                                                             data-bs-original-title="" title=""><a
                                                                 href="./index.html?add-to-cart=5758" data-quantity="1"
-                                                                className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                
                                                                 data-product_id="5758" data-product_sku="D4-1-1"
                                                                 aria-label="Add “Herbal Tea” to your cart"
-                                                                rel="nofollow">Add to cart</a></div>
+                                                                rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                     </div>
                                                     <div className="hover-area">
                                                         <div className="action-buttons">
@@ -1048,10 +1048,10 @@ function HealthProduct() {
                                                             data-bs-toggle="tooltip" data-bs-title="Add to cart"
                                                             data-bs-original-title="" title=""><a
                                                                 href="./index.html?add-to-cart=5757" data-quantity="1"
-                                                                className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                
                                                                 data-product_id="5757" data-product_sku="D4-1"
                                                                 aria-label="Add “Health Drinks” to your cart"
-                                                                rel="nofollow">Add to cart</a></div>
+                                                                rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                     </div>
                                                     <div className="hover-area">
                                                         <div className="action-buttons">
@@ -1178,10 +1178,10 @@ function HealthProduct() {
                                                             data-bs-toggle="tooltip" data-bs-title="Add to cart"
                                                             data-bs-original-title="" title=""><a
                                                                 href="./index.html?add-to-cart=5756" data-quantity="1"
-                                                                className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                
                                                                 data-product_id="5756" data-product_sku="D4"
                                                                 aria-label="Add “Exotic Coffee” to your cart"
-                                                                rel="nofollow">Add to cart</a></div>
+                                                                rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                     </div>
                                                     <div className="hover-area">
                                                         <div className="action-buttons">
@@ -1315,10 +1315,10 @@ function HealthProduct() {
                                                             data-bs-toggle="tooltip" data-bs-title="Add to cart"
                                                             data-bs-original-title="" title=""><a
                                                                 href="./index.html?add-to-cart=5759" data-quantity="1"
-                                                                className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                
                                                                 data-product_id="5759" data-product_sku="D4-1-1-1"
                                                                 aria-label="Add “Plant Based” to your cart"
-                                                                rel="nofollow">Add to cart</a></div>
+                                                                rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                     </div>
                                                     <div className="hover-area">
                                                         <div className="action-buttons">
@@ -1445,10 +1445,10 @@ function HealthProduct() {
                                                             data-bs-toggle="tooltip" data-bs-title="Add to cart"
                                                             data-bs-original-title="" title=""><a
                                                                 href="./index.html?add-to-cart=5758" data-quantity="1"
-                                                                className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                
                                                                 data-product_id="5758" data-product_sku="D4-1-1"
                                                                 aria-label="Add “Herbal Tea” to your cart"
-                                                                rel="nofollow">Add to cart</a></div>
+                                                                rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                     </div>
                                                     <div className="hover-area">
                                                         <div className="action-buttons">
@@ -1575,10 +1575,10 @@ function HealthProduct() {
                                                             data-bs-toggle="tooltip" data-bs-title="Add to cart"
                                                             data-bs-original-title="" title=""><a
                                                                 href="./index.html?add-to-cart=5757" data-quantity="1"
-                                                                className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                
                                                                 data-product_id="5757" data-product_sku="D4-1"
                                                                 aria-label="Add “Health Drinks” to your cart"
-                                                                rel="nofollow">Add to cart</a></div>
+                                                                rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                     </div>
                                                     <div className="hover-area">
                                                         <div className="action-buttons">
@@ -1705,10 +1705,10 @@ function HealthProduct() {
                                                             data-bs-toggle="tooltip" data-bs-title="Add to cart"
                                                             data-bs-original-title="" title=""><a
                                                                 href="./index.html?add-to-cart=5756" data-quantity="1"
-                                                                className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                
                                                                 data-product_id="5756" data-product_sku="D4"
                                                                 aria-label="Add “Exotic Coffee” to your cart"
-                                                                rel="nofollow">Add to cart</a></div>
+                                                                rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                     </div>
                                                     <div className="hover-area">
                                                         <div className="action-buttons">
@@ -1842,10 +1842,10 @@ function HealthProduct() {
                                                             data-bs-toggle="tooltip" data-bs-title="Add to cart"
                                                             data-bs-original-title="" title=""><a
                                                                 href="./index.html?add-to-cart=5759" data-quantity="1"
-                                                                className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                
                                                                 data-product_id="5759" data-product_sku="D4-1-1-1"
                                                                 aria-label="Add “Plant Based” to your cart"
-                                                                rel="nofollow">Add to cart</a></div>
+                                                                rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                     </div>
                                                     <div className="hover-area">
                                                         <div className="action-buttons">
@@ -1972,10 +1972,10 @@ function HealthProduct() {
                                                             data-bs-toggle="tooltip" data-bs-title="Add to cart"
                                                             data-bs-original-title="" title=""><a
                                                                 href="./index.html?add-to-cart=5758" data-quantity="1"
-                                                                className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                
                                                                 data-product_id="5758" data-product_sku="D4-1-1"
                                                                 aria-label="Add “Herbal Tea” to your cart"
-                                                                rel="nofollow">Add to cart</a></div>
+                                                                rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                     </div>
                                                     <div className="hover-area">
                                                         <div className="action-buttons">
@@ -2102,10 +2102,10 @@ function HealthProduct() {
                                                             data-bs-toggle="tooltip" data-bs-title="Add to cart"
                                                             data-bs-original-title="" title=""><a
                                                                 href="./index.html?add-to-cart=5757" data-quantity="1"
-                                                                className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                
                                                                 data-product_id="5757" data-product_sku="D4-1"
                                                                 aria-label="Add “Health Drinks” to your cart"
-                                                                rel="nofollow">Add to cart</a></div>
+                                                                rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                     </div>
                                                     <div className="hover-area">
                                                         <div className="action-buttons">
@@ -2232,10 +2232,10 @@ function HealthProduct() {
                                                             data-bs-toggle="tooltip" data-bs-title="Add to cart"
                                                             data-bs-original-title="" title=""><a
                                                                 href="./index.html?add-to-cart=5756" data-quantity="1"
-                                                                className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                
                                                                 data-product_id="5756" data-product_sku="D4"
                                                                 aria-label="Add “Exotic Coffee” to your cart"
-                                                                rel="nofollow">Add to cart</a></div>
+                                                                rel="nofollow"><i class="fa-solid fa-bag-shopping"></i></a></div>
                                                     </div>
                                                     <div className="hover-area">
                                                         <div className="action-buttons">

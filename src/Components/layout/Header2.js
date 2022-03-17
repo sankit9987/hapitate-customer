@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+
 function Header2() {
   return (
     <div>
@@ -12,7 +13,7 @@ function Header2() {
         </ul>
         <ul id="menu-top-bar-right" style={{    marginRight: "-2%"}} className="nav nav-inline float-end electro-animate-dropdown flip">
             <li id="menu-item-5596" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5596"><a
-                    title="Shop" href="#"><i className="ec ec-shopping-bag"></i>Shop</a></li>
+                    title="Shop" href="#"><i class="fa-solid fa-bag-shopping"></i>Shop</a></li>
             <li id="menu-item-5565" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5565"><Link title="My Account" to="/dashboard">
                             <i className="fa fa-user px-2" ></i>My Account
                         </Link></li>
@@ -25,7 +26,7 @@ function Header2() {
         </ul>
     </div>
 </div>
-<div className="sticky-wrapper">
+<div className="sticky-wrapper stick-here">
     <header id="masthead" className="site-header header-v3 stick-this">
         <div className="container hidden-lg-down d-none d-xl-block">
             <div className="masthead row align-items-center">
@@ -39,7 +40,7 @@ function Header2() {
                     <div className="off-canvas-navigation-wrapper off-canvas-hide-in-desktop d-xl-none">
                         <div className="off-canvas-navbar-toggle-buttons clearfix">
                             <button className="navbar-toggler navbar-toggle-hamburger " type="button">
-                                <i className="ec ec-menu"></i>
+                            <i class="fa fa-bars" aria-hidden="true"></i>
                             </button>
                             <button className="navbar-toggler navbar-toggle-close " type="button">
                                 <i className="ec ec-close-remove"></i>
@@ -171,9 +172,9 @@ function Header2() {
                     <ul id="menu-navbar-primary" style={{marginLeft: "-3%"}} className="nav navbar-nav yamm">
                         <li id="menu-item-5791"
                             className="yamm-fw menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-5791 dropdown">
-                            <a title="Breakfast" href="#" style={{color:"white"}} className="dropdown-toggle"
+                            <a title="Breakfast" href="#" style={{color:"white",backgroundColor:"rgb(11, 28, 40)",fontSize:"0.875rem"}} className="dropdown-toggle"
                                 aria-haspopup="true" data-hover="dropdown">Breakfast</a>
-                            <ul role="menu" className=" dropdown-menu">
+                            <ul role="menu" className="dropdown-menu">
                                 <li id="menu-item-5797"
                                     className="menu-item menu-item-type-post_type menu-item-object-mas_static_content menu-item-5797">
                                     <div className="yamm-content">
@@ -425,7 +426,7 @@ function Header2() {
                         <li id="menu-item-5793"
                             className="yamm-fw menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-5793 dropdown">
                             <a title="Snacks" href="" className="dropdown-toggle"
-                                aria-haspopup="true" style={{color:"white"}} data-hover="dropdown">Snacks</a>
+                                aria-haspopup="true" style={{color:"white",backgroundColor:"rgb(11, 28, 40)",fontSize:"0.875rem"}} data-hover="dropdown">Snacks</a>
                             <ul role="menu" className=" dropdown-menu">
                                 <li id="menu-item-5808"
                                     className="menu-item menu-item-type-post_type menu-item-object-mas_static_content menu-item-5808">
@@ -634,7 +635,7 @@ function Header2() {
                         </li>
                         <li id="menu-item-5788"
                             className="yamm-fw menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-5788 dropdown">
-                            <a title="Beverages" href="#" style={{color:"white"}} className="dropdown-toggle"
+                            <a title="Beverages" href="#" style={{color:"white",backgroundColor:"rgb(11, 28, 40)",fontSize:"0.875rem"}} className="dropdown-toggle"
                                 aria-haspopup="true" data-hover="dropdown">Beverages</a>
                             <ul role="menu" className=" dropdown-menu">
                                 <li id="menu-item-5873"
@@ -765,7 +766,7 @@ function Header2() {
                         </li>
                         <li id="menu-item-5790"
                             className="yamm-fw menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-5790 dropdown">
-                            <a title="Grocery" href="" className="dropdown-toggle" style={{color:"white"}}
+                            <a title="Grocery" href="" className="dropdown-toggle" style={{color:"white",backgroundColor:"rgb(11, 28, 40)",fontSize:"0.875rem"}}
                                 aria-haspopup="true" data-hover="dropdown">Grocery</a>
                             <ul role="menu" className=" dropdown-menu">
                                 <li id="menu-item-5872"
@@ -1041,7 +1042,7 @@ function Header2() {
                         </li>
                         <li id="menu-item-5787"
                             className="yamm-fw menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-5787 dropdown">
-                            <a title="Superfoods" href="#"style={{color:"white"}}
+                            <a title="Superfoods" href="#"style={{color:"white",backgroundColor:"rgb(11, 28, 40)",fontSize:"0.875rem"}}
                                 className="dropdown-toggle" aria-haspopup="true" data-hover="dropdown">Superfoods</a>
                             <ul role="menu" className=" dropdown-menu">
                                 <li id="menu-item-5871"
@@ -1172,7 +1173,7 @@ function Header2() {
                         </li>
                         <li id="menu-item-5789"
                             className="yamm-fw menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-5789 dropdown">
-                            <a title="Nutrition's" href="#"style={{color:"white"}} className="dropdown-toggle"
+                            <a title="Nutrition's" href="#" style={{color:"white",backgroundColor:"rgb(11, 28, 40)",fontSize:"0.875rem"}} className="dropdown-toggle"
                                 aria-haspopup="true" data-hover="dropdown">Nutrition’s</a>
                             <ul role="menu" className=" dropdown-menu">
                                 <li id="menu-item-5870"
@@ -1445,12 +1446,12 @@ function Header2() {
                             </ul>
                         </li>
                         <li id="menu-item-5792" 
-                            className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-5792"><a style={{color:"white"}}
+                            className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-5792"><a style={{color:"white",backgroundColor:"rgb(11, 28, 40)",fontSize:"0.875rem"}}
                                 title="Kid's Nutrition" href="#">Kid’s
                                 Nutrition</a></li>
                         <li id="menu-item-5786"
                             className="yamm-fw menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-5786 dropdown">
-                            <a title="Pet Lovers" href="#" style={{color:"white"}}
+                            <a title="Pet Lovers" href="#" style={{color:"white",backgroundColor:"rgb(11, 28, 40)",fontSize:"0.875rem"}}
                                 className="dropdown-toggle" aria-haspopup="true" data-hover="dropdown">Pet Lovers</a>
                             <ul role="menu" className=" dropdown-menu">
                                 <li id="menu-item-5869"
@@ -1628,7 +1629,7 @@ function Header2() {
                 <div className="off-canvas-navigation-wrapper off-canvas-hide-in-desktop d-xl-none">
                     <div className="off-canvas-navbar-toggle-buttons clearfix">
                         <button className="navbar-toggler navbar-toggle-hamburger " type="button">
-                            <i className="ec ec-menu"></i>
+                        <i class="fa fa-bars" aria-hidden="true"></i>
                         </button>
                         <button className="navbar-toggler navbar-toggle-close " type="button">
                             <i className="ec ec-close-remove"></i>
@@ -1675,7 +1676,7 @@ function Header2() {
                 </div>
                 <div className="header-logo">
                     <a href="./index.html" className="header-logo-link">
-                        <img src="./wp-content/uploads/2021/06/143x48logo.png" alt="Hapitate" className="img-header-logo"
+                        <img src="./assets/image/hapitate.png" alt="Hapitate" className="img-header-logo"
                             width="143" height="48"/>
                     </a>
                 </div>
@@ -1712,11 +1713,11 @@ function Header2() {
                             </div>
                         </li>
                         <li className="my-account">
-                            <a href="./my-account/index.html"><i className="ec ec-user"></i></a>
+                            <a href="./my-account/index.html"><i class="fa fa-user-o" aria-hidden="true"></i></a>
                         </li>
                         <li className="cart">
                             <a className="footer-cart-contents" href="./cart/index.html" title="View your shopping cart">
-                                <i className="ec ec-shopping-bag"></i>
+                            <i class="fa-solid fa-bag-shopping"></i>
                                 <span className="cart-items-count count">0</span>
                             </a>
                         </li>
@@ -1742,7 +1743,7 @@ function Header2() {
                                     <div role="presentation" className="tt-dataset tt-dataset-search"></div>
                                 </div>
                             </span>
-                            <button type="submit" value="Search">Search</button>
+                            <button type="submit"><i class="fa fa-search"></i></button>
                             <input type="hidden" name="post_type" value="product"/>
                         </form>
                     </div>

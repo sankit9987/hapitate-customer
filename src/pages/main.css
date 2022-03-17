@@ -1,0 +1,42 @@
+.bforbuy {
+    background-color: #3e8e41 !important;
+    border: none;
+    color: #ddd !important;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    border-radius: 30px;
+}
+
+.bforbuy :hover {
+    background-color: #ddd !important;
+    color: #3e8e41 !important;
+}
+
+.vertical_menu {
+    background-color: black;
+}
+
+.title {
+    color: white;
+}
+
+.navlink {
+    font-size: 1.286em;
+}
+
+.navlink:hover {
+    font-weight: 700 !important;
+    text-decoration: underline !important;
+    text-decoration-color: black !important;
+    color: black;
+}
+
+.navlink1:hover {
+    font-weight: 700 !important;
+    text-decoration: underline !important;
+    text-decoration-color: black !important;
+    color: black;
+}
