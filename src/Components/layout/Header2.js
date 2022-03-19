@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
+
 function Header2() {
   return (
     <div>
@@ -30,7 +31,7 @@ function Header2() {
     <header id="masthead" className="site-header header-v3 stick-this">
         <div className="container hidden-lg-down d-none d-xl-block">
             <div className="masthead row align-items-center">
-                <div className="header-logo-area d-flex justify-content-between align-items-center" style={{marginLeft: "-2%"}}>
+                <div className="header-logo-area d-flex justify-content-between align-items-center" style={{marginLeft: "-1%"}}>
                     <div className="header-site-branding">
                         <a href="/" className="header-logo-link">
                             <img src="./assets/image/hapitate.png" alt="Hapitate"
@@ -169,7 +170,7 @@ function Header2() {
             </div>
             <div className="electro-navbar-primary electro-animate-dropdown" style={{backgroundColor:"#0b1c28"}}>
                 <div className="container">
-                    <ul id="menu-navbar-primary" style={{marginLeft: "-3%"}} className="nav navbar-nav yamm">
+                    <ul id="menu-navbar-primary" style={{marginLeft: "-1.6%"}} className="nav navbar-nav yamm">
                         <li id="menu-item-5791"
                             className="yamm-fw menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-5791 dropdown">
                             <a title="Breakfast" href="#" style={{color:"white",backgroundColor:"rgb(11, 28, 40)",fontSize:"0.875rem"}} className="dropdown-toggle"
@@ -226,9 +227,9 @@ function Header2() {
                                                                                 <div
                                                                                     className="vc_single_image-wrapper   vc_box_border_grey">
                                                                                     <img data-lazyloaded="1"
-                                                                                        src="./wp-content/uploads/2021/07/breakfast1-150x150.png"
+                                                                                        src="/assets/image/breakfast.png"
                                                                                         width="150" height="150"
-                                                                                        data-src="./wp-content/uploads/2021/07/breakfast1-150x150.png"
+                                                                                        data-src="/assets/image/breakfast.png"
                                                                                         className="vc_single_image-img attachment-thumbnail litespeed-loaded"
                                                                                         alt="" loading="lazy"
                                                                                         data-srcset="./wp-content/uploads/2021/07/breakfast1-150x150.png 150w, ./wp-content/uploads/2021/07/breakfast1-300x300.png 300w, ./wp-content/uploads/2021/07/breakfast1-100x100.png 100w, ./wp-content/uploads/2021/07/breakfast1.png 500w"
@@ -237,10 +238,10 @@ function Header2() {
                                                                                         srcset="./wp-content/uploads/2021/07/breakfast1-150x150.png 150w, ./wp-content/uploads/2021/07/breakfast1-300x300.png 300w, ./wp-content/uploads/2021/07/breakfast1-100x100.png 100w, ./wp-content/uploads/2021/07/breakfast1.png 500w"
                                                                                         data-was-processed="true"/><noscript><img
                                                                                             width="150" height="150"
-                                                                                            src="./wp-content/uploads/2021/07/breakfast1-150x150.png"
+                                                                                            src="/assets/image/breakfast.png"
                                                                                             className="vc_single_image-img attachment-thumbnail"
                                                                                             alt="" loading="lazy"
-                                                                                            srcset="./wp-content/uploads/2021/07/breakfast1-150x150.png 150w, ./wp-content/uploads/2021/07/breakfast1-300x300.png 300w, ./wp-content/uploads/2021/07/breakfast1-100x100.png 100w, ./wp-content/uploads/2021/07/breakfast1.png 500w"
+                                                                                            srcset="./wp-content/uploads/2021/07/breakfast2-150x150.png 150w, ./wp-content/uploads/2021/07/breakfast2-300x300.png 300w, ./wp-content/uploads/2021/07/breakfast2-100x100.png 100w, ./wp-content/uploads/2021/07/breakfast2.png 500w"
                                                                                             sizes="(max-width: 150px) 100vw, 150px"/></noscript>
                                                                                 </div>
                                                                             </figure>
@@ -289,9 +290,9 @@ function Header2() {
                                                                                 <div
                                                                                     className="vc_single_image-wrapper   vc_box_border_grey">
                                                                                     <img data-lazyloaded="1"
-                                                                                        src="./wp-content/uploads/2021/07/breakfast2-150x150.png"
+                                                                                        src="/assets/image/breakfast.png"
                                                                                         width="150" height="150"
-                                                                                        data-src="./wp-content/uploads/2021/07/breakfast2-150x150.png"
+                                                                                        data-src="/assets/image/breakfast.png"
                                                                                         className="vc_single_image-img attachment-thumbnail litespeed-loaded"
                                                                                         alt="" loading="lazy"
                                                                                         data-srcset="./wp-content/uploads/2021/07/breakfast2-150x150.png 150w, ./wp-content/uploads/2021/07/breakfast2-300x300.png 300w, ./wp-content/uploads/2021/07/breakfast2-100x100.png 100w, ./wp-content/uploads/2021/07/breakfast2.png 500w"
@@ -300,7 +301,7 @@ function Header2() {
                                                                                         srcset="./wp-content/uploads/2021/07/breakfast2-150x150.png 150w, ./wp-content/uploads/2021/07/breakfast2-300x300.png 300w, ./wp-content/uploads/2021/07/breakfast2-100x100.png 100w, ./wp-content/uploads/2021/07/breakfast2.png 500w"
                                                                                         data-was-processed="true"/><noscript><img
                                                                                             width="150" height="150"
-                                                                                            src="./wp-content/uploads/2021/07/breakfast2-150x150.png"
+                                                                                            src="/assets/image/breakfast.png"
                                                                                             className="vc_single_image-img attachment-thumbnail"
                                                                                             alt="" loading="lazy"
                                                                                             srcset="./wp-content/uploads/2021/07/breakfast2-150x150.png 150w, ./wp-content/uploads/2021/07/breakfast2-300x300.png 300w, ./wp-content/uploads/2021/07/breakfast2-100x100.png 100w, ./wp-content/uploads/2021/07/breakfast2.png 500w"
@@ -350,22 +351,22 @@ function Header2() {
                                                                                 <div
                                                                                     className="vc_single_image-wrapper   vc_box_border_grey">
                                                                                     <img data-lazyloaded="1"
-                                                                                        src="./wp-content/uploads/2021/07/breakfast3-150x150.png"
+                                                                                    src="/assets/image/breakfast.png"
+                                                                                    width="150" height="150"
+                                                                                    data-src="/assets/image/breakfast.png"
+                                                                                    className="vc_single_image-img attachment-thumbnail litespeed-loaded"
+                                                                                    alt="" loading="lazy"
+                                                                                    data-srcset="./wp-content/uploads/2021/07/breakfast3-150x150.png 150w, ./wp-content/uploads/2021/07/breakfast3-300x300.png 300w, ./wp-content/uploads/2021/07/breakfast3-100x100.png 100w, ./wp-content/uploads/2021/07/breakfast3.png 500w"
+                                                                                    data-sizes="(max-width: 150px) 100vw, 150px"
+                                                                                    sizes="(max-width: 150px) 100vw, 150px"
+                                                                                    srcset="./wp-content/uploads/2021/07/breakfast3-150x150.png 150w, ./wp-content/uploads/2021/07/breakfast3-300x300.png 300w, ./wp-content/uploads/2021/07/breakfast3-100x100.png 100w, ./wp-content/uploads/2021/07/breakfast3.png 500w"
+                                                                                    data-was-processed="true"/><noscript><img
                                                                                         width="150" height="150"
-                                                                                        data-src="./wp-content/uploads/2021/07/breakfast3-150x150.png"
-                                                                                        className="vc_single_image-img attachment-thumbnail litespeed-loaded"
+                                                                                        src="/assets/image/breakfast.png"
+                                                                                        className="vc_single_image-img attachment-thumbnail"
                                                                                         alt="" loading="lazy"
-                                                                                        data-srcset="./wp-content/uploads/2021/07/breakfast3-150x150.png 150w, ./wp-content/uploads/2021/07/breakfast3-300x300.png 300w, ./wp-content/uploads/2021/07/breakfast3-100x100.png 100w, ./wp-content/uploads/2021/07/breakfast3.png 500w"
-                                                                                        data-sizes="(max-width: 150px) 100vw, 150px"
-                                                                                        sizes="(max-width: 150px) 100vw, 150px"
-                                                                                        srcset="./wp-content/uploads/2021/07/breakfast3-150x150.png 150w, ./wp-content/uploads/2021/07/breakfast3-300x300.png 300w, ./wp-content/uploads/2021/07/breakfast3-100x100.png 100w, ./wp-content/uploads/2021/07/breakfast3.png 500w"
-                                                                                        data-was-processed="true"/><noscript><img
-                                                                                            width="150" height="150"
-                                                                                            src="./wp-content/uploads/2021/07/breakfast3-150x150.png"
-                                                                                            className="vc_single_image-img attachment-thumbnail"
-                                                                                            alt="" loading="lazy"
-                                                                                            srcset="./wp-content/uploads/2021/07/breakfast3-150x150.png 150w, ./wp-content/uploads/2021/07/breakfast3-300x300.png 300w, ./wp-content/uploads/2021/07/breakfast3-100x100.png 100w, ./wp-content/uploads/2021/07/breakfast3.png 500w"
-                                                                                            sizes="(max-width: 150px) 100vw, 150px"/></noscript>
+                                                                                        srcset="./wp-content/uploads/2021/07/breakfast2-150x150.png 150w, ./wp-content/uploads/2021/07/breakfast2-300x300.png 300w, ./wp-content/uploads/2021/07/breakfast2-100x100.png 100w, ./wp-content/uploads/2021/07/breakfast2.png 500w"
+                                                                                        sizes="(max-width: 150px) 100vw, 150px"/></noscript>
                                                                                 </div>
                                                                             </figure>
                                                                         </div>
@@ -396,9 +397,9 @@ function Header2() {
                                                                 <div
                                                                     className="vc_single_image-wrapper   vc_box_border_grey">
                                                                     <img data-lazyloaded="1"
-                                                                        src="./wp-content/uploads/2021/07/cc.png"
+                                                                        src="/assets/image/breakfast.png"
                                                                         width="1153" height="120"
-                                                                        data-src="./wp-content/uploads/2021/07/cc.png"
+                                                                        data-src="/assets/image/breakfast.png"
                                                                         className="vc_single_image-img attachment-full litespeed-loaded"
                                                                         alt="" loading="lazy"
                                                                         data-srcset="./wp-content/uploads/2021/07/cc.png 1153w, ./wp-content/uploads/2021/07/cc-300x31.png 300w, ./wp-content/uploads/2021/07/cc-1024x107.png 1024w, ./wp-content/uploads/2021/07/cc-768x80.png 768w, ./wp-content/uploads/2021/07/cc-600x62.png 600w"
@@ -488,9 +489,9 @@ function Header2() {
                                                                                 <div
                                                                                     className="vc_single_image-wrapper   vc_box_border_grey">
                                                                                     <img data-lazyloaded="1"
-                                                                                        src="./wp-content/uploads/2021/07/snack1-150x150.png"
+                                                                                        src="/assets/image/breakfast.png"
                                                                                         width="150" height="150"
-                                                                                        data-src="./wp-content/uploads/2021/07/snack1-150x150.png"
+                                                                                        data-src="/assets/image/breakfast.png"
                                                                                         className="vc_single_image-img attachment-thumbnail litespeed-loaded"
                                                                                         alt="" loading="lazy"
                                                                                         data-srcset="./wp-content/uploads/2021/07/snack1-150x150.png 150w, ./wp-content/uploads/2021/07/snack1-300x300.png 300w, ./wp-content/uploads/2021/07/snack1-100x100.png 100w, ./wp-content/uploads/2021/07/snack1.png 500w"
@@ -560,9 +561,9 @@ function Header2() {
                                                                                 <div
                                                                                     className="vc_single_image-wrapper   vc_box_border_grey">
                                                                                     <img data-lazyloaded="1"
-                                                                                        src="./wp-content/uploads/2021/07/Snack2-150x150.png"
+                                                                                        src="/assets/image/breakfast.png"
                                                                                         width="150" height="150"
-                                                                                        data-src="./wp-content/uploads/2021/07/Snack2-150x150.png"
+                                                                                        data-src="/assets/image/breakfast.png"
                                                                                         className="vc_single_image-img attachment-thumbnail litespeed-loaded"
                                                                                         alt="" loading="lazy"
                                                                                         data-srcset="./wp-content/uploads/2021/07/Snack2-150x150.png 150w, ./wp-content/uploads/2021/07/Snack2-300x300.png 300w, ./wp-content/uploads/2021/07/Snack2-100x100.png 100w, ./wp-content/uploads/2021/07/Snack2.png 500w"
@@ -606,9 +607,9 @@ function Header2() {
                                                                 <div
                                                                     className="vc_single_image-wrapper   vc_box_border_grey">
                                                                     <img data-lazyloaded="1"
-                                                                        src="./wp-content/uploads/2021/07/layouts2.png"
+                                                                        src="/assets/image/breakfast.png"
                                                                         width="1153" height="120"
-                                                                        data-src="./wp-content/uploads/2021/07/layouts2.png"
+                                                                        data-src="/assets/image/breakfast.png"
                                                                         className="vc_single_image-img attachment-full litespeed-loaded"
                                                                         alt="" loading="lazy"
                                                                         data-srcset="./wp-content/uploads/2021/07/layouts2.png 1153w, ./wp-content/uploads/2021/07/layouts2-300x31.png 300w, ./wp-content/uploads/2021/07/layouts2-1024x107.png 1024w, ./wp-content/uploads/2021/07/layouts2-768x80.png 768w, ./wp-content/uploads/2021/07/layouts2-600x62.png 600w"
@@ -695,9 +696,9 @@ function Header2() {
                                                                 <div
                                                                     className="vc_single_image-wrapper   vc_box_border_grey">
                                                                     <img data-lazyloaded="1"
-                                                                        src="./wp-content/uploads/2021/07/Beverages-Final.png"
+                                                                        src="/assets/image/breakfast.png"
                                                                         width="1400" height="250"
-                                                                        data-src="./wp-content/uploads/2021/07/Beverages-Final.png"
+                                                                        data-src="/assets/image/breakfast.png"
                                                                         className="vc_single_image-img attachment-full litespeed-loaded"
                                                                         alt="" loading="lazy"
                                                                         data-srcset="./wp-content/uploads/2021/07/Beverages-Final.png 1400w, ./wp-content/uploads/2021/07/Beverages-Final-300x54.png 300w, ./wp-content/uploads/2021/07/Beverages-Final-1024x183.png 1024w, ./wp-content/uploads/2021/07/Beverages-Final-768x137.png 768w, ./wp-content/uploads/2021/07/Beverages-Final-600x107.png 600w"
@@ -737,9 +738,9 @@ function Header2() {
                                                                 <div
                                                                     className="vc_single_image-wrapper   vc_box_border_grey">
                                                                     <img data-lazyloaded="1"
-                                                                        src="./wp-content/uploads/2021/07/layouts3.png"
+                                                                        src="/assets/image/breakfast.png"
                                                                         width="1153" height="124"
-                                                                        data-src="./wp-content/uploads/2021/07/layouts3.png"
+                                                                        data-src="/assets/image/breakfast.png"
                                                                         className="vc_single_image-img attachment-full litespeed-loaded"
                                                                         alt="" loading="lazy"
                                                                         data-srcset="./wp-content/uploads/2021/07/layouts3.png 1153w, ./wp-content/uploads/2021/07/layouts3-300x32.png 300w, ./wp-content/uploads/2021/07/layouts3-1024x110.png 1024w, ./wp-content/uploads/2021/07/layouts3-768x83.png 768w, ./wp-content/uploads/2021/07/layouts3-600x65.png 600w"
@@ -796,9 +797,9 @@ function Header2() {
                                                                                 <div
                                                                                     className="vc_single_image-wrapper   vc_box_border_grey">
                                                                                     <img data-lazyloaded="1"
-                                                                                        src="./wp-content/uploads/2021/07/grocery1-150x150.png"
+                                                                                        src="/assets/image/breakfast.png"
                                                                                         width="150" height="150"
-                                                                                        data-src="./wp-content/uploads/2021/07/grocery1-150x150.png"
+                                                                                        data-src="/assets/image/breakfast.png"
                                                                                         className="vc_single_image-img attachment-thumbnail litespeed-loaded"
                                                                                         alt="" loading="lazy"
                                                                                         data-srcset="./wp-content/uploads/2021/07/grocery1-150x150.png 150w, ./wp-content/uploads/2021/07/grocery1-300x300.png 300w, ./wp-content/uploads/2021/07/grocery1-100x100.png 100w, ./wp-content/uploads/2021/07/grocery1.png 500w"
@@ -864,9 +865,9 @@ function Header2() {
                                                                                 <div
                                                                                     className="vc_single_image-wrapper   vc_box_border_grey">
                                                                                     <img data-lazyloaded="1"
-                                                                                        src="./wp-content/uploads/2021/07/Grocery22-150x150.png"
+                                                                                        src="/assets/image/breakfast.png"
                                                                                         width="150" height="150"
-                                                                                        data-src="./wp-content/uploads/2021/07/Grocery22-150x150.png"
+                                                                                        data-src="/assets/image/breakfast.png"
                                                                                         className="vc_single_image-img attachment-thumbnail litespeed-loaded"
                                                                                         alt="" loading="lazy"
                                                                                         data-srcset="./wp-content/uploads/2021/07/Grocery22-150x150.png 150w, ./wp-content/uploads/2021/07/Grocery22-300x300.png 300w, ./wp-content/uploads/2021/07/Grocery22-100x100.png 100w, ./wp-content/uploads/2021/07/Grocery22.png 500w"
@@ -935,9 +936,9 @@ function Header2() {
                                                                                 <div
                                                                                     className="vc_single_image-wrapper   vc_box_border_grey">
                                                                                     <img data-lazyloaded="1"
-                                                                                        src="./wp-content/uploads/2021/07/Grocery3-150x150.png"
+                                                                                        src="/assets/image/breakfast.png"
                                                                                         width="150" height="150"
-                                                                                        data-src="./wp-content/uploads/2021/07/Grocery3-150x150.png"
+                                                                                        data-src="/assets/image/breakfast.png"
                                                                                         className="vc_single_image-img attachment-thumbnail litespeed-loaded"
                                                                                         alt="" loading="lazy"
                                                                                         data-srcset="./wp-content/uploads/2021/07/Grocery3-150x150.png 150w, ./wp-content/uploads/2021/07/Grocery3-300x300.png 300w, ./wp-content/uploads/2021/07/Grocery3-100x100.png 100w, ./wp-content/uploads/2021/07/Grocery3.png 500w"
@@ -1013,9 +1014,9 @@ function Header2() {
                                                                 <div
                                                                     className="vc_single_image-wrapper   vc_box_border_grey">
                                                                     <img data-lazyloaded="1"
-                                                                        src="./wp-content/uploads/2021/07/layouts4.png"
+                                                                        src="/assets/image/breakfast.png"
                                                                         width="1153" height="124"
-                                                                        data-src="./wp-content/uploads/2021/07/layouts4.png"
+                                                                        data-src="/assets/image/breakfast.png"
                                                                         className="vc_single_image-img attachment-full litespeed-loaded"
                                                                         alt="" loading="lazy"
                                                                         data-srcset="./wp-content/uploads/2021/07/layouts4.png 1153w, ./wp-content/uploads/2021/07/layouts4-300x32.png 300w, ./wp-content/uploads/2021/07/layouts4-1024x110.png 1024w, ./wp-content/uploads/2021/07/layouts4-768x83.png 768w, ./wp-content/uploads/2021/07/layouts4-600x65.png 600w"
@@ -1102,9 +1103,9 @@ function Header2() {
                                                                 <div
                                                                     className="vc_single_image-wrapper   vc_box_border_grey">
                                                                     <img data-lazyloaded="1"
-                                                                        src="./wp-content/uploads/2021/07/Superfoodsfinal.png"
+                                                                        src="/assets/image/breakfast.png"
                                                                         width="1400" height="250"
-                                                                        data-src="./wp-content/uploads/2021/07/Superfoodsfinal.png"
+                                                                        data-src="/assets/image/breakfast.png"
                                                                         className="vc_single_image-img attachment-full litespeed-loaded"
                                                                         alt="" loading="lazy"
                                                                         data-srcset="./wp-content/uploads/2021/07/Superfoodsfinal.png 1400w, ./wp-content/uploads/2021/07/Superfoodsfinal-300x54.png 300w, ./wp-content/uploads/2021/07/Superfoodsfinal-1024x183.png 1024w, ./wp-content/uploads/2021/07/Superfoodsfinal-768x137.png 768w, ./wp-content/uploads/2021/07/Superfoodsfinal-600x107.png 600w"
@@ -1144,9 +1145,9 @@ function Header2() {
                                                                 <div
                                                                     className="vc_single_image-wrapper   vc_box_border_grey">
                                                                     <img data-lazyloaded="1"
-                                                                        src="./wp-content/uploads/2021/07/layouts5.png"
+                                                                        src="/assets/image/breakfast.png"
                                                                         width="1153" height="124"
-                                                                        data-src="./wp-content/uploads/2021/07/layouts5.png"
+                                                                        data-src="/assets/image/breakfast.png"
                                                                         className="vc_single_image-img attachment-full litespeed-loaded"
                                                                         alt="" loading="lazy"
                                                                         data-srcset="./wp-content/uploads/2021/07/layouts5.png 1153w, ./wp-content/uploads/2021/07/layouts5-300x32.png 300w, ./wp-content/uploads/2021/07/layouts5-1024x110.png 1024w, ./wp-content/uploads/2021/07/layouts5-768x83.png 768w, ./wp-content/uploads/2021/07/layouts5-600x65.png 600w"
@@ -1287,9 +1288,9 @@ function Header2() {
                                                                 <div
                                                                     className="vc_single_image-wrapper   vc_box_border_grey">
                                                                     <img data-lazyloaded="1"
-                                                                        src="./wp-content/uploads/2021/07/womenscaree.png"
+                                                                        src="/assets/image/breakfast.png"
                                                                         width="950" height="300"
-                                                                        data-src="./wp-content/uploads/2021/07/womenscaree.png"
+                                                                        data-src="/assets/image/breakfast.png"
                                                                         className="vc_single_image-img attachment-full litespeed-loaded"
                                                                         alt="" loading="lazy"
                                                                         data-srcset="./wp-content/uploads/2021/07/womenscaree.png 950w, ./wp-content/uploads/2021/07/womenscaree-300x95.png 300w, ./wp-content/uploads/2021/07/womenscaree-768x243.png 768w, ./wp-content/uploads/2021/07/womenscaree-600x189.png 600w"
@@ -1418,9 +1419,9 @@ function Header2() {
                                                                 <div
                                                                     className="vc_single_image-wrapper   vc_box_border_grey">
                                                                     <img data-lazyloaded="1"
-                                                                        src="./wp-content/uploads/2021/07/Mens-Fitnesss-copy.png"
+                                                                        src="/assets/image/breakfast.png"
                                                                         width="950" height="300"
-                                                                        data-src="./wp-content/uploads/2021/07/Mens-Fitnesss-copy.png"
+                                                                        data-src="/assets/image/breakfast.png"
                                                                         className="vc_single_image-img attachment-full litespeed-loaded"
                                                                         alt="" loading="lazy"
                                                                         data-srcset="./wp-content/uploads/2021/07/Mens-Fitnesss-copy.png 950w, ./wp-content/uploads/2021/07/Mens-Fitnesss-copy-300x95.png 300w, ./wp-content/uploads/2021/07/Mens-Fitnesss-copy-768x243.png 768w, ./wp-content/uploads/2021/07/Mens-Fitnesss-copy-600x189.png 600w"
@@ -1551,9 +1552,9 @@ function Header2() {
                                                                 <div
                                                                     className="vc_single_image-wrapper   vc_box_border_grey">
                                                                     <img data-lazyloaded="1"
-                                                                        src="./wp-content/uploads/2021/07/petscare.png"
+                                                                        src="/assets/image/breakfast.png"
                                                                         width="950" height="300"
-                                                                        data-src="./wp-content/uploads/2021/07/petscare.png"
+                                                                        data-src="/assets/image/breakfast.png"
                                                                         className="vc_single_image-img attachment-full litespeed-loaded"
                                                                         alt="" loading="lazy"
                                                                         data-srcset="./wp-content/uploads/2021/07/petscare.png 950w, ./wp-content/uploads/2021/07/petscare-300x95.png 300w, ./wp-content/uploads/2021/07/petscare-768x243.png 768w, ./wp-content/uploads/2021/07/petscare-600x189.png 600w"
@@ -1593,9 +1594,9 @@ function Header2() {
                                                                 <div
                                                                     className="vc_single_image-wrapper   vc_box_border_grey">
                                                                     <img data-lazyloaded="1"
-                                                                        src="./wp-content/uploads/2021/07/layouts6.png"
+                                                                        src="/assets/image/breakfast.png"
                                                                         width="1153" height="124"
-                                                                        data-src="./wp-content/uploads/2021/07/layouts6.png"
+                                                                        data-src="/assets/image/breakfast.png"
                                                                         className="vc_single_image-img attachment-full litespeed-loaded"
                                                                         alt="" loading="lazy"
                                                                         data-srcset="./wp-content/uploads/2021/07/layouts6.png 1153w, ./wp-content/uploads/2021/07/layouts6-300x32.png 300w, ./wp-content/uploads/2021/07/layouts6-1024x110.png 1024w, ./wp-content/uploads/2021/07/layouts6-768x83.png 768w, ./wp-content/uploads/2021/07/layouts6-600x65.png 600w"

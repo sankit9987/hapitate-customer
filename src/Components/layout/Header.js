@@ -2,6 +2,12 @@ import React from 'react'
 import './style/style.css'
 import { Link } from 'react-router-dom';
 function Header() {
+
+function myfunction(){
+    var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+
     return (
         <div className=" top-bar d-xl-block">
             <div className=" container d-flex justify-content-between clearfix">
@@ -36,7 +42,7 @@ function Header() {
             </div>
             <hr />
             <div className='container' id="header">
-                <div className=" header-logo-area d-flex justify-content-between" style={{ marginBottom: "2%" }}>
+                <div className=" header-logo-area d-flex justify-content-between" style={{ marginBottom: "2%" ,marginLeft:"-1%"}}>
                     <div className="header-site-branding"style={{marginLeft:"-20px"}}>
                         <Link to="/" className="header-logo-link">
                             <img src="./assets/image/hapitate.png" alt="Hapitate" className="img-header-logo pl-3 ml-2 pt-3" width="100%" height="40" />
@@ -70,17 +76,20 @@ function Header() {
 
                     </div>
                     <div className="header-icons col-auto d-flex justify-content-end align-items-center" style={{marginRight: "-6%"}}>
-                        <div className="header-icon" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Compare" data-bs-original-title="" title="">
+                      
                            
                               <a href='/compare' className='link'> 
-                              <div className="tooltip"><i className="fa fa-retweet iconhover" aria-hidden="true"></i>
-                                <span className="tooltiptext">Compare</span>
-                              </div>
+                              <div class="popup" onMouseEnter={myfunction}><i className="fa fa-retweet iconhover" aria-hidden="true"></i>
+                                <span class="popuptext" id="myPopup">Compare</span>
+                                </div>
+                                </a>
+                               
+                             
                                 
                                
-                             </a>
+                            
                            
-                        </div>
+                        
                         <div className="header-icon" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Wishlist" data-bs-original-title="" title="">
                             <Link to="/wishlist" style={{ color: '#FFF' }}>
                                 <i className="fa fa-heart-o iconhover" aria-hidden="true"></i>
@@ -106,9 +115,11 @@ function Header() {
                         <div className="header-icon header-icon__cart animate-dropdown dropdown" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Cart" data-bs-original-title="" title="">
                             <a className="dropdown-toggle link" href="#" data-bs-toggle="dropdown">
                             <i class="fa-solid fa-bag-shopping"></i>
-                                <span className="cart-items-count count header-icon-counter">0</span>
-                                <span className="cart-items-total-price total-price"><span className="woocommerce-Price-amount amount"><bdi><span className="woocommerce-Price-currencySymbol">₹</span>0.00</bdi></span></span>
+                            <span className="cart-items-count count header-icon-counter">0</span>
+                            <span className="cart-items-total-price total-price"><span className="fa-solid woocommerce-Price-amount amount"><span className="fa-solid woocommerce-Price-currencySymbol">₹</span>0.00</span></span>  
                             </a>
+                            
+                            
                             <ul className="dropdown-menu dropdown-menu-mini-cart border-bottom-0-last-child">
                                 <li>
                                     <div className="widget_shopping_cart_content border-bottom-0-last-child">
@@ -138,7 +149,7 @@ function Header() {
                                             <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>Cereals</a>
                                         </div>
                                         <div>
-                                            <img data-lazyloaded="1" src="./assets/image/breakfast.png" width="150" height="150" data-src="../assets/image/breakfast.png" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcSet="./assets/image/breakfast.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcSet="./assets/image/breakfast.png 500w" data-was-processed="true" />
+                                            <img data-lazyloaded="1" src="/assets/image/breakfast.png" width="150" height="150" data-src="../assets/image/breakfast.png" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcSet="./assets/image/breakfast.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcSet="./assets/image/breakfast.png 500w" data-was-processed="true" />
                                         </div>
                                     </div>
                                     <div className='py-4 d-flex'>
@@ -149,7 +160,7 @@ function Header() {
                                             <a className="dropdown-item" href="#"><i className="fa fa-caret-right" aria-hidden="true"></i>Nutty Magic</a>
                                         </div>
                                         <div>
-                                            <img data-lazyloaded="1" src="./assets/image/breakfast2.png" width="150" height="150" data-src="./wp-content/uploads/2021/07/breakfast2-150x150.png" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcSet="./assets/image/breakfast2.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcSet="./assets/image/breakfast2.png 500w" data-was-processed="true" />
+                                            <img data-lazyloaded="1" src="https://hapitate.com/wp-content/uploads/2021/06/Amaranth-300x300.png.webp" width="150" height="150" data-src="https://hapitate.com/wp-content/uploads/2021/06/Amaranth-300x300.png.webp" className="vc_single_image-img attachment-thumbnail litespeed-loaded" alt="" loading="lazy" data-srcSet="./assets/image/breakfast2.png 500w" data-sizes="(max-width: 150px) 100vw, 150px" sizes="(max-width: 150px) 100vw, 150px" srcSet="./assets/image/breakfast2.png 500w" data-was-processed="true" />
                                         </div>
                                     </div>
                                     <div className='py-4 d-flex'>
